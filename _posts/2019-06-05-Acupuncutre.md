@@ -24,7 +24,7 @@ Cette personne est plus compétente que moi pour juger de l’efficacité de cet
 
 Il y a certains points soulevés ici que je suis incapable de contredire ou confirmer, je laisse donc passer, mais certains points me semblent toutefois bien étranges :
 
-# Tentative de compréhension
+## Tentative de compréhension
 
 > **L’acupuncture est-elle efficace ?**  
 > Oui, il y a de très belles études scientifiques qui montrent une efficacité de l’acupuncture. Elle amène un soulagement à certains patients qui ont mal au dos, qui ont mal à la tête de façon extrêmement régulière, ou pour les nausées et les vomissements chez les patients en chimiothérapie par exemple.
@@ -51,16 +51,16 @@ Dès que l’on fait appel à l’argument "big pharma", j’ai tendance à me m
 
 La formulation laisse penser que l’acupuncture est très sûre et présente très peu d’effets indésirables… Pourtant, dans [Quand l’aiguille d’acupuncture atteint le poumon](https://www.pseudo-sciences.org/Quand-l-aiguille-d-acupuncture-atteint-le-poumon) on peut lire un tout autre constat, qui est assez effrayant d’ailleurs ! Je ne peux pas dire si le nombre de cas est très important mais ceux-ci ne sont pas négligeables et sont assez graves ! Éluder ces problèmes est une façon très discutable de laisser une impression très positive qui me semble assez partiale ici…
 
-# Conclusion
+## Conclusion
 
 Comme Caroline Barry connaît bien mieux que moi son propre rapport, je peux supposer que je suis victime d’un cherry-picking lié à un biais de confirmation. Je veux donc bien augmenter mon [curseur de plausibilité](https://skeptikon.fr/videos/watch/1b8eed10-6a52-47b2-bf69-28046e73913c) pour cette pratique mais je n’y aurai pas recours pour l’instant car l’acupuncture a tellement de prétentions, revendique tellement de capacités, sans s’appuyer sur des faits ou continuant malgré les contre-preuves, qu’il m’est impossible de savoir quels cas sont vrais et ont un ratio bénéfices/risques positif. Disons, que je ne considère plus l’acupuncture comme une pseudo-science, elle passe au statut de   potentielle technique de soin alternative ayant du mal à démontrer une efficacité supérieure à l’effet placebo mais tentant parfois d’y travailler selon des normes scientifiques convenables, s’appuyant sur de vieilles croyances ésotériques dont elle aurait tout intérêt à se débarrasser et nécessitant un gros nettoyage de prétentions. C’est déjà ça…
 
 
-# Mise à jour 30 juin 2019
+## Mise à jour 30 juin 2019
 
 Suite à ma lecture de [https://twitter.com/CitronAlcalin/status/1133734112198615041](https://twitter.com/CitronAlcalin/status/1133734112198615041), je ne sais plus trop quoi penser, je suspends mon jugement.
 
-# Complément 2020
+## Complément 2020
 
 On peut remarquer, quand même, à la lecture de Edzard Ernst, que les études asiatiques qui semblent démontrer une efficacité semblent souvent biaisées et que les études non biaisées ne montrent aucune efficacité de l’acupuncture :
 
@@ -71,7 +71,6 @@ On peut remarquer, quand même, à la lecture de Edzard Ernst, que les études a
 * [Acupuncture for angina pectoris! Too good to be true?](https://edzardernst.com/2019/07/acupuncture-for-angina-pectoris-too-good-to-be-true/)
 * Fakemed.org résume assez bien la situation : [FAKEDEX - Acupuncture](https://www.fakemed.org/fakedex-acupuncture/)
 * [Does acupuncture prevent migraine attacks? : « Suis-je en train de dire qu'il serait sage d'être sceptique ? Oui. »](https://edzardernst.com/2020/03/does-acupuncture-prevent-migraine-attacks/)
-* [Observatoire Zététique - Soigner le corps avec des aiguilles : l'acupuncture](https://www.youtube.com/watch?v=NmuGtytQYWg)
-
+* [Observatoire Zététique - Soigner le corps avec des aiguilles : l'acupuncture](https://www.youtube.com/watch?v=NmuGtytQYWg) :
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NmuGtytQYWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

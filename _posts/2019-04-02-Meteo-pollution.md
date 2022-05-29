@@ -15,7 +15,7 @@ j'en ai marre de me fier à des sensations, j'ai voulu me confronter aux
 faits
 ([source](https://web.archive.org/web/20211024163629/http://www.meteofrance.com/climat/comparateur)) :
 
-![Meteo-Pollution_meteofrance.com-climat-comparateur.png](/assets/images/Meteo-Pollution_meteofrance.com-climat-comparateur.png)
+![Meteo-Pollution_meteofrance.com-climat-comparateur](/assets/images/Meteo-Pollution_meteofrance.com-climat-comparateur.webp)
 
 Pour la pluviométrie les deux villes sont plus ou moins équivalentes,
 pour l'ensoleillement Rennes est toujours un tout petit peu au dessus.
@@ -40,7 +40,7 @@ ville de Saint-Brieuc semble même plus polluée que Rennes, ce qui serait
 contraire à l'idée d'un air marin purificateur. Je ne pouvais pas rester
 dans flou, j'ai donc récupéré les datas et tracé :
 
-![Meteo-Pollution_pollution_rennes-saint-brieuc.png](/assets/images/Meteo-Pollution_pollution_rennes-saint-brieuc.png)
+![Meteo-Pollution_pollution_rennes-saint-brieuc](/assets/images/Meteo-Pollution_pollution_rennes-saint-brieuc.webp)
 
 Pour l'ozone (O₃) et les particules fines en suspension (PM10),
 Saint-Brieuc est plus polluée que Rennes. Pour la pollution au dioxyde
