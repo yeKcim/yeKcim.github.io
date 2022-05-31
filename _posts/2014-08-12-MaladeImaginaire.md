@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Le malade imaginaire"
-date:   2014-08-12 13:03:44 +0200
-categories: "Les répliques d’Owen"
+date:   2014-08-12 13:03
+categories: ["Les répliques d’Owen"]
 ---
 
 Les enfants dorment, Owen se lève pour aller aux toilettes puis pleure à

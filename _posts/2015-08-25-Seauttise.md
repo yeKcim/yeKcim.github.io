@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Seauttise"
-date:   2015-08-25 17:30:44 +0200
-categories: "Les répliques d’Owen"
+date:   2015-08-25 17:30
+categories: ["Les répliques d’Owen"]
 ---
 
 Avant la rentrée, petites révisions de conjugaison avec papa, Owen

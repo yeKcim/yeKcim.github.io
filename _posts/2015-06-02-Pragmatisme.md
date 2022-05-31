@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Pragmatisme"
-date:   2015-06-02 21:57:44 +0200
-categories: "Les répliques de Yaël"
+date:   2015-06-02 21:57
+categories: ["Les répliques de Yaël"]
 ---
 
 -   \<Yaël\> Si on meurt on est triste.

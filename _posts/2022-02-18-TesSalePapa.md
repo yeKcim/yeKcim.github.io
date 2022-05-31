@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "T’es sale, papa"
-date:   2022-02-18 15:28:44 +0200
-categories: "Les répliques d’Owen"
+date:   2022-02-18 15:28
+categories: ["Les répliques d’Owen"]
 ---
 
 -   \<Papa\> Putain de covid, je vais louper un cours de natation ! 

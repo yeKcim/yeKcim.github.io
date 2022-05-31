@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Aromathérapie"
-date:   2019-02-25 22:12:44 +0200
-categories: S’enquérir
+date:   2019-02-25 22:12
+categories: ["S’enquérir"]
 ---
 
 Les huiles essentielles... J'ai du mal à savoir quoi en penser. Alors

@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Mauvais perdant"
-date:   2015-12-28 17:00:44 +0200
-categories: "Les répliques d’Owen"
+date:   2015-12-28 17:00
+categories: ["Les répliques d’Owen"]
 ---
 
 Yaël et Owen s'ennuient. Quelques emballages de chocolat traînent sur la table.

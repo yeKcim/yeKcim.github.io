@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Coup ou cou ? Kouroukoukou roukoukou stach stach…"
-date:   2016-01-25 21:49:44 +0200
-categories: "Les répliques de Yaël"
+date:   2016-01-25 21:49
+categories: ["Les répliques de Yaël"]
 ---
 
 Après lui avoir injecté une dose de spray nasal

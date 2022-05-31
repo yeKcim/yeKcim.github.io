@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Mais où va-t-il chercher des trucs pareils ?"
-date:   2012-03-22 16:17:44 +0200
-categories: "Les répliques d’Owen"
+date:   2012-03-22 16:17
+categories: ["Les répliques d’Owen"]
 ---
 
 -   \<Owen\> Papa, les patates et le thon avec de la mayonnaise, c’est encore meilleur que la soupe à l’air

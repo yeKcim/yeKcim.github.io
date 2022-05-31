@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Qui est qui ?"
-date:   2011-04-17 10:20:44 +0200
-categories: "Les répliques d’Owen"
+date:   2011-04-17 10:20
+categories: ["Les répliques d’Owen"]
 ---
 
 -   (Papa joue de la batterie avec deux bâtons en carton sur le canapé)

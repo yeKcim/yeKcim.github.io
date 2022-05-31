@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Un brin possessif"
-date:   2018-08-13 19:44:44 +0200
-categories: "Les répliques de Yaël"
+date:   2018-08-13 19:44
+categories: ["Les répliques de Yaël"]
 ---
 
 -   \<Papa\> Elle est chouette ta nouvelle chaise de bureau, elle est mieux que la mienne !

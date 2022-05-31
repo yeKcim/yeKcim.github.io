@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Discrétion"
-date:   2021-11-08 08:12:44 +0200
-categories: "Les répliques de Yaël"
+date:   2021-11-08 08:12
+categories: ["Les répliques de Yaël"]
 ---
 
 -   \<Yaël\> À quoi il sert le truc blanc qui sort du penis quand on fait l'amour mais sans vouloir faire un enfant ?

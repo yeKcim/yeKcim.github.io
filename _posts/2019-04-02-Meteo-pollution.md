@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Météo et pollution, comparaison Rennes / Saint-Brieuc"
-date:   2019-04-02 06:53:50 +0200
-categories: S’enquérir
+date:   2019-04-02 06:53:50
+categories: ["S’enquérir"]
 ---
 Je dis régulièrement qu'à Saint-Brieuc (chez ma belle-famille) j'ai
 froid alors que chez moi il fait meilleur (Rennes). On m'explique alors

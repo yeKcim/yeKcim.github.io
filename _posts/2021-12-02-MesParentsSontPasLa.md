@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Oui, mais moi mes parents ne sont pas là !"
-date:   2021-12-02 18:22:44 +0200
-categories: "Les répliques de Yaël"
+date:   2021-12-02 18:22
+categories: ["Les répliques de Yaël"]
 ---
 
 -   \<Yaël\>  Je peux prendre du chocolat, papa ?

@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "On verra bien demain"
-date:   2010-11-27 15:52:44 +0200
-categories: "Les répliques d’Owen"
+date:   2010-11-27 15:52
+categories: ["Les répliques d’Owen"]
 ---
 
 -   \<Papa\> J’ai pas entendu

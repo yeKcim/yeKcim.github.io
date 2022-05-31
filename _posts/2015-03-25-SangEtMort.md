@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Le sang ok, les morts ok, par contre…"
-date:   2015-03-25 19:20:44 +0200
-categories: "Les répliques d’Owen"
+date:   2015-03-25 19:20
+categories: ["Les répliques d’Owen"]
 ---
 
 -   \<Papa\> Ça ne te fait pas trop peur « Les chevaliers du Zodiaque » ?

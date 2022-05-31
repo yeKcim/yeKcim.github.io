@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Complément du nom"
-date:   2021-08-03 11:48:44 +0200
-categories: "Les répliques de Yaël"
+date:   2021-08-03 11:48
+categories: ["Les répliques de Yaël"]
 ---
 
 -   \<Yaël\> Papa, tu sais le complément du nom, on peut le remplacer par un déterminant, hein ?

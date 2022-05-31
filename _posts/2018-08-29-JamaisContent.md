@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Jamais content"
-date:   2018-08-29 21:39:44 +0200
-categories: "Les répliques d’Owen"
+date:   2018-08-29 21:39
+categories: ["Les répliques d’Owen"]
 ---
 
 -   \<Owen\> J’aime pas la mer, c’est nul. Je veux pas y aller, je préfère la piscine.

@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Pas malade"
-date:   2018-01-10 13:16:44 +0200
-categories: "Les répliques de Yaël"
+date:   2018-01-10 13:16
+categories: ["Les répliques de Yaël"]
 ---
 
 -   \<Papa\> Tu as eu une diarrhée Yaël ?
