@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Qui est qui ?"
+title:  "Qui est qui ?"
 date:   2011-04-17 10:20:44 +0200
 categories: ["Les répliques d’Owen"]
 ---

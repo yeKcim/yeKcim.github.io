@@ -16,7 +16,7 @@ grosses larmes dans son lit.
 De retour avec de la crème anti-piqûre de moustique
 
 -   \<Papa\> C'est une crème contre les bobos
--   \<Owen\> Ça chatouille !!
+-   \<Owen\> Ça chatouille !!
 -   \<Papa\> Ça va mieux ?
 -   \<Owen\> Un peu mais pas trop quand même.
 -   \<Papa\> Ça va passer, fais de beaux rêves, mon cœur.

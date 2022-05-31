@@ -9,7 +9,7 @@ categories: ["Les répliques d’Owen"]
 
 Après quelques bonnes vagues salées à Lacanau, nous allons dans la piscine à vagues. Je dit à sa mère :
 
--   \<Papa\> Tu vas voir, maintenant qu’il a testé les vraies vagues il va dire qu’ici, c’est Nuul !
+-   \<Papa\> Tu vas voir, maintenant qu’il a testé les vraies vagues il va dire qu’ici, c’est Nuul !
 
 Six secondes plus tard, exactement sur le même ton :
 

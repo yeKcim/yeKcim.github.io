@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ça va faire mal !"
+title:  "Ça va faire mal !"
 date:   2011-01-17 18:16:44 +0200
 categories: ["Les répliques d’Owen"]
 ---

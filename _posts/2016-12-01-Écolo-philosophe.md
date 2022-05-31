@@ -7,7 +7,7 @@ categories: ["Les répliques de Yaël"]
 
 Dans le magasin
 
--   \<Yaël\> Non !!! Maman, pas de Nutella, il y a de l'huile de palme, ça détruit la planète !
+-   \<Yaël\> Non !!! Maman, pas de Nutella, il y a de l'huile de palme, ça détruit la planète !
 
 Dans la voiture
 

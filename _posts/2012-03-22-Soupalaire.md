@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mais où va-t-il chercher des trucs pareils ?"
+title:  "Mais où va-t-il chercher des trucs pareils ?"
 date:   2012-03-22 16:17:44 +0200
 categories: ["Les répliques d’Owen"]
 ---

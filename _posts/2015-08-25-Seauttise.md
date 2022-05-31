@@ -14,4 +14,4 @@ orthographe :
 -   \<Owen\> S…
 -   \<Papa\> E, A, U
 -   \<Owen\> Ah oui c'est vrai !
--   \<Papa\> O !!!!!!
+-   \<Papa\> O !!!!!!

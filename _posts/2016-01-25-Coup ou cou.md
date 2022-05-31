@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Coup ou cou ? Kouroukoukou roukoukou stach stach…"
+title:  "Coup ou cou ? Kouroukoukou roukoukou stach stach…"
 date:   2016-01-25 21:49:44 +0200
 categories: ["Les répliques de Yaël"]
 ---
