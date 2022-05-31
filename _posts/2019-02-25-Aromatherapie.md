@@ -18,6 +18,8 @@ complètement les notions de bénéfices-risques et la dangerosité des HE.
 Il y a des précautions énormes à prendre avec les huiles essentielles,
 beaucoup plus que ce que laissent croire certains gourous de l'HE
 
+<!--more-->
+
 On peut lire dans ce document :
 
 > « Prenons le cas de l'HE de sauge qui sans autre précision peut
@@ -211,5 +213,4 @@ prières et les formulations quantiques est juste hallucinant) :
 Une vidéo d'Apprenti Sage sur l'aromathérapie quantique :
 
 <iframe src="https://www.youtube.com/embed/5N2-VieWi7A" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" tc-textcontent="true" data-tc-id="w-0.9109921364186098" width="560" height="315" frameborder="0"></iframe>
-
 

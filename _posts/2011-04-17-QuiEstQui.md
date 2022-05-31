@@ -13,3 +13,5 @@ categories: ["Les répliques d’Owen"]
 -   (Le coussin glisse des genoux, Papa tape sa jambe)
 -   \<Papa\> Aïe
 -   \<Owen\> Et bah voilà !
+
+<!--more-->

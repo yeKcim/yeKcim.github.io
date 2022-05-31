@@ -14,3 +14,5 @@ categories: ["Les répliques de Yaël"]
 Accessoirement, il me précisera ensuite que mes câlins et mes bisous lui
 manqueraient également… Note : Yaël est en cours de désintoxication de
 Wii depuis plusieurs jours, le traitement n'est pas terminé apparemment.
+
+<!--more-->

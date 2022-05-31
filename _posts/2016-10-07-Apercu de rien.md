@@ -10,3 +10,5 @@ categories: ["Les répliques d’Owen"]
 -   \<Papa\> Il n'y a pas de i dans « apercevoir », du moins pas là où
     tu l'as mis, et ce n'est pas vraiment le seul problème… « à pairse
     voir » n'est pas la bonne orthographe.
+
+<!--more-->

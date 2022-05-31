@@ -1,5 +1,18 @@
 title: yeKblog
-description: Un site
+description: La science n'explique pas tout mais l'absence de méthode non plus. Participer à un projet libre est un jeu… Et toi, à quoi tu joues ?
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-midnight
+
+social_links:
+  twitter: y3K_c1m
+  github:  yeKcim
+  mastodon:
+   - username: yekcim
+     instance: framapiaf.org
+
+lang: fr-FR
+date_format: "%-d/%m/%Y"
+
+show_excerpts: true
+excerpt_separator: <!--more-->

@@ -12,3 +12,5 @@ Dans le magasin
 Dans la voiture
 
 -   \<Yaël\> J'aime la vie. On peut voir plein de gens. On peut découvrir le monde
+
+<!--more-->

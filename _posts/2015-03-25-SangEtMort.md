@@ -9,3 +9,5 @@ categories: ["Les répliques d’Owen"]
 -   \<Owen\> Bah non
 -   \<Papa\> Pourquoi tu te bouchais les oreilles pendant que Shina disait à Seiya qu'elle est amoureuse de lui ?
 -   \<Owen\> Nan mais là c'était vraiment trop dégueu !
+
+<!--more-->

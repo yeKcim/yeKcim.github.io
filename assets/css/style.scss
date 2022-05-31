@@ -1,4 +1,13 @@
 ---
 ---
 
-@import "jekyll-theme-midnight";
+@import "{{ site.theme }}";
+
+h3 {
+	font-size: 38px;
+	line-height: 38px;
+}
+ 
+ul.post-list {
+	list-style-type: circle;
+}

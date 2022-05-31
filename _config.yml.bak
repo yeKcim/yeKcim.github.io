@@ -3,7 +3,7 @@ author:
   name: yeKcim
   email: yekcim@crocobox.org
 description: > # this means to ignore newlines until "show_excerpts:"
-  La science n'explique pas tout mais l'absence de méthode non plus. Participer à un projet libre est un jeu… Et toi, à quoi tu joues ?
+  
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
@@ -13,9 +13,7 @@ minima:
   date_format: "%-d/%m/%Y"
 
   # generate social links in footer
-  social_links:
-    twitter: y3K_c1m
-    github:  yeKcim
+
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
@@ -32,9 +30,7 @@ minima:
     # keybase: jekyll
 
     # Mastodon instances
-    mastodon:
-     - username: yekcim
-       instance: framapiaf.org
+    
     # - username: jekyll2
     #   instance: example.com
 
@@ -57,5 +53,5 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  
-lang: fr-FR
+
 

@@ -64,3 +64,5 @@ Et c'est pareil pour la pneumonie d'ailleurs :
 > survient après une autre infection respiratoire, comme une grippe ou
 > une bronchite, qui « dégénère » et s\'installe dans les alvéoles des
 > poumons.
+
+<!--more-->

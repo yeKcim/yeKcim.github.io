@@ -10,3 +10,5 @@ categories: ["Les répliques de Yaël"]
 -   \<Yaël\> C'est dégoûtant si des gens attrapent leur crottes de nez avec la langue !
 
 J'adore discuter avec mon fils de 10 ans dans les vestiaires de la piscine, c'est toujours... original. Et pas du tout gênant 😅
+
+<!--more-->

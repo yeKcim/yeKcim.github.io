@@ -53,3 +53,5 @@ ni que la différence de température est due à la pollution.
 Je trouve intéressant de constater que les faits sont parfois contraires
 à nos intuitions mais que l'accès aux données permet de tester assez
 facilement celles-ci.
+
+<!--more-->

@@ -16,6 +16,8 @@ Jusqu’alors, l’acupuncture était pour moi à ranger dans la catégorie pseu
 
 (lisez ces articles ils sont très intéressants !)
 
+<!--more-->
+
 Mais il y a peu je tombe sur [une interview de Caroline Barry](https://www.franceculture.fr/sciences/lacupuncture-est-elle-efficace), chercheuse et méthodologiste à l’Inserm, pour [« Les idées claires » de Nicolas Martin](https://www.franceculture.fr/dossiers/les-idees-claires) :
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P1p241ioI5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

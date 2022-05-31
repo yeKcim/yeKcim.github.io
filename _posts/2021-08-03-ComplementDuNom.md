@@ -12,3 +12,5 @@ categories: ["Les répliques de Yaël"]
 
 Pour ma défense j'avais pas révisé, je ne savais pas que faire lire Harry Potter 5 à son gamin de 10 ans pouvait impliquer une interro surprise de grammaire 😲 j'étais pas prêt !
 
+
+<!--more-->

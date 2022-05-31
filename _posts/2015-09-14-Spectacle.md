@@ -8,3 +8,5 @@ categories: ["Les répliques de Yaël"]
 -   \<Yaël\> Maman, je te dis une blague : qu'est ce qu'on ne trie pas et que l'oiseau qui vole ?
 -   \<Maman\>…
 -   \<Yaël\> Bah, l'oiseau il mange une pomme !
+
+<!--more-->
