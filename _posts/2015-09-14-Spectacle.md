@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Extrait d'un spectacle comique ?"
-date:   2015-09-14 07:40
+date:   2015-09-14 07:40:44 +0200
 categories: ["Les répliques de Yaël"]
 ---
 

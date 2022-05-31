@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Un brin possessif"
-date:   2018-08-13 19:44
+date:   2018-08-13 19:44:44 +0200
 categories: ["Les répliques de Yaël"]
 ---
 

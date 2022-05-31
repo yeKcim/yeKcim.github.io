@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Aromathérapie"
-date:   2019-02-25 22:12
+date:   2019-02-25 22:12:44 +0200
 categories: ["S’enquérir"]
 ---
 

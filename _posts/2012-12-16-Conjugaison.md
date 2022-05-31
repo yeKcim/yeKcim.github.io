@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Les joies de la conjugaison"
-date:   2012-12-16 19:11
+date:   2012-12-16 19:11:44 +0200
 categories: ["Les répliques d’Owen"]
 ---
 

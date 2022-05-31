@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Je ne me suis aperçu de rien"
-date:   2016-10-07 20:26
+date:   2016-10-07 20:26:44 +0200
 categories: ["Les répliques d’Owen"]
 ---
 

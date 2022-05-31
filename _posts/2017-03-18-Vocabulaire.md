@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Je ne désobéis pas, j'ai juste un problème de vocabulaire"
-date:   2017-03-18 19:13
+date:   2017-03-18 19:13:44 +0200
 categories: ["Les répliques de Yaël"]
 ---
 

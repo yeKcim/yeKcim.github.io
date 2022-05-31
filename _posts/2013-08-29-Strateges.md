@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Les bons stratèges ne sont pas forcément de bons mathématiciens"
-date:   2013-08-29 17:15
+date:   2013-08-29 17:15:44 +0200
 categories: ["Les répliques d’Owen"]
 ---
 

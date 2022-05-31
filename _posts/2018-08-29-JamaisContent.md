@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Jamais content"
-date:   2018-08-29 21:39
+date:   2018-08-29 21:39:44 +0200
 categories: ["Les répliques d’Owen"]
 ---
 

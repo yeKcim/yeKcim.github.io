@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Rhume et froid"
-date:   2019-03-18 23:08
+date:   2019-03-18 23:08:44 +0200
 categories: ["S’enquérir"]
 ---
 Un collègue, il y a peu, m'indiquait qu'il m'estimerait responsable s'il

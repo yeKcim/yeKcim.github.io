@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "T’es sale, papa"
-date:   2022-02-18 15:28
+date:   2022-02-18 15:28:44 +0200
 categories: ["Les répliques d’Owen"]
 ---
 

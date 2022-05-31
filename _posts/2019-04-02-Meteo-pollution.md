@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Météo et pollution, comparaison Rennes / Saint-Brieuc"
-date:   2019-04-02 06:53:50
+date:   2019-04-02 06:53:50 +0200
 categories: ["S’enquérir"]
 ---
 Je dis régulièrement qu'à Saint-Brieuc (chez ma belle-famille) j'ai

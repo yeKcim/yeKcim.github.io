@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Écolo-philosophe de 5 ans"
-date:   2016-12-01 20:27
+date:   2016-12-01 20:27:44 +0200
 categories: ["Les répliques de Yaël"]
 ---
 

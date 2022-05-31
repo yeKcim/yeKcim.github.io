@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Mauvais perdant"
-date:   2015-12-28 17:00
+date:   2015-12-28 17:00:44 +0200
 categories: ["Les répliques d’Owen"]
 ---
 

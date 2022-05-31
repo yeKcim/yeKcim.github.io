@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Le sang ok, les morts ok, par contre…"
-date:   2015-03-25 19:20
+date:   2015-03-25 19:20:44 +0200
 categories: ["Les répliques d’Owen"]
 ---
 

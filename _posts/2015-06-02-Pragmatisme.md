@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Pragmatisme"
-date:   2015-06-02 21:57
+date:   2015-06-02 21:57:44 +0200
 categories: ["Les répliques de Yaël"]
 ---
 

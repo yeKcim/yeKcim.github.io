@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "On verra bien demain"
-date:   2010-11-27 15:52
+date:   2010-11-27 15:52:44 +0200
 categories: ["Les répliques d’Owen"]
 ---
 

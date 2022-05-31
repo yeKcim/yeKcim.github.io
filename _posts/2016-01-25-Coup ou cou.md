@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Coup ou cou ? Kouroukoukou roukoukou stach stach…"
-date:   2016-01-25 21:49
+date:   2016-01-25 21:49:44 +0200
 categories: ["Les répliques de Yaël"]
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Le malade imaginaire"
-date:   2014-08-12 13:03
+date:   2014-08-12 13:03:44 +0200
 categories: ["Les répliques d’Owen"]
 ---
 

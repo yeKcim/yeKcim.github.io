@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Les promesses n’engagent que ceux qui conjugent correctement"
-date:   2011-02-26 10:56
+date:   2011-02-26 10:56:44 +0200
 categories: ["Les répliques d’Owen"]
 ---
 

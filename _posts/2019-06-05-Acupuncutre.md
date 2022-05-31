@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Acupuncture"
-date:   2019-06-05 23:38:50
+date:   2019-06-05 23:38:50 +0200
 categories: ["S’enquérir"]
 ---
 Jusqu’alors, l’acupuncture était pour moi à ranger dans la catégorie pseudo-science. Pour cela, je m’appuyais entre autre sur :

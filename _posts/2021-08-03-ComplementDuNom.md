@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Complément du nom"
-date:   2021-08-03 11:48
+date:   2021-08-03 11:48:44 +0200
 categories: ["Les répliques de Yaël"]
 ---
 

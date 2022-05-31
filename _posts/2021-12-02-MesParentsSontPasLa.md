@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Oui, mais moi mes parents ne sont pas là !"
-date:   2021-12-02 18:22
+date:   2021-12-02 18:22:44 +0200
 categories: ["Les répliques de Yaël"]
 ---
 

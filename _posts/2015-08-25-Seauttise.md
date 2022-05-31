@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Seauttise"
-date:   2015-08-25 17:30
+date:   2015-08-25 17:30:44 +0200
 categories: ["Les répliques d’Owen"]
 ---
 

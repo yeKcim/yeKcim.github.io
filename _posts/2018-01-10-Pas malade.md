@@ -1,7 +1,7 @@
 ---
-layout: single
+layout: post
 title:  "Pas malade"
-date:   2018-01-10 13:16
+date:   2018-01-10 13:16:44 +0200
 categories: ["Les répliques de Yaël"]
 ---
 
