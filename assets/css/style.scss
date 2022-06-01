@@ -22,17 +22,13 @@ li.post-list-element {
 }
 
 #title {
-	margin: 0.2em 0 0 0.2em;
+	margin: 4px 0 0 4px;
 	line-height: 10px;
 }
 
 #title h1 {
 	margin: 0 0 0 10px;
 	line-height: 1;
-}
-
-#header {
-	padding-top: 2px;
 }
 
 #description {
@@ -93,3 +89,8 @@ blockquote {
 	padding: 0 0 0 10px;
 }
 
+@media print, screen and (max-width: 480px) {
+  #header {
+    margin-top: 0px;
+  }
+}
