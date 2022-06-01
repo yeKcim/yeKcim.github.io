@@ -12,4 +12,3 @@ categories: ["Les répliques d’Owen"]
 -   \<Papa\> … que j’aime et que j’adore et que j’aimerai toute ma vie
 -   \<Owen\> Merci papa que aime toute la journée
 
-<!--more-->

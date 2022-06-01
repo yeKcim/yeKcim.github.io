@@ -12,4 +12,3 @@ categories: ["Les répliques d’Owen"]
 -   \<Owen\> Bah… c’est une soupe qui ne respire pas !
 -   \<Papa\> La soupe à l’air… D’accord…
 
-<!--more-->

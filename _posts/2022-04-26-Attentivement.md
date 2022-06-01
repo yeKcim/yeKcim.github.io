@@ -13,5 +13,3 @@ categories: ["Les répliques d’Owen"]
 
 🙄 Je vais ajouter « attentivement » à mon 1er conseil
 
-
-<!--more-->

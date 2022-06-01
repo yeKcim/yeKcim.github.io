@@ -10,4 +10,3 @@ categories: ["Les répliques de Yaël"]
 -  \<Papa\> C’est quoi une montagne, Yaël ?
 -  \<Yaël\> Sais pas.
 
-<!--more-->

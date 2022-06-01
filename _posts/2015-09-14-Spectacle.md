@@ -9,4 +9,3 @@ categories: ["Les répliques de Yaël"]
 -   \<Maman\>…
 -   \<Yaël\> Bah, l'oiseau il mange une pomme !
 
-<!--more-->

@@ -16,4 +16,3 @@ Un quart d'heure plus tard, Yaël ne veut plus jouer car il perd tout le temps.
 -   \<Papa\> Ce sont des cartes imaginaires… ???
 -   \<Owen\> Ben quoi ?
 
-<!--more-->

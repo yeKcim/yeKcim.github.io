@@ -10,5 +10,3 @@ categories: ["Les répliques de Yaël"]
 -   \<Yaël\>  Toi aussi et pourtant là t'en manges !
 -   \<Papa\>  Oui, mais moi mes parents ne sont pas là ! 
 
-
-<!--more-->

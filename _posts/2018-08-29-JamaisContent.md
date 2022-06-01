@@ -15,4 +15,3 @@ Six secondes plus tard, exactement sur le même ton :
 
 -   \<Owen\> C’est Nuul !
 
-<!--more-->

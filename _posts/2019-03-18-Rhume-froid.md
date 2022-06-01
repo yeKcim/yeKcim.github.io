@@ -65,4 +65,3 @@ Et c'est pareil pour la pneumonie d'ailleurs :
 > une bronchite, qui « dégénère » et s\'installe dans les alvéoles des
 > poumons.
 
-<!--more-->

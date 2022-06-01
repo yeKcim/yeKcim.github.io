@@ -13,5 +13,3 @@ Le lendemain.
 -   \<Papa\> Qu'est-ce que tu fais tout nu sur ta chaise de bureau ? Tu vas laisser la marque de tes fesses sur le tissu !
 -   \<Yaël\> T'en mieux, comme ça on verra bien que c'est la mienne !
 
-
-<!--more-->

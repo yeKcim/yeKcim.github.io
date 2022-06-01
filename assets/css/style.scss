@@ -4,8 +4,8 @@
 @import "{{ site.theme }}";
 
 h3 {
-	font-size: 35px;
-	line-height: 33px;
+	font-size: 30px;
+	line-height: 26px;
 }
  
 ul.post-list {
@@ -21,12 +21,16 @@ li.post-list-element {
 }
 
 #title {
-	margin: 1.2em 0 0 0.2em;
+	margin: 0.2em 0 0 0.2em;
 	line-height: 10px;
 }
 
-#title h1{
+#title h1 {
 	margin-bottom: 0em;
+}
+
+#header {
+padding-top: 2px;
 }
 
 #description {
@@ -37,7 +41,53 @@ li.post-list-element {
 	max-width: 800px;
 }
 
-.post-meta {
-	margin-left:-3em;
-	color: #777777;
+section {
+	max-width: 800px;
 }
+
+.post-meta {
+	color: #777777;
+	display: block;
+	text-align: right;
+	margin-top:-0.3em;
+}
+
+.post-content-truncate h1 {
+	font-size: 33.75px;
+	color: #333;
+}
+
+.post-content-truncate h2 {
+	font-size: 26.25px;
+	color: #333;
+}
+
+.post-content-truncate h3 {
+	font-size: 18.75px;
+	color: #333;
+}
+
+.post-content-truncate img {
+	max-width: 400px;
+}
+
+.post-content-truncate h2 {
+	font-size: 22px;
+	color: #aaaaaa;
+}
+
+ul {
+	list-style: circle;
+	margin: 0 0 12px;
+}
+
+p {
+	margin: 0 0 12px;
+}
+
+blockquote {
+	margin-left: 2em;
+	color: #aaaaaa;
+	padding: 0 0 0 10px;
+}
+

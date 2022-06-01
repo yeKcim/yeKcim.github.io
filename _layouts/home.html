@@ -26,17 +26,26 @@ layout: default
       {%- for post in posts -%}
       <li class="post-list-element">
 
+        <span class="post-meta">{{ post.date | date: date_format }} - <strong>{{ post.categories }}</strong></span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
         </h3>
         
-        <span class="post-meta">{{ post.date | date: date_format }} - <strong>{{ post.categories }}</strong></span>
-        
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+		<div class="post-content-truncate">
+		  {% if post.content contains "<!--more-->" %}
+			{{ post.excerpt | split:"<!--more-->" | first }}
+			<span class="readmore"><a href="{{ post.url | relative_url }}">→ Lire la suite</a></span>
+		  {% else %}
+		    <div class="post-content e-content" itemprop="articleBody">
+			    {{ post.excerpt }}
+			</div>
+			
+		  {% endif %}
+		</div>
+
+
       </li>
       {%- endfor -%}
     </ul>

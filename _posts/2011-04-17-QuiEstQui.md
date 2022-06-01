@@ -14,4 +14,3 @@ categories: ["Les répliques d’Owen"]
 -   \<Papa\> Aïe
 -   \<Owen\> Et bah voilà !
 
-<!--more-->

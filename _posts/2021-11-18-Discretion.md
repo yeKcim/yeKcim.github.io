@@ -11,4 +11,3 @@ categories: ["Les répliques de Yaël"]
 
 J'adore discuter avec mon fils de 10 ans dans les vestiaires de la piscine, c'est toujours... original. Et pas du tout gênant 😅
 
-<!--more-->

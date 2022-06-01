@@ -11,4 +11,3 @@ Après lui avoir injecté une dose de spray nasal
 -   \<Maman\> Oui ça peut piquer sur le coup...
 -   \<Yaël\> Aaah nooon, pas le cou !
 
-<!--more-->

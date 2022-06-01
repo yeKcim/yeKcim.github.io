@@ -10,4 +10,3 @@ categories: ["Les répliques d’Owen"]
 -   \<Papa\>  Tant que vous ne choppez pas le covid avec des symptômes plus graves que moi là, oui c'est le "plus" important. Si vous finissez à l'hôpital, là d'accord, ce sera en effet "aussi" important
 -   \<Owen\> T'es sale, papa
 
-<!--more-->

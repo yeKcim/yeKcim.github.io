@@ -34,4 +34,3 @@ Yaël part dans la salle...
 
 -   \<Yaël (parlant pour lui-même)\> Alors le chéquier… où il est le chéquier ?
 
-<!--more-->

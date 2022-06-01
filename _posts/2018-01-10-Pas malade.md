@@ -12,5 +12,3 @@ categories: ["Les répliques de Yaël"]
 -   \<Papa\> Tu sais ce que c’est une diarrhée ?
 -   \<Yaël\> Non
 
-
-<!--more-->

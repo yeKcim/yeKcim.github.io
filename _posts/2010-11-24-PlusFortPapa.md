@@ -10,4 +10,3 @@ categories: ["Les répliques d’Owen"]
 -   \<Papa\> Tu es le plus fort de tous les papas !
 -   \<Owen\> Hé hé
 
-<!--more-->

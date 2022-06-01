@@ -10,4 +10,3 @@ categories: ["Les répliques d’Owen"]
 -   \<Owen\> Pourquoi c’est nous qu’on l’accrochons ?
 -   \<Papa\> …
 
-<!--more-->

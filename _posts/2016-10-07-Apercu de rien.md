@@ -11,4 +11,3 @@ categories: ["Les répliques d’Owen"]
     tu l'as mis, et ce n'est pas vraiment le seul problème… « à pairse
     voir » n'est pas la bonne orthographe.
 
-<!--more-->
