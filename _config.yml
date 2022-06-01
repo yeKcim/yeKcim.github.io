@@ -1,5 +1,5 @@
 title: yeKblog
-description: La science n'explique pas tout mais l'absence de méthode non plus. Participer à un projet libre est un jeu… Et toi, à quoi tu joues ?
+description: Mes trucs en vrac
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-midnight
@@ -12,7 +12,7 @@ social_links:
      instance: framapiaf.org
 
 lang: fr-FR
-date_format: "%-d/%m/%Y"
+date_format: "%d/%m/%Y"
 
 show_excerpts: true
 excerpt_separator: <!--more-->

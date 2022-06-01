@@ -4,10 +4,40 @@
 @import "{{ site.theme }}";
 
 h3 {
-	font-size: 38px;
-	line-height: 38px;
+	font-size: 35px;
+	line-height: 33px;
 }
  
 ul.post-list {
-	list-style-type: circle;
+	list-style: none;
+	margin-top: 2em;
+}
+
+li.post-list-element {
+	list-style: none;
+	margin-top: 3em;
+	border-top: 1px solid white;
+	padding-top: 1em;
+}
+
+#title {
+	margin: 1.2em 0 0 0.2em;
+	line-height: 10px;
+}
+
+#title h1{
+	margin-bottom: 0em;
+}
+
+#description {
+	margin-left:2em;
+}
+
+.wrapper {
+	max-width: 800px;
+}
+
+.post-meta {
+	margin-left:-3em;
+	color: #777777;
 }
