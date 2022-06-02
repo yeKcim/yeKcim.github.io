@@ -24,6 +24,7 @@ li.post-list-element {
 #title {
 	margin: 4px 0 0 4px;
 	line-height: 10px;
+	display: block;
 }
 
 #title h1 {
@@ -92,5 +93,53 @@ blockquote {
 @media print, screen and (max-width: 480px) {
   #header {
     margin-top: 0px;
+  }
+}
+
+
+#social-links {
+	margin: 4px 0 0 4px;
+	line-height: 10px;
+	display: block;
+	float:right;
+}
+
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: currentColor;
+  padding: 5px 3px 2px 5px;
+  vertical-align: text-bottom;
+}
+
+/**
+ * Pagination navbar
+ */
+.social-media-list{
+	margin: -35px 50px auto auto;
+	display: table;
+  	list-style: none;
+  li {
+  	float: left;
+    margin: 5px 10px 5px 0;
+    width: 20px;
+    &:last-of-type { margin-right: 0 }
+	width: 25px;
+    a, div {
+      min-width: 41px;
+      text-align: center;
+      box-sizing: border-box;
+      display: block;
+    }
+    div {
+      display: block;
+      border: 1px solid transparent;
+
+      &.pager-edge {
+        color: white;
+        border: 1px dashed;
+      }
+    }
   }
 }
