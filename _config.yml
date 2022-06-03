@@ -4,7 +4,7 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-midnight
 
-social_links:
+social:
   twitter: y3K_c1m
   github:  yeKcim
   mastodon:
