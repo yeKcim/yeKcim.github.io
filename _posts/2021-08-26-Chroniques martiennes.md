@@ -5,7 +5,7 @@ date: 2021-08-26 09:43:00
 title: "Chroniques martiennes"
 ---
 
-![couverture](/assets/images/couv_lecture/chroniquesmartiennes.webp){: width="120" } : de Ray Bradburry**
+![couverture](/assets/images/couv_lecture/chroniquesmartiennes.webp){: width="120" } **de Ray Bradburry**
 
 J’ai adoré [Fahrenheit 451]({% link _posts/2006-04-26-Fahrenheit 451.md %}), je
 n’ai trouvé aucun intérêt au recueil de nouvelles
