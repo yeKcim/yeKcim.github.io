@@ -5,8 +5,8 @@ date: 2020-12-06 16:12:00
 title: "Curiosités philosophiques"
 ---
 
-![couverture](/assets/images/couv_lecture/curiosites.webp){: width="120" } :
-**« Curiosités philosophiques » de Thibaut Giraud** (alias [Monsieur Phi](https://monsieurphi.com/))
+![couverture](/assets/images/couv_lecture/curiosites.webp){: width="120" }
+**de Thibaut Giraud** (alias [Monsieur Phi](https://monsieurphi.com/))
 
 Dans Link’s awakening[^1], une fois trouvée la carte du donjon exploré,
 tout semble enfin clair. J’ai eu la même sensation avec « Curiosités

@@ -5,8 +5,8 @@ date: 2020-07-12 23:27:00
 title: "Bonheur™"
 ---
 
-![couverture](/assets/images/couv_lecture/bonheurtm.webp){: width="120" } :
-**« Bonheur™ » de Jean Baret**  (Trilogie Trademark - Volume 1)
+![couverture](/assets/images/couv_lecture/bonheurtm.webp){: width="120" }
+**de Jean Baret** (Trilogie Trademark - Volume 1)
 
 Deux points à avoir en tête avant la lecture :
 
