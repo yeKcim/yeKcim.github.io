@@ -5,7 +5,7 @@ date: 2021-01-13 23:02:00
 title: "Printeurs"
 ---
 
-![couverture](/assets/images/couv_lecture/printeurs.webp){: width="240" } : **« Printeurs » de Lionel Dricot**
+![couverture](/assets/images/couv_lecture/printeurs.webp){: width="240" } **de Lionel Dricot**
 
 En seulement 2 ou 3 très courts chapitres, je suis complètement happé,
 la plume est particulièrement efficace, les thèmes abordés m'intéressent

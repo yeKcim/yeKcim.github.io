@@ -5,7 +5,7 @@ date: 2021-11-13 11:28:00
 title: "Pandémonium"
 ---
 
-![couverture](/assets/images/couv_lecture/pandemonium.webp){: width="120" } : **« Pandémonium » de Sylvain Kermici** 
+![couverture](/assets/images/couv_lecture/pandemonium.webp){: width="120" } **de Sylvain Kermici** 
 
 Des chapitres courts. Des personnages qui se croisent. Le relai de
 personnages est une idée originale. Ça tire dans tous les sens. On est

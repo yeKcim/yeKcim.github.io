@@ -5,7 +5,7 @@ date: 2021-06-13 21:39:00
 title: "Le messie de Dune"
 ---
 
-![couverture](/assets/images/couv_lecture/dune2.webp){: width="120" } : **« Le messie de Dune » de Frank Herbert** (Cycle de Dune, tome 2) 
+![couverture](/assets/images/couv_lecture/dune2.webp){: width="120" } **de Frank Herbert** (Cycle de Dune, tome 2) 
 
 L\'écriture de Frank Herbert est un délice mais me semble parfois un peu
 exigeante. Certains points, parfois implicites, peuvent avoir de grandes

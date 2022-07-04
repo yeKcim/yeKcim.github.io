@@ -5,7 +5,7 @@ date: 2022-03-24 22:17:00
 title: "Fondamentaux"
 ---
 
-![couverture](/assets/images/couv_lecture/fondamentaux.webp){: width="120" } : **« Fondamentaux » de Frank Wilczek**
+![couverture](/assets/images/couv_lecture/fondamentaux.webp){: width="120" } **de Frank Wilczek**
 
 L'auteur compare la Science à l'apprentissage du fonctionnement du monde
 par un nouveau né et je trouve cette comparaison particulièrement

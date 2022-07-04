@@ -5,8 +5,8 @@ date: 2021-01-07 19:52:00
 title: "La Quantique autrement"
 ---
 
-![couverture](/assets/images/couv_lecture/quantiqueautrement.webp){: width="120" } :
-**« La Quantique autrement » de Julien Bobroff** : Garanti sans équation 
+![couverture](/assets/images/couv_lecture/quantiqueautrement.webp){: width="120" }
+**de Julien Bobroff** : Garanti sans équation 
 
 Avez-vous déjà joué à Taboo ? Vous devez faire deviner un mot à vos
 amis, sans dire les 5 ou 6 indices qui seraient pourtant bien pratiques
@@ -23,7 +23,9 @@ toutes les formes possibles et imaginables. Il réussit ainsi à toucher
 un maximum de gens et chacun prend alors plaisir à découvrir et/ou
 redécouvrir la quantique depuis le format qui lui convient le mieux. En
 tant que technicien dans un laboratoire de recherche, j’étais la cible
-parfaite pour «  Mon grand mécano quantique », que j’avais en effet
+parfaite pour
+[Mon grand mécano quantique]({{ site.baseurl }}{% link _posts/2020-07-06-Mon grand mécano quantique.md %}),
+que j’avais en effet
 trouvé parfait, la narration plus littéraire de certains passages de
 « La quantique autrement » sont un tout petit peu moins en phase avec
 moi mais seront probablement parfaitement adaptés à bien d’autres

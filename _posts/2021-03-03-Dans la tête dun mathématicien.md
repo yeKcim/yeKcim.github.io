@@ -5,8 +5,8 @@ date: 2021-03-03 20:54:00
 title: "Dans la tête d'un mathématicien"
 ---
 
-![couverture](/assets/images/couv_lecture/tetemathematicien.webp){: width="120" } :
-**« Dans la tête d'un mathématicien » de Pierre-Louis Lions**
+![couverture](/assets/images/couv_lecture/tetemathematicien.webp){: width="120" }
+**de Pierre-Louis Lions**
 
 Une pensée claire, un style simple et bien structuré qui rend la lecture
 agréable. Écrire une autobiographie pour mettre en avant le travail

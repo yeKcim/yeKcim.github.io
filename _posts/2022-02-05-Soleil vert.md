@@ -5,7 +5,7 @@ date: 2022-02-05 20:40:00
 title: "Soleil vert"
 ---
 
-![couverture](/assets/images/couv_lecture/soleilvert.webp){: width="120" } : **« Soleil vert » de Harry Harrison**
+![couverture](/assets/images/couv_lecture/soleilvert.webp){: width="120" } **de Harry Harrison**
 
 Que le roman d'anticipation, corresponde ou non à ce que nous vivons
 aujourd'hui m'importe assez peu, ce qui m'impressionne le plus dans

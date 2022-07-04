@@ -5,7 +5,7 @@ date: 2021-04-06 07:11:00
 title: "Expiration"
 ---
 
-![couverture](/assets/images/couv_lecture/expiration.webp){: width="120" } : **« Expiration » de Ted Chiang**
+![couverture](/assets/images/couv_lecture/expiration.webp){: width="120" } **de Ted Chiang**
 
 Difficile de faire une critique unique pour ce recueil de neuf nouvelles
 si différentes. Évidemment, certaines m\'ont plus touché que d\'autres,

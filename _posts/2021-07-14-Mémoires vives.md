@@ -5,7 +5,7 @@ date: 2021-07-14 00:45:00
 title: "Mémoires vives"
 ---
 
-![couverture](/assets/images/couv_lecture/memoiresvives.webp){: width="120" } : **« Mémoires vives » d\'Edward Snowden**
+![couverture](/assets/images/couv_lecture/memoiresvives.webp){: width="120" } **d’Edward Snowden**
 
 Depuis ses révélations en 2013, j'ai toujours été fasciné par Edward
 Snowden que je considère comme un héros, quelqu'un qui à sacrifié

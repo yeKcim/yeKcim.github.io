@@ -5,7 +5,7 @@ date: 2022-01-20 22:40:00
 title: "Les enfants de Dune"
 ---
 
-![couverture](/assets/images/couv_lecture/dune3.webp){: width="120" } : **« Les enfants de Dune » de Frank Herbert** (Cycle de Dune, tome 3) 
+![couverture](/assets/images/couv_lecture/dune3.webp){: width="120" } **de Frank Herbert** (Cycle de Dune, tome 3) 
 
 L'écriture de Frank Herbert est assez déroutante : de nombreux chapitres
 pour la mise en place où les intentions de chacun sont complexes à

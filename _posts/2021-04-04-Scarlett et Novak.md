@@ -5,7 +5,7 @@ date: 2021-04-04 10:06:00
 title: "Scarlett et Novak"
 ---
 
-![couverture](/assets/images/couv_lecture/scarlettnovak.webp){: width="120" } : **« Scarlett et Novak » de Alain Damasio**
+![couverture](/assets/images/couv_lecture/scarlettnovak.webp){: width="120" } **de Alain Damasio**
 
 La plume de l\'auteur est un scalpel, les mots sont parfaitement choisis
 pour un récit efficace et prenant. Pour le propos, le scalpel laisse
