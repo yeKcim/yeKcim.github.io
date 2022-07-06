@@ -12,7 +12,7 @@ d'apprendre que la kamikaze était sa femme. Avec un pitch pareil, vous
 savez que vous n'allez pas lire un livre qui est fait pour vous faire
 rire et rêver… Et en effet, ce n'est pas le but !
 
-Si d'un point de vue littéraire [L'attentat]{.underline} n'est pas
+Si d'un point de vue littéraire *L'attentat* n'est pas
 particulièrement époustouflant, il est immersif, fait réfléchir sur le
 conflit israélo-palestinien autant que sur la connaissance de l'autre et
 de soi…

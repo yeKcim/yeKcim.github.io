@@ -9,8 +9,7 @@ title: "Petite histoire de l’univers : Du Big Bang à la fin du monde"
 la fin du monde
 
 Encore une fois, c'est un film qui me fait lire… J'ai vu, il y a
-quelques semaines, [The Theory of Everything](){https:=""
-fr.wikipedia.org="" wiki="" une_merveilleuse_histoire_du_temps"=""} :
+quelques semaines, [The Theory of Everything](https://fr.wikipedia.org/wiki/Une_merveilleuse_histoire_du_temps) :
 ce n'est pas un film particulièrement époustouflant mais le jeu d'acteur
 est dément et les décors et costumes immersifs. C'est un film émouvant
 sur la vie de Hawking, s'attardant très peu sur la science, c'est un
@@ -19,15 +18,16 @@ a surtout le mérite de redonner un peu d'empathie pour un chercheur hors
 norme, déshumanisé par sa condition physique, souvent présenté par les
 médias, plus comme un cyborg qu'un humain.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Salz7uGp72c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Dans la pile de bouquins qui s'entassent sur ma table de nuit, trône
 « Petite histoire de l’univers » depuis quelques années déjà. Il y a
 peu de Science dans le film de James Marsh, c'est donc une parfaite
 invitation à la lecture des ouvrages de Hawking…
 
-Le style littéraire est très loin de la [poésie de Hubert
-Reeves](){dc2="" index.php?post="" 2015="" 12="" 09=""
-poussi%c3%a8res-d%e2%80%99%c3%a9toiles"=""}, très certainement
-conditionné par la paralysie de l'auteur et l'outil qui est donc à sa
+Le style littéraire est très loin de la
+[poésie de Hubert Reeves](http://yeknan.free.fr/dc2/index.php?post/2015/12/09/Poussi%C3%A8res-d%E2%80%99%C3%A9toiles),
+très certainement conditionné par la paralysie de l'auteur et l'outil qui est donc à sa
 disposition pour écrire, c'est très direct. La narration suit le fil
 historique des découvertes scientifiques et de ses travaux en
 particulier, les explications sont claires même si j'admets que j'ai été
@@ -38,5 +38,4 @@ utile. J'ai l'impression d'avoir compris de nouvelles choses sur les
 trous noirs et l'univers, j'ai dévoré et aimé les 80 premières pages,
 puis j'ai lu le reste, le livre me laisse finalement un sentiment
 mitigé.
-
 

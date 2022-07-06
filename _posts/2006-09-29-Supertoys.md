@@ -9,10 +9,9 @@ title: "Supertoys - Intelligence Artificielle"
 
 Dans le coffret collector de AI était fourni un petit livre édition
 limité regroupant les trois nouvelles SuperToys. Très rapide à lire
-puisque ces nouvelles sont très courtes ([l’édition normale du
-livre](){http:="" www.amazon.fr=""
-supertoys-intelligence-artificielle-autres-histoires="" dp=""
-2864243946"=""} est un recueil d’une vingtaine de nouvelles) elles
+puisque ces nouvelles sont très courtes
+([l’édition normale du livre](http://www.amazon.fr/Supertoys-Intelligence-artificielle-autres-histoires/dp/2864243946)
+est un recueil d’une vingtaine de nouvelles) elles
 ne sont pour autant pas sans intérêt.
 
 Je suis peu habitué à ce genre de littérature, j’ai bien lu quelques

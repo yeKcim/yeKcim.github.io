@@ -7,10 +7,9 @@ title: "Seul sur Mars"
 
 ![couverture](/assets/images/couv_lecture/seul_mars.webp){: width="120" } **de Andy Weir** : Maman, j'ai raté la navette.
 
-Comme pour [Au bonheur des ogres](){dc2="" index.php?post="" 2013=""
-12="" 25="" au-bonheur-des-ogres"=""} et [Je suis une
-légende](){dc2="" index.php?post="" 2008="" 03="" 01=""
-203-je-suis-une-legende"=""}, c'est une bande annonce de film qui m'a
+Comme pour [Au bonheur des ogres]({% link _posts/2013-12-25-Au bonheur des ogres.md %})
+et [Je suis une légende]({% link _posts/2020-08-12-VieTM.md %}),
+c'est une bande annonce de film qui m'a
 donné envie de lire un livre. En l'occurrence, la bande annonce du
 prochain film de Ridley Scott m'a donné envie de lire « Seul sur Mars ».
 J'ai regardé le trailer du film deux fois : une pour moi et une pour
@@ -21,12 +20,11 @@ J'ai acheté, il y a peu, un nouveau téléphone et j'ai lancé un bon
 nombre d'applications qui étaient pré-installées lors de ma phase de
 personnalisation/nettoyage. Parmi les applications : Play Livres. Je ne
 sais pas si c'était une coïncidence ou si Google s'est inspiré de mon
-surf sur [Allociné](){http:="" www.allocine.fr="" video=""
-player_gen_cmedia="19554255&cfilm=221524.html""} mais dès le
-lancement de l'application, Google me propose de lire un extrait de…
+surf sur [Allociné](https://www.allocine.fr/video/player_gen_cmedia=19554255&cfilm=221524.html)
+mais dès le lancement de l'application, Google me propose de lire un extrait de…
 « Seul sur Mars ». Oui, merci Google de regarder tout ce que je fais, je
-vais suivre tes recommandations et retourner voir ce que devient [Duck
-Duck Go](){https:="" duckduckgo.com="" "=""} car ton omniprésence me
+vais suivre tes recommandations et retourner voir ce que devient
+[Duck Duck Go](https://duckduckgo.com/) car ton omniprésence me
 fait un peu peur… Je lis donc les trente premières pages sur mon
 téléphone. J'ai couru ensuite dans la librairie la plus proche (je ne
 voulais pas acheter un livre numérique très certainement avec DRM) pour
@@ -43,6 +41,8 @@ fasse une pause pour continuer.
 L'histoire est très bien résumée dans l'extrait vidéo du film : En gros,
 un astronaute est laissé pour mort sur Mars, il va devoir faire preuve
 d'ingéniosité pour survivre et tenter de rentrer sur Terre.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sI-krAvAPLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Si les éditeurs pouvaient faire des résumés de tous leurs livres sous
 forme de courts-métrages aussi alléchants que cet extrait de film, cela

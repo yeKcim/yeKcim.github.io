@@ -5,12 +5,7 @@ date: 2015-09-30 22:02:00
 title: "#Smartarded (NoéNautes Livre I)"
 ---
 
-![couverture](/assets/images/couv_lecture/smartarded1.webp){: width="120" } **de Pouhiou** : Un livre gratuit qui peut
-s'acheter.
-
-{http:="" framabook.org=""
-smartarded-le-cycle-des-noenautes-ii="" "=""} : **« #Smartarded » de
-[Pouhiou](){http:="" pouhiou.com"=""}** : Un livre gratuit qui peut
+![couverture](/assets/images/couv_lecture/smartarded1.webp){: width="120" } **de [Pouhiou](http://pouhiou.com/)** : Un livre [gratuit](https://archives.framabook.org/smartarded-le-cycle-des-noenautes-ii/index.html) qui peut
 s'acheter.
 
 Enguerrand est un ingêneur, un consultant en connardise, un mec qui est
@@ -25,8 +20,7 @@ NoéNautes…
 Pouhiou met dans ce livre, plus de références que Tarantino dans ses
 films, c'est pas peu dire ! C'est amusant et en tant que geek j'apprécie
 de constater que j'ai approximativement toutes les références, ça change
-de [Vian](){dc2="" index.php?post="" 2006="" 12="" 18=""
-153-l-ecume-des-jours"=""}. Par contre, la façon dont le roman s'est
+de [Vian]({% link _posts/2006-12-18-Lécume des jours.md %}). Par contre, la façon dont le roman s'est
 construit (le format original était une page publiée par jour sur un
 blog pendant quelques mois) implique une lecture assez désagréable sous
 forme de livre (ebook en l'occurrence). Ainsi, le roman devient assez
@@ -41,5 +35,4 @@ l'overdose de rebondissements genre "ah ah, vous ne l'aviez pas vu
 venir, tout était prévu dans mon plan depuis le début" qui a fini par
 me lasser… Dans l'ensemble, je ne suis pas convaincu, mais j'en suis
 déçu…
-
 

@@ -45,17 +45,21 @@ propose donc de poser une loupe sur quelques passages :
 Dans le chapitre « Le processus de domestication et le rêve de la
 planète », après plusieurs paragraphes qui ne font que répéter encore et
 encore que notre système éducatif actuel est cruel et fondé sur des
-punitions et des mensonges, vous pouvez lire : "Si l'on regarde la
-société humaine, on constate que la raison pour laquelle il est si
-difficile d'y vivre est qu'elle est régie par la peur. Aux quatre coins
-de la planète on voit de la souffrance humaine, de la colère, un esprit
-de revanche, des toxicomanies, de la violence dans la rue et une
-incroyable injustice \[…\] Si l'on compare le rêve de la société
-humaine avec la description de l'enfer que les religions du monde entier
-ont promulguée, on constate que les deux sont identiques. Les religions
-disent que l'enfer est un lieu de punition, de peur, de douleur et de
-souffrance, un lieu où le feu vous brûle. Le feu résulte des émotions
-nées de la peur…" et ça continue ainsi plusieurs pages. L'auteur
+punitions et des mensonges, vous pouvez lire :
+
+> Si l'on regarde la
+> société humaine, on constate que la raison pour laquelle il est si
+> difficile d'y vivre est qu'elle est régie par la peur. Aux quatre coins
+> de la planète on voit de la souffrance humaine, de la colère, un esprit
+> de revanche, des toxicomanies, de la violence dans la rue et une
+> incroyable injustice \[…\] Si l'on compare le rêve de la société
+> humaine avec la description de l'enfer que les religions du monde entier
+> ont promulguée, on constate que les deux sont identiques. Les religions
+> disent que l'enfer est un lieu de punition, de peur, de douleur et de
+> souffrance, un lieu où le feu vous brûle. Le feu résulte des émotions
+> nées de la peur…
+
+et ça continue ainsi plusieurs pages. L'auteur
 matraque son idée de monde oppressant pour la mettre en opposition avec
 la société idéale qui serait celle qu'il propose. À aucun moment, on ne
 met de nuance, il n'y a que douleurs et peine dans le monde manichéen de
@@ -69,9 +73,11 @@ sur des pages et des pages…). Mais heureusement voici les 4 accords
 toltèques ! Une introduction aussi oppressante serait digne d'un journal
 du 20h !
 
-"Le premier accord toltèque \[…\] Votre parole est votre pouvoir
-créateur. C'est un cadeau qui vous vient directement de Dieu. L'évangile
-selon saint Jean, dans la Bible, parlant de … " Ah, bien ! Maintenant
+> Le premier accord toltèque \[…\] Votre parole est votre pouvoir
+> créateur. C'est un cadeau qui vous vient directement de Dieu. L'évangile
+> selon saint Jean, dans la Bible, parlant de \[…\] 
+
+Ah, bien ! Maintenant
 vous êtes clairement au courant, s'il avait été honnête, Don Miguel Ruiz
 aurait intitulé son livre « Jésus chez les Toltèques ». Je ne suis pas
 croyant, j'ai donc décidé de faire abstraction des nombreuses références
@@ -81,24 +87,31 @@ culture toltèque (les Toltèques ne sont qu'un prétexte car si c'est
 vieux et exotique, c'est forcément mieux). Le dernier mot du livre est
 d'ailleurs "Amen".
 
-Toujours dans ce chapitre : "La parole est si puissante qu'un seul mot
-peut changer une vie ou détruire l'existence de millions de personnes.
-Il y a quelques décennies, la parole d'un seul homme en Allemagne a
-manipulé toute une nation peuplée de gens intelligents. Il les a
-conduits à la guerre, par la seule puissance de sa parole. Il a réussi à
-convaincre certains de commettre les actes de violence les plus atroces
-qui soient. Sa parole a réveillé les peurs des gens et, comme une
-immense explosion, les tueries et la guerre ont ravagé le monde entier."
+Toujours dans ce chapitre :
+
+> La parole est si puissante qu'un seul mot
+> peut changer une vie ou détruire l'existence de millions de personnes.
+> Il y a quelques décennies, la parole d'un seul homme en Allemagne a
+> manipulé toute une nation peuplée de gens intelligents. Il les a
+> conduits à la guerre, par la seule puissance de sa parole. Il a réussi à
+> convaincre certains de commettre les actes de violence les plus atroces
+> qui soient. Sa parole a réveillé les peurs des gens et, comme une
+> immense explosion, les tueries et la guerre ont ravagé le monde entier.
+
 Comment est-il possible de faire une si simpliste description de la
 seconde guerre mondiale ? Comment peut-on avoir une vision aussi
 manichéenne d'un événement aussi complexe ? Il s'agit là du pire exemple
 de pensée simpliste développée dans l'ouvrage mais si c'est le pire
 c'est surtout très loin d'être le seul. Vous êtes prévenus.
 
-Page suivante, vous pourrez lire "Je vois un ami et lui fais part d'une
-opinion : Tiens ! La couleur de ton visage est celle des gens qui vont
-avoir le cancer. S'il écoute cette parole et s'il est d'accord avec, il
-aura un cancer dans moins d'un an." Cet exemple est tellement génial !
+Page suivante, vous pourrez lire :
+
+> Je vois un ami et lui fais part d'une
+> opinion : Tiens ! La couleur de ton visage est celle des gens qui vont
+> avoir le cancer. S'il écoute cette parole et s'il est d'accord avec, il
+> aura un cancer dans moins d'un an.
+
+Cet exemple est tellement génial !
 D'abord, par la crédibilité du dialogue mais aussi pour le propos d'une
 précision incroyable : le fait qu'un cancer puisse se développé
 uniquement par effet nocebo semble peu probable, mais là on vous précise
@@ -110,10 +123,14 @@ N'ayant pas peur d'être insistant, suivent ensuite un long exemple avec
 une fille à qui on dit qu'elle est laide, puis une page complète pour
 quelqu'un à qui on dit qu'il est stupide. Quelques paragraphes
 répétitifs plus loin, on retrouve encore un autre exemple avec votre
-meilleure amie qui vous dit : "« Qu'est-ce qui t'arrive ? Tu as une de
-ces têtes ! Et regarde comment tu es habillée : tu as l'air ridicule. »
-Peut-être que cette amie vous a-t-elle dit cela juste pour vous
-blesser." Vraiment ? C'est une description normale d'une discussion avec
+meilleure amie qui vous dit :
+
+> « Qu'est-ce qui t'arrive ? Tu as une de
+> ces têtes ! Et regarde comment tu es habillée : tu as l'air ridicule. »
+> Peut-être que cette amie vous a-t-elle dit cela juste pour vous
+> blesser.
+
+Vraiment ? C'est une description normale d'une discussion avec
 une meilleure amie ? À chaque exemple d'amitié dans le livre, le propos
 est ignoble, cela me semble étrange. S'ensuit alors encore plusieurs
 paragraphes d'une analogie parole/magie qui est répétée un nombre de
@@ -134,19 +151,24 @@ fait une dépression. Comme si cela n'allait pas de soi − Oh merci pour
 ce conseil d'une grande sagesse je n'y avais pas pensé !
 
 Un dernier exemple, où on constate que l'auteur ne met aucune nuance
-dans son propos : "si on regarde des enfants de deux ou trois ans, on
-constate qu'ils arborent la plupart du temps un grand sourire et qu'ils
-s'amusent \[…\] Les très jeunes enfants n'ont pas peur d'exprimer ce
-qu'ils ressentent \[…\] Ils n'ont aucune peur d'aimer. Voilà la
-description d'un être humain normal. Enfants, nous n'avons ni peur du
-futur ni honte du passé. Notre tendance humaine naturelle est de jouir
-de la vie, de jouer, d'explorer, d'être heureux, d'aimer. \[…\]
-Regardez des enfants jouant aux adultes, leurs petites mines changent.
-Je vais faire semblant d'être un avocat dit l'un d'eux. À l'instant, son
-visage se transforme et l'expression d'un adulte prend le dessus" Cette
-description idéalisée de l'enfance en opposition avec l'adulte triste
-qui "est responsable, a des choses à faire, doit travailler, gagner sa
-vie" ne vous semble-t-elle pas incroyablement simpliste ?
+dans son propos :
+
+> si on regarde des enfants de deux ou trois ans, on
+> constate qu'ils arborent la plupart du temps un grand sourire et qu'ils
+> s'amusent \[…\] Les très jeunes enfants n'ont pas peur d'exprimer ce
+> qu'ils ressentent \[…\] Ils n'ont aucune peur d'aimer. Voilà la
+> description d'un être humain normal. Enfants, nous n'avons ni peur du
+> futur ni honte du passé. Notre tendance humaine naturelle est de jouir
+> de la vie, de jouer, d'explorer, d'être heureux, d'aimer. \[…\]
+> Regardez des enfants jouant aux adultes, leurs petites mines changent.
+> Je vais faire semblant d'être un avocat dit l'un d'eux. À l'instant, son
+> visage se transforme et l'expression d'un adulte prend le dessus
+
+Cette description idéalisée de l'enfance en opposition avec l'adulte triste qui 
+
+> est responsable, a des choses à faire, doit travailler, gagner sa vie
+
+ne vous semble-t-elle pas incroyablement simpliste ?
 
 Et c'est ainsi encore et encore et encore… L'auteur use et abuse de la
 répétition à la limite du lavage de cerveau, comme le ferait un gourou.

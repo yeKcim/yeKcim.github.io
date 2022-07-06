@@ -7,9 +7,6 @@ title: "Le Petit Prince"
 
 ![couverture](/assets/images/couv_lecture/petit_prince.webp){: width="120" } **de Antoine de Saint-Exupéry** : Dessine-moi une fable poétique.
 
-{http:="" wikilivres.ca="" wiki=""
-le_petit_prince"=""}
-
 J'ai lu « Le Petit Prince » trois ou quatre fois, enfin j'ai lu le
 premier tiers, trois ou quatre fois. Le livre était dans ma table de
 nuit (parmi une bonne dizaine de bouquins que je dois lire) avec un

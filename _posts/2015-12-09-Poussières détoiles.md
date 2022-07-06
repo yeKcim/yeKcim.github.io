@@ -19,10 +19,9 @@ contenu trop complexe et capitulé. Aujourd'hui, avec un peu plus de
 connaissances, de patience et un soupçon de maturité supplémentaire,
 j'ai l'impression d'être tombé sur le Graal de la vulgarisation
 astronomique et bien plus encore. Après plusieurs conférences et après
-avoir regardé à multiples reprises chaque épisode de [Cosmos: A
-Spacetime Odyssey](){https:="" fr.wikipedia.org="" wiki=""
-cosmos_:_une_odyss%c3%a9e_%c3%a0_travers_l&#039;univers"=""}, je
-replonge avec plaisir, cette fois dans une version littéraire et tout
+avoir regardé à multiples reprises chaque épisode de
+[Cosmos: A Spacetime Odyssey](https://fr.wikipedia.org/wiki/Cosmos_:_Une_odyss%C3%A9e_%C3%A0_travers_l'univers),
+je replonge avec plaisir, cette fois dans une version littéraire et tout
 aussi passionnante, dans notre histoire et notre compréhension de
 l'univers.
 
@@ -54,13 +53,6 @@ les textes d'Hubert Reeves "respirent" celle-ci. Hubert Reeves
 n'est pas seulement un vulgarisateur de génie ou un astrophysicien
 génial… c'est un Big Boss vous dis-je.
 
-\
-[Hubert Reeves / Sciences et religions](){http:=""
-www.dailymotion.com="" video=""
-x9ehlr_hubert-reeves-sciences-et-religions_shortfilms"="" target=""
-_blank"=""} *par [zindabad7](){http:="" www.dailymotion.com=""
-zindabad7"="" target="" _blank"=""}*
-
 Note : Il y a plus de quinze ans, un pervers narcissique, alcoolique,
 raciste, menteur, manipulateur, voyeur, m'expliquait que pour certaines
 personnes, certaines races de gens, il regrettait que les chambres à gaz
@@ -77,15 +69,17 @@ pensais jamais dire cela un jour, merci Jean-Paul B.
 
 PS : J'ai lu ce livre d'Hubert Reeves (qui ne peut pas être décrit
 uniquement comme un livre d'astro, soyons bien clair sur ce point), j'ai
-assisté à la pièce de théâtre l'[Exoconférence](){https:=""
-fr.wikipedia.org="" wiki="" l%27exoconf%c3%a9rence"=""} à Nantes
+assisté à la pièce de théâtre l'[Exoconférence](https://fr.wikipedia.org/wiki/L%27Exoconf%C3%A9rence) à Nantes
 (revu dans mon salon dernièrement), assisté à la conférence « Origine
 des lunes dans les systèmes planétaires » de Sébastien CHARNOZ :
 
-regardé [Cosmos: A Spacetime Odyssey](){https:="" fr.wikipedia.org=""
-wiki="" cosmos_:_une_odyss%c3%a9e_%c3%a0_travers_l&#039;univers"=""}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mFzMs8Uwm0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+regardé [Cosmos: A Spacetime Odyssey](https://fr.wikipedia.org/wiki/Cosmos_:_Une_odyss%C3%A9e_%C3%A0_travers_l'univers)
 (comme je le disais ci-dessus), regardé « Voyage vers le Big Bang » de
 Christophe Galfard :
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UL9NoU4sWQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 assisté à la conférence « SPHERE: chasseur de planètes extrasolaires »
 de Jean-Luc Beuzit et à « Modélisation et caractérisation des

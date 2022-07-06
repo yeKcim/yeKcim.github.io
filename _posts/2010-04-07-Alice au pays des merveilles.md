@@ -16,18 +16,17 @@ les progrès qu’elle a fait en lecture ont rendu l’expérience un petit
 peu plus intéressante et plus agréable pour le livre de Lewis Carroll.
 
 J’aurais pu lire ce livre directement sur le net puisqu’il est libre
-de droit et par conséquent [consultable](){http:="" fr.wikisource.org=""
-wiki="" alice_au_pays_des_merveilles"=""} ou même
-[téléchargeable](){http:="" www.livrespourtous.com="" e-books="" view=""
-alice-au-pays-des-merveilles.html"=""} gratuitement sur de nombreux
+de droit et par conséquent [consultable](http://fr.wikisource.org/wiki/Alice_au_pays_des_merveilles) ou même
+[téléchargeable](http://www.livrespourtous.com/e-books/view/Alice-au-pays-des-merveilles.html)
+gratuitement sur de nombreux
 sites. J’ai préféré dépenser 1,5€ pour avoir le confort de lecture du
 papier, même si cette édition n’inclue pas les illustrations fortement
 sympathiques de Sir John Tenniel.
 
 J’ai particulièrement adoré ce livre. Je connaissais vaguement
-l’histoire, principalement à travers l’œil de Disney, j\'ai donc pu me
+l’histoire, principalement à travers l’œil de Disney, j’ai donc pu me
 faire ma propre opinion. Étrangement et pour une raison que j’ignore
-j’ai toujours été mal à l’aise avec l\'ambiance du dessin animé
+j’ai toujours été mal à l’aise avec l’ambiance du dessin animé
 lorsque j’étais enfant, peut-être que si je le regardais aujourd’hui,
 je l’apprécierais plus… De nombreux passages du livre m’ont rendu
 hilare, je n’ai pas pu m’empêcher de lire et relire certains extraits

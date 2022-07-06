@@ -11,9 +11,13 @@ Installés confortablement dans le salon, je lis la moitié du premier
 chapitre de "Bilbo le Hobbit" à mes deux fils (7 et 11 ans), la
 lecture complète du livre prendra trois bonnes semaines. Cette première
 journée est un combat, jamais je n’ai aussi bien compris cette terrible
-pensée de Benjamin Malaussène ("Au bonheur des ogres" de Daniel
-Pennac) : « Les enfants me menacent de me remplacer par la télé si je
-flanche ». Je donne donc mon maximum pour rendre le texte vivant.
+pensée de Benjamin Malaussène ([Au bonheur des ogres]({% link _posts/2013-12-25-Au bonheur des ogres.md %}) de Daniel
+Pennac) :
+
+> Les enfants me menacent de me remplacer par la télé si je
+> flanche
+
+Je donne donc mon maximum pour rendre le texte vivant.
 
 Deuxième jour, il faut finir le chapitre, je me résigne donc à utiliser
 mon adversaire LCD pour arriver à mes fins « Ok, vous aurez le droit à

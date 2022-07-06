@@ -10,9 +10,8 @@ title: "Harry Potter 6"
 Il est vrai qu’avec ce
 livre je m’éloigne du style de littérature que je lis depuis cet été,
 mais le changement ne fait pas de mal. Même s’il est vrai que d’un
-point de vu philosophique nous sommes très loin de [1984](){http:=""
-yeknan.free.fr="" blog="" index.php?2005="" 09="" 29=""
-3-billets-en-retard"="" hreflang="" fr"=""} j’admets que j’ai
+point de vu philosophique nous sommes très loin de
+[1984]({% link _posts/2005-09-29-1984.md %}) j’admets que j’ai
 grandement apprécié la lecture de cet ouvrage. J’avais déjà lu les
 précédents je me suis attaché aux personnages et dans ce sixième tome je
 les retrouve avec plaisir.

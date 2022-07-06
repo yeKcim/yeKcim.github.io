@@ -34,32 +34,19 @@ réflexion est pré-mâchée… Dans un coin de ma tête, je continuais à
 être hanté (oui vraiment, je crois que c'est le bon mot, hanté !) par la
 fin du film de Burton.
 
-::: {addspoiler"=""}
-[Afficher « Spoil film de burton »](){onclick=""
-javascript:this.parentnode.childnodes[0].style.display="none"
-;this.parentnode.childnodes[1].style.display=""
-;this.parentnode.childnodes[2].style.display="" ;return="" false;"=""
-#"=""}[Masquer « Spoil film de burton »](){style=""
-display:none;"="" onclick=""
-this.parentnode.childnodes[0].style.display=""
-;this.parentnode.childnodes[1].style.display="none"
-;this.parentnode.childnodes[2].style.display="none" ;return=""
-false;"="" #"=""}
+**Spoil film de burton** :
 
-::: {style="" display:none;"=""}
-À la fin de ce film, le héros retourne sur Terre et se retrouve face à
-une civilisation exactement similaire à la notre mais où les singes
-remplacent les humains. Certains commentaires sur internet expliqunt que
-Burton montre ainsi que le protagoniste principal à changé de regard sur
-le genre humain suite à ses aventures et qu'il ne fait alors que
-constater que sur Terre (non plus dans le film mais dans le monde réel),
-les humains ont des comportements qui pourraient être qualifié de
-primates. Une façon de critiquer l'animalité de l'homme, en somme…
-:::
-:::
+> À la fin de ce film, le héros retourne sur Terre et se retrouve face à
+> une civilisation exactement similaire à la notre mais où les singes
+> remplacent les humains. Certains commentaires sur internet expliqunt que
+> Burton montre ainsi que le protagoniste principal à changé de regard sur
+> le genre humain suite à ses aventures et qu'il ne fait alors que
+> constater que sur Terre (non plus dans le film mais dans le monde réel),
+> les humains ont des comportements qui pourraient être qualifié de
+> primates. Une façon de critiquer l'animalité de l'homme, en somme…
 
-Un jour, j'entends sur [France Cu](){http:=""
-www.franceculture.fr"=""}, une personne expliquant que la fin de
+Un jour, j'entends sur [France Cul](http://www.franceculture.fr/),
+une personne expliquant que la fin de
 Burton est celle qui se rapproche le plus du livre. Je pense alors que
 la solution pour mieux comprendre cet univers et pour me débarrasser de
 cette obsession qui me revient en tête régulièrement, est peut-être de
@@ -77,27 +64,15 @@ qui pratiquent des expériences sur des singes, ce qui est assez évident)
 mais tout ceux qui ont des comportements dogmatiques, entre autre
 d'ailleurs. En fait,…
 
-::: {addspoiler"=""}
-[Afficher « Spoil Livre »](){onclick=""
-javascript:this.parentnode.childnodes[0].style.display="none"
-;this.parentnode.childnodes[1].style.display=""
-;this.parentnode.childnodes[2].style.display="" ;return="" false;"=""
-#"=""}[Masquer « Spoil Livre »](){style="" display:none;"=""
-onclick="" this.parentnode.childnodes[0].style.display=""
-;this.parentnode.childnodes[1].style.display="none"
-;this.parentnode.childnodes[2].style.display="none" ;return=""
-false;"="" #"=""}
+**Spoil livre** :
 
-::: {style="" display:none;"=""}
-la raison pour laquelle les singes dominent la planète Soror est révélée
-assez tardivement dans le livre mais c'est une très belle critique de
-notre société, j'ai particulièrement apprécié cette idée, cette façon
-d'amener cette réflexion. La domination de la société par une espèce
-imitatrice suite à la résignation de l'humain et sa paresse
-intellectuelle. Quel message pourrait mieux donner envie de poser sa
-télécommande, ouvrir un livre ou un cahier ?
-:::
-:::
+> la raison pour laquelle les singes dominent la planète Soror est révélée
+> assez tardivement dans le livre mais c'est une très belle critique de
+> notre société, j'ai particulièrement apprécié cette idée, cette façon
+> d'amener cette réflexion. La domination de la société par une espèce
+> imitatrice suite à la résignation de l'humain et sa paresse
+> intellectuelle. Quel message pourrait mieux donner envie de poser sa
+> télécommande, ouvrir un livre ou un cahier ?
 
 Certes les films apportent chacun leur propre regard mais je me sens
 moins touché par le message de Tim Burton (celui qui m'a le plus touché

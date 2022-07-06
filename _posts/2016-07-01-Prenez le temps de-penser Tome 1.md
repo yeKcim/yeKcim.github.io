@@ -8,8 +8,8 @@ title: "Prenez le temps d'e-penser − Tome 1"
 ![couverture](/assets/images/couv_lecture/epenser1.webp){: width="120" } **de Bruce Benamran** : Tout tout tout vous saurez tout sur la science (tome 1)
 
 Bruce Benamran, pour ceux qui sont prêts du radiateur, c'est le
-génialissime vulgarisateur de [e-penser](){https:="" www.youtube.com=""
-user="" epenser1"=""}. Si vous n'avez jamais vu ses vidéos, vous
+génialissime vulgarisateur de [e-penser](https://www.youtube.com/user/epenser1).
+Si vous n'avez jamais vu ses vidéos, vous
 allez tout en bas de la page Youtube, vous regardez la première, puis la
 deuxième et ainsi de suite jusqu'à ce que vous soyez devenu suffisamment
 éclairé pour avoir envie de regarder les suivantes sans suivre cette
@@ -18,7 +18,7 @@ le principe de sa chaîne.
 
 Dire que ce bouquin est bourré de digressions serait clairement
 minimiser les faits. Tome 1 (appelons-le ainsi pour simplifier)
-[est]{.underline} un ensemble de digressions qui une fois rangées dans
+*est* un ensemble de digressions qui une fois rangées dans
 votre caboche, vous offre un aperçu de l'évolution/l'histoire/les
 principes des sciences (en particulier la physique et l'astronomie)
 intéressant et sympathique. Le ton est familier, on est entre nous, on a
@@ -27,14 +27,13 @@ tout et passionné.
 
 Certains passages reprennent des sujets déjà développés dans ses vidéos
 mais ce n’est pas vraiment dérangeant : je crois que j'ai lu 4 fois le
-chapitre sur [Guillaume Joseph Hyacinthe Jean-Baptiste Le Gentil de la
-Galaisière](){https:="" www.youtube.com="" watch?v="Qa8hFCoxx2E""} (à
+chapitre sur
+[Guillaume Joseph Hyacinthe Jean-Baptiste Le Gentil de la Galaisière](https://www.youtube.com/watch?v=Qa8hFCoxx2E) (à
 voix haute pour en faire profiter des proches) alors que j'avais déjà vu
 la vidéo correspondante (au moins 2 fois)…
 
-Lire Tome 1, c'est un peu comme regarder un épisode de [Cosmos: A
-Spacetime Odyssey](){https:="" fr.wikipedia.org="" wiki=""
-cosmos_:_une_odyss%c3%a9e_%c3%a0_travers_l&#039;univers"=""} de
+Lire Tome 1, c'est un peu comme regarder un épisode de
+[Cosmos: A Spacetime Odyssey](https://fr.wikipedia.org/wiki/Cosmos_:_Une_odyss%C3%A9e_%C3%A0_travers_l'univers) de
 plusieurs heures avec quelques coupures pub (l'auteur à un gimmick,
 certains pourront trouver cela pénible mais la répétition c'est
 justement le principe… il y a aussi régulièrement des incitations à se

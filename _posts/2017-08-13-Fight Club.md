@@ -15,39 +15,7 @@ j'ai décidé de le lire.
 C'est intrigant, l'écriture et la narration sont bougrement efficaces,
 le propos laisse difficilement indifférent,… Génial !
 
-::: {addspoiler"=""}
-[Afficher « Résumé »](){onclick=""
-javascript:this.parentnode.childnodes[0].style.display="none"
-;this.parentnode.childnodes[1].style.display=""
-;this.parentnode.childnodes[2].style.display="" ;return="" false;"=""
-#"=""}[Masquer « Résumé »](){style="" display:none;"="" onclick=""
-this.parentnode.childnodes[0].style.display=""
-;this.parentnode.childnodes[1].style.display="none"
-;this.parentnode.childnodes[2].style.display="none" ;return=""
-false;"="" #"=""}
+Résumé : La première règle du Fight Club est : il est interdit de parler du Fight Club.
 
-::: {style="" display:none;"=""}
-La première règle du Fight Club est : il est interdit de parler du Fight
-Club.
-:::
-:::
-
-::: {addspoiler"=""}
-[Afficher « Si vous souhaitez plus de détails »](){onclick=""
-javascript:this.parentnode.childnodes[0].style.display="none"
-;this.parentnode.childnodes[1].style.display=""
-;this.parentnode.childnodes[2].style.display="" ;return="" false;"=""
-#"=""}[Masquer « Si vous souhaitez plus de détails »](){style=""
-display:none;"="" onclick=""
-this.parentnode.childnodes[0].style.display=""
-;this.parentnode.childnodes[1].style.display="none"
-;this.parentnode.childnodes[2].style.display="none" ;return=""
-false;"="" #"=""}
-
-::: {style="" display:none;"=""}
-La deuxième règle du Fight Club est : il est interdit de parler du Fight
-Club.
-:::
-:::
-
+Pour plus de détails : La deuxième règle du Fight Club est : il est interdit de parler du Fight Club.
 

@@ -7,10 +7,8 @@ title: "Le Cycle de Fondation, tome 5 : Terre et Fondation"
 
 ![couverture](/assets/images/couv_lecture/fondation5.webp){: width="120" } **de Isaac Asimov** : Terre en vue…
 
-Dans l’avant propos, l’auteur explique les raisons qui l\'ont poussé à
-écrire les tomes 4 et 5. Comme me le signalait [dd](){dc2=""
-index.php?post="" 2011="" 02="" 12=""
-le-cycle-de-fondation-tome-4-%3a-fondation-foudroyee#c9474"=""} les
+Dans l’avant propos, l’auteur explique les raisons qui l’ont poussé à
+écrire les tomes 4 et 5. Comme on me l’a signalé, les
 détails révélés dans le tome 4 qui me laissaient penser que l’auteur
 avait tout prévu depuis le début ne sont en fait pas du tout prémédités.
 Le cycle de fondation était initialement terminé à la fin de la

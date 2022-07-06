@@ -9,31 +9,27 @@ title: "La démocratie des crédules"
 
 Comprendre les biais cognitifs, décortiquer les croyances
 irrationnelles,… voilà qui me semble passionnant. Pour en apprendre
-toujours plus sur le sujet, je ne manque pas de sources : [Spline
-LND](){https:="" www.youtube.com="" channel=""
-ucldmnkqdctphvvz8andbf5a"=""}, [Hygiène mentale](){https:=""
-www.youtube.com="" channel="" ucmfcmhepnh4onvht2-itpzw"=""},
-[Pharmachien](){http:="" lepharmachien.com"=""}, [Tronche en
-biais](){http:="" menace-theoriste.fr="" la-tronche-en-biais=""
-"=""}, [James Randi](){https:="" fr.wikipedia.org="" wiki=""
-james_randi"=""}, [Aude WTFake](){https:="" www.youtube.com=""
-channel="" uc8ux-loyexeioyq4lfzpbxw"=""}, [Curiologie](){http:=""
-curiologie.fr"=""}, [Lanterne Cosmique](){https:=""
-www.youtube.com="" user="" lanternecosmique"=""}, [Observatoire
-Zététique](){http:="" www.zetetique.fr"=""}, [Un Monde
-Riant](){https:="" www.youtube.com="" channel=""
-uc8t_vtz76wusudvxpk6slew"=""}, toutes les vidéos disponibles sur
-[Skeptikón](){https:="" skeptikon.fr"=""}… et pourtant j'avais très
+toujours plus sur le sujet, je ne manque pas de sources :
+[Spline LND](https://www.youtube.com/channel/UCLdmnkqdcTPHvVZ8aNdbf5A),
+[Hygiène mentale](https://www.youtube.com/channel/UCMFcMhePnH4onVHt2-ItPZw),
+[Pharmachien](http://lepharmachien.com/),
+[Tronche en biais](http://menace-theoriste.fr/la-tronche-en-biais/),
+[James Randi](https://fr.wikipedia.org/wiki/James_Randi),
+[Aude WTFake](https://www.youtube.com/channel/UC8Ux-LOyEXeioYQ4LFzpBXw),
+[Curiologie](http://curiologie.fr/),
+[Lanterne Cosmique](https://www.youtube.com/user/lanternecosmique),
+[Observatoire Zététique](http://www.zetetique.fr/),
+[Un Monde Riant](https://www.youtube.com/channel/UC8T_vTz76WUsudvxPk6SLEw),
+toutes les vidéos disponibles sur [Skeptikón](https://skeptikon.fr/)…
+et pourtant j'avais très
 envie d'ajouter à cette longue liste un bon livre sur le sujet.
 
-J'avais été très intéressé par le séminaire de Gérald Bronner «[ Les
-théories du complot](){https:="" www.youtube.com=""
-watch?v="RysB0dRc8RA""} » il y a quelque temps, mais je l'avais
+J'avais été très intéressé par le séminaire de Gérald Bronner
+« [Les théories du complot](https://www.youtube.com/watch?v=RysB0dRc8RA) »
+il y a quelque temps, mais je l'avais
 étrangement plus ou moins oublié jusqu'à ce que je le retrouve en
-regardant « [Négociation intellectuelle avec le monde](){https:=""
-www.youtube.com="" watch?v="iA8M8jsfGps""} », extrait du documentaire
-« [Les lois de l'attraction mentale](){https:="" www.youtube.com=""
-watch?v="2fmdvr4evBE""} »). En l'écoutant, j'ai pensé qu'il serait
+regardant « [Négociation intellectuelle avec le monde](https://www.youtube.com/watch?v=iA8M8jsfGps) », extrait du documentaire
+« [Les lois de l'attraction mentale](https://www.youtube.com/watch?v=2fmdvr4evBE) »). En l'écoutant, j'ai pensé qu'il serait
 intéressant de lire un de ses livres, je n'ai pas été déçu ! « La
 démocratie des crédules » est un essai de sociologie passionnant. Je ne
 sais pas à partir de quel âge il peut être lu, mais il devrait, à mon
@@ -75,4 +71,7 @@ j'aurais aimé avoir adolescent. Très intéressant !
 article avec un fanart perso, cette couverture n'est pas validée par
 l'auteur)
 
-Après coup : https://tranxen.fr/gerald-bronner-sociologue-de-lirrationnel/
+**Après coup** : Si en 2018, j’ai apprécié ma lecture, l’article de blog de Tranxen
+« [Gérald Bronner, sociologue de l’irrationnel](https://tranxen.fr/gerald-bronner-sociologue-de-lirrationnel/) »
+nuance en partie ma vision de l’ouvrage.
+

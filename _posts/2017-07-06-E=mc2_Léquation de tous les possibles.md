@@ -15,7 +15,7 @@ lit extrêmement vite et facilement. Une lecture qui devrait, à mon sens,
 être obligatoire à l'entrée au lycée, un livre qui donne envie d'aimer
 l'histoire des sciences, les scientifiques, la Science.
 
-**Modification du billet (15 octobre 2017)** : Ajout de la vidéo de la
+**Ajout 15 octobre 2017** : La vidéo de la
 conférence de Christophe Galfard à l'espace des sciences :
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/URRNFyDajrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

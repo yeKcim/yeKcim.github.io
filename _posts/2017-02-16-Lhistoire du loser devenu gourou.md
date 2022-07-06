@@ -7,11 +7,9 @@ title: "L'histoire du loser devenu gourou"
 
 ![couverture](/assets/images/couv_lecture/loser-devenu-gourou.webp){: width="120" } **de Romain Ternaux**
 
-Quand j'ai vu ce livre j'ai pensé à [La conjuration des
-imbéciles](){dc2="" index.php?post="" 2006="" 07="" 29=""
-119-la-conjuration-des-imbeciles"=""}, quand je l'ai lu, j'ai pensé à
-[La fascination du pire](){dc2="" index.php?post="" 2007="" 03=""
-167-la-fascination-du-pire"=""}, c'est dire si j'ai été déçu !
+Quand j'ai vu ce livre j'ai pensé à [La conjuration des imbéciles]({% link _posts/2006-07-29-La conjuration des imbéciles.md %}),
+quand je l'ai lu, j'ai pensé à [La fascination du pire]({% link _posts/2007-03-03-La fascination du pire.md %}),
+c'est dire si j'ai été déçu !
 
 Première page, une faute (il manque un « que » dans une phrase), ça
 commence mal, je ne m'arrête évidemment pas pour si peu mais ça ne

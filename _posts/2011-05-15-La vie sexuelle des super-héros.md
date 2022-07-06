@@ -21,9 +21,7 @@ suis donc répété le nom de l’auteur tout le temps du trajet en voiture
 pour au final, une fois chez moi, l’oublier. Nom retrouvé juste au
 moment où je cliquais sur l’ouvrage chez un libraire en ligne…
 
-Juste après avoir lu [le cycle de Fondation](){dc2="" index.php?post=""
-2011="" 03="" 30=""
-le-cycle-de-fondation-tome-5-%3a-terre-et-fondation"=""} dont la
+Juste après avoir lu [le cycle de Fondation]({% link _posts/2011-03-30-Terre et Fondation.md %}) dont la
 narration est quasiment exclusivement basée sur le dialogue, j’ai eu un
 véritable choc en lisant "La vie sexuelle des super-héros" puisque
 le style littéraire est radicalement différent : des paragraphes et des
@@ -34,11 +32,10 @@ comportements des personnages tant leurs façons de penser sont
 détaillées (mention spéciale pour un Batman exceptionnellement gratiné.
 J’ignore pourquoi mais lorsque j’imaginais les premières scènes de ce
 personnage, je visualisais Georges Clooney, tel qu’on peut le voir dans
-"O Brother, Where Art Thou?", c’était un choix de \"\"casting
-mental" plutôt intéressant). Le titre du livre s’explique ici de la
-même façon que dans [La fascination du pire](){dc2="" index.php?post=""
-2007="" 03="" 167-la-fascination-du-pire"=""} (bien qu’ici le roman
-me semble avoir beaucoup plus de profondeur).
+"O Brother, Where Art Thou?", c’était un choix de "casting
+mental" plutôt intéressant). Le titre du livre s’explique ici de la même façon que dans
+[La fascination du pire]({% link _posts/2007-03-03-La fascination du pire.md %})
+(bien qu’ici le roman me semble avoir beaucoup plus de profondeur).
 
 J’ai particulièrement accroché et les éloges des critiques me semblent
 tout à fait justifiées.

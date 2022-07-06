@@ -8,7 +8,7 @@ title: "Le Cycle de Fondation, tome 3 : Seconde Fondation"
 ![couverture](/assets/images/couv_lecture/fondation3.webp){: width="120" } **de Isaac Asimov** : Retournement de situations en cascade.
 
 Jamais un livre n’aura réussi à me surprendre autant par son dénouement
-que **Seconde Fondation**. La première partie consacrée au mulet et sa
+que *Seconde Fondation*. La première partie consacrée au mulet et sa
 recherche de la seconde fondation est pleine de surprises mais c’est
 surtout dans la deuxième partie du livre, où l’on suit les aventures et
 mésaventures du docteur Darell de ses "collègues" et de sa fille

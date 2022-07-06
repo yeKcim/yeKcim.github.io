@@ -16,12 +16,14 @@ attachants : mention particulière pour le père scientifique qui fait
 passer l'évolution de l'espèce avant tout, l'oncle ultra réac qui
 critique mais profite toujours pleinement des découvertes,…
 
-Étant donné que j'ai lu [Pourquoi j'ai mangé mon père]{.underline} après
+Étant donné que j'ai lu *Pourquoi j'ai mangé mon père* après
 avoir lu quelques tomes et vu une bonne centaine d'épisodes de Silex and
 the city, j'étais sûrement moins sensible à l'humour des anachronismes
 préhistoriques que si ma découverte littéraire s'était faite dans
 l'autre sens. Cela ne m'a pas toutefois pas du tout empêché
 d'apprécier…
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7jseLex5F-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Seul point noir du livre, la préface qui comme très souvent, dévoile une
 partie de l'histoire. À lire comme s'il s'agissait d'une postface, comme

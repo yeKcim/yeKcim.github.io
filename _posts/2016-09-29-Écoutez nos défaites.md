@@ -8,11 +8,10 @@ title: "Écoutez nos défaites"
 ![couverture](/assets/images/couv_lecture/ecoutez-nos-defaites.webp){: width="120" } **de Laurent Gaudé** : Au cœur de la
 bataille
 
-Comme dans [Eldorado](){dc2="" index.php?post="" 2011="" 06="" 05=""
-eldorado"=""} et [Le soleil des Scorta](){dc2="" index.php?post=""
-2015="" 11="" 19="" le-soleil-des-scorta"=""}, Lauront Gaudé fait
+Comme dans [Eldorado]({% link _posts/2011-06-05-Eldorado.md %}) et
+[Le soleil des Scorta]({% link _posts/2015-11-19-Le soleil des Scorta.md %}), Lauront Gaudé fait
 s'entrecroiser les récits, son histoire au cœur de l'Histoire. Si un
-livre comme [Écoutez nos défaites]{.underline} est utilisé en complément
+livre comme *Écoutez nos défaites* est utilisé en complément
 d'un manuel scolaire, je pense que l'apprentissage de l'Histoire
 pourrait être très attrayant. Certes, c'est fictif, ne relate pas les
 événements tels qu'ils se sont déroulés mais un tel roman ajoute de
@@ -27,7 +26,7 @@ c'est la troisième fois que je suis bluffé par cette caractéristique de
 ses livres (et j'en ai lu trois).
 
 J'aurais peut-être aimé que l'histoire de Assem Graïeb (le
-"héros") et Mariam (son \"\"amour\"\") soit plus longue, croiser
+"héros") et Mariam (son "amour") soit plus longue, croiser
 un peu plus Job (le "méchant"), que la narration soit plus
 développée, sans forcément en faire un roman d'amour, d'espionnage ou
 d'action, sans forcément rendre le roman caricatural (comme le font mes

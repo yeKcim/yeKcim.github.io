@@ -7,10 +7,7 @@ title: "Les Annales du Disque-Monde : La huitième couleur"
 
 ![couverture](/assets/images/couv_lecture/huitieme-couleur.webp){: width="120" } **de Terry Pratchett** : Séjour touristique sur A’Tuin
 
-Après avoir lu [Mortimer](){dc2="" index.php?post="" 2008="" 04="" 21=""
-207-les-annales-du-disque-monde-mortimer"=""} et [Pyramides](){dc2=""
-index.php?post="" 2006="" 09="" 14=""
-125-les-annales-du-disque-monde-pyramides"=""}, il était temps que je
+Après avoir lu [Mortimer]({% link _posts/2008-04-21-Les Annales du Disque-Monde Mortimer.md %}) et [Pyramides]({% link _posts/2006-09-14-Les Annales du Disque-Monde Pyramides.md %}), il était temps que je
 lise le premier tome des Annales du disque monde.
 
 Dans *La huitième couleur*, le lecteur suit les aventures de Rincevent,
@@ -22,6 +19,6 @@ volumes, le faire visiter par l’intermédiaire d’un touriste farfelu en
 évitant les pages ennuyeuses de description, je suis fan.
 
 Je pense que je ne me lasserai pas de sitôt du Disque-monde, je lirai
-donc sûrement bientôt *Le Huitième Sortilège*.
+donc sûrement bientôt [Le Huitième Sortilège]({% link _posts/2012-09-11-Les Annales du Disque-Monde_Le huitième sortilège.md %}).
 
 

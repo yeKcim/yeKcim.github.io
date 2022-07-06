@@ -20,10 +20,8 @@ bien suivre. On dit qu’un homme averti en vaut deux, apparemment cela a
 été le cas pour moi ici puisque je n’ai jamais été perdu, je n’ai pas
 du tout retrouver de passages pouvant démotiver ma lecture.
 
-Dans les éditions que j’ai achetées de [La guerre des mondes](){dc2=""
-index.php?post="" 2007="" 02="" 01="" 159-la-guerre-des-mondes"=""}
-et de [Peter Pan](){dc2="" index.php?post="" 2008="" 09="" 18=""
-peter-pan"=""} les préfaces dévoilent certains passages importants de
+Dans les éditions que j’ai achetées de [La guerre des mondes]({% link _posts/2007-02-01-La guerre des mondes.md %})
+et de [Peter Pan]({% link _posts/2008-09-20-PeterPan.md %}) les préfaces dévoilent certains passages importants de
 la fin. Ici c’est carrément sur la couverture que Folio SF estime
 pertinent d’écrire « N’espérez pas de happy end ». Tout au long de la
 lecture cette phrase perturbe, intrigue, gène… pourtant elle n’a
@@ -47,10 +45,8 @@ une intrigue bien ficelée et des réflexions sur la dépendance et la
 perte de ses proches, vous obtenez un véritable chef d’œuvre.
 
 En plein milieu de ma lecture, je suis tombé par hasard sur un article
-du [Monde sur l’oxi](){http:="" www.lemonde.fr="" ameriques=""
-article="" 2011="" 06="" 22=""
-pire-que-le-crack-l-oxidado_1539312_3222.html"=""}. J’ai évidemment
-tout de suite fait le parallèle entre la Substance Mort et cette drogue.
+du [Monde sur l’oxi](http://www.lemonde.fr/ameriques/article/2011/06/22/pire-que-le-crack-l-oxidado_1539312_3222.html).
+J’ai évidemment tout de suite fait le parallèle entre la Substance Mort et cette drogue.
 J’ai été particulièrement choqué de constater que la réalité est pire
 encore que la fiction. Morceaux choisis :
 

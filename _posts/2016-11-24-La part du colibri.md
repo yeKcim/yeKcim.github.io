@@ -14,5 +14,4 @@ aimerait y trouver quelques solutions, même seulement sous forme de
 référence. C'est beau, fixe des idées auxquelles j'adhère complètement,
 c'est agréable, un livre que j'aurais bien envie d'offrir…
 
-
-Après coup : 
+**Après coup** : Une fois qu’on apprend que la fable du colibri n’est pas de Pierre Rabhi, que l’histoire des camions de tomates est douteuse, que Pierre Rabhi est antroposophe, raconte n’importe quoi sur la santé, à des propos homophobes,[…](https://paris-luttes.info/pierre-rabhi-la-caution-morale-et-10552) la poésie disparait.

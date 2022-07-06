@@ -7,12 +7,11 @@ title: "La traversée du Miroir et ce qu'Alice trouva de l'autre côté"
 
 ![couverture](/assets/images/couv_lecture/alice_miroir.webp){: width="120" } **de Lewis Carroll** : Traduction de Laurent Bury.
 
-L’introduction du livre, qui n’est autre qu\'une biographie de
+L’introduction du livre, qui n’est autre qu’une biographie de
 l’auteur, est particulièrement intéressante, je vous conseille vivement
 de la lire.
 
-J’ai [déjà lu Alice au pays des merveilles](){dc2="" index.php?post=""
-2010="" 04="" 06="" alice-au-pays-des-merveilles"=""}, c’est un
+J’ai [déjà lu Alice au pays des merveilles]({% link _posts/2010-04-07-Alice au pays des merveilles.md %}), c’est un
 livre que j’ai particulièrement apprécié. La version que j’avais lue
 était la traduction de Jean-Pierre Berman. Je n’avais pas été
 particulièrement choqué par la traduction. Avant de lire la traversée du
@@ -20,7 +19,7 @@ Miroir, je n’ai pas pu m’empêcher de relire le premier volet des
 aventures d’Alice, surtout que dans la « note sur la traduction »,
 Laurent Bury explique qu’il a énormément travaillé sur les poèmes. Lors
 de cette deuxième lecture, les poèmes m’ont en effet semblé plus
-clairs, mais peut-être est-ce dû au fait qu’il s’agit là d\'une
+clairs, mais peut-être est-ce dû au fait qu’il s’agit là d’une
 nouvelle lecture. Là où le traducteur m’a complètement perdu, c’est au
 chapitre 11 quand il remplace « Qui a volé les tartes ? » par « Qui a
 volé le beurre ? ». Alice aurait léché le beurre car elle le trouvait
@@ -46,7 +45,7 @@ chapitre et l’étrange examen dans « La reine Alice ». J’ai toutefois
 été moins emballé par ces aventures, peut-être parce que les personnages
 du premier volet m’étaient plus familiers, un peu comme des amis que
 l’on connait depuis l’enfance. Lors de ma lecture de « La traversée du
-Miroir et ce qu’Alice trouva de l’autre coté », j\'ai traversé le
+Miroir et ce qu’Alice trouva de l’autre coté », j’ai traversé le
 Miroir avec Alice, j’ai rit, je me suis amusé, je n’ai pas été
 émerveillé.
 

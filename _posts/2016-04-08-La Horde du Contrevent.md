@@ -19,6 +19,8 @@ la route, mieux, plusieurs de ses personnages émettent différentes
 hypothèses sur l'origine du vent (j'ai adoré « vent dû au déplacement
 d'un vaisseau ») et toutes ces cosmogonies ainsi créées sont viables.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1DV1-LHKtW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Les cinquante premières pages m'ont semblées complexes à lire puis je me
 suis sûrement fait aux styles littéraires (oui, au pluriel) : les
 narrateurs sont vraiment très nombreux et chacun à son propre style !
@@ -39,6 +41,10 @@ Perec), toujours est-il que si c'est l'un ou l'autre, c'est réussi.
 À la lecture de ce roman, j'ai pensé que Alain Damasio est un très bon
 auteur. J'ai ensuite pensé qu'il est également un bon orateur et penseur
 lorsque je suis tombé sur cette vidéo :
+
+<p style="text-align:center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cR0T5-a6YTc" frameborder="0" allowfullscreen></iframe>
+</p>
 
 Merci Julien de m'avoir fait lire un auteur aussi génial.
 

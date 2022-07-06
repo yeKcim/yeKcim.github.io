@@ -10,9 +10,10 @@ title: "Le jour des fourmis"
 Intéressant et divertissant. Moins de
 psychologie, plus de Science Fiction que dans le premier tome.
 
-S’il y a une chose que je regrette dans "Le jour des fourmis",
-c’est que l’insecte y perd ce qui les rendaient intéressants dans le
-premier. Les fourmis sont humanisées. De cette façon le lecteur
+S’il y a une chose que je regrette dans *Le jour des fourmis*,
+c’est que l’insecte y perd ce qui les rendaient intéressants dans
+[le premier)({% link _posts/2006-01-07-Les fourmis.md %}).
+Les fourmis sont humanisées. De cette façon le lecteur
 s’attache certainement plus aux fourmis que dans le premier mais il
 perd à mon sens un point de comparaison important, une façon de
 réfléchir qui diffère de ce dont il a l’habitude. L’enquête policière
@@ -21,7 +22,7 @@ policière est faite du coté des humains (chose somme toute plus
 classique), les fourmis de leur coté, partent en croisade.
 
 Si les « Fourmis » sont considérés comme des livres de Science Fiction
-je pense que le premier l’est beaucoup moins que le second, ce dernier
+je pense que le premier l’est beaucoup moins que le deuxième,
 étant moins basé sur la réflexion et plus sur le suspens. Très
 divertissant, j’aurais aimé retrouvé autant de psychologie que dans le
 premier, mais après tout, le but de Weber n’était certainement pas de

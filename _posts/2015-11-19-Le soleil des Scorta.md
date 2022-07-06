@@ -8,8 +8,7 @@ title: "Le soleil des Scorta"
 ![couverture](/assets/images/couv_lecture/soleil_scorta.webp){: width="120" } **de Laurent Gaudé** : Un livre
 qui rend plus humain
 
-J'ai lu [Eldorado](){dc2="" index.php?post="" 2011="" 06="" 05=""
-eldorado"=""} en 2011, il m'avait bouleversé. Je viens de finir « Le
+J'ai lu [Eldorado]({% link _posts/2011-06-05-Eldorado.md %}) en 2011, il m'avait bouleversé. Je viens de finir « Le
 soleil des Scorta », je me suis pris encore une énorme claque.
 
 Pour moi, Laurent Gaudé est vraiment un génie de l'empathie.

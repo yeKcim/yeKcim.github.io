@@ -24,7 +24,7 @@ Dans cet ouvrage, la morale n’est pas énoncée comme dans les Fables de
 La Fontaine, pourtant elle est parfaitement claire. L’Histoire, la
 dictature, la manipulation des masses, la propagande… autant de
 sujets repris 3 ans plus tard dans la plus importante œuvre de Georges
-Orwell : 1984.
+Orwell : [1984]({% link _posts/2005-09-29-1984.md %}).
 
 J’ai dévoré *La ferme des animaux*, j’y ai apprécié les personnages
 "hauts en couleurs" (mention spéciale pour Benjamin, l’âne qui a

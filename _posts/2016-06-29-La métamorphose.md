@@ -8,9 +8,6 @@ title: "La métamorphose"
 ![couverture](/assets/images/couv_lecture/metamorphose.webp){: width="120" } **de Franz Kafka** : La petite bête qui
 monte, qui monte… et me trotte dans la tête.
 
-**« [La métamorphose](){https:="" fr.wikipedia.org="" wiki=""
-la_m%c3%a9tamorphose"=""} » 
-
 J'ai lu cette nouvelle il y a six mois. Six mois, c'est le temps qu'il
 m'a fallu pour déterminer si j'ai aimé « La Métamorphose ». Elle se lit
 vite et simplement, l'histoire vous trotte dans la tête un moment. Sur
@@ -27,11 +24,10 @@ en choisissant ce titre, toujours est-il que la deuxième est
 particulièrement bien écrite et cette description de l'humanité fait
 froid dans le dos et semble hélas parfaitement réaliste…
 
-C'est le deuxième texte de Kafka que je lis ([le procès](){dc2=""
-index.php?post="" 2013="" 08="" 29="" le-proces"=""} il y a quelques
+C'est le deuxième texte de Kafka que je lis ([le procès]({% link _posts/2013-08-29-Le proces.md %})
+il y a quelques
 temps), j'ai été bien plus déconcerté par ce texte court. Vous pouvez
-trouver le texte gratuitement sur [ebooks libres et gratuits](){http:=""
-www.ebooksgratuits.com="" details.php?book="397""} (je ne sais pas
+trouver le texte gratuitement sur [ebooks libres et gratuits](http://www.ebooksgratuits.com/details.php?book=397) (je ne sais pas
 par qui la traduction est faite), si vous souhaitez vous faire votre
 propre opinion.
 

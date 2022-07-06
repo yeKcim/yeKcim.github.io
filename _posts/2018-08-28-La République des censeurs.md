@@ -11,10 +11,12 @@ J'ai découvert Jean Bricmont dans la très longue interview « Impostures
 intellectuelles, 20 ans après -- Entretien avec Alan Sokal et Jean
 Bricmont » de la chaîne YouTube Lumières :
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4N04Z-0amII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Ce visionnage n'a pas instantanément développé en moi une envie
 irrépressible de lecture mais l'idée a tranquillement germé et lorsque
 j'ai dû cherché un livre à lire pour les vacances, « La république des
-censeurs  » c'est imposé à moi comme une évidence.
+censeurs » c'est imposé à moi comme une évidence.
 
 Dévoré en très peu de temps, l'ouvrage c'est avéré particulièrement
 intéressant. Il est aisé de défendre la liberté d'expression pour ceux

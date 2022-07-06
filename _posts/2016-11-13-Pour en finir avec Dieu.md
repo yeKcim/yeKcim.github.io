@@ -5,7 +5,7 @@ date: 2016-11-13 13:47:00
 title: "Pour en finir avec Dieu"
 ---
 
-![couverture](/assets/images/couv_lecture/finir_dieu.webp){: width="120" } **de Richard Dawkins** : J'ai trouvé ma bible
+![couverture](/assets/images/couv_lecture/finir_dieu.webp){: width="120" } **de Richard Dawkins**
 
 Quand je lis les trames principales des 3 ou 4 derniers « Notes » de
 Boulet, j'ai la sensation de lire ce que mon esprit tentait de mettre au
@@ -34,8 +34,9 @@ burqa qui est une ode passionnante à la science et la recherche de
 connaissance. C'est un livre à lire, à relire, à dévorer.
 
 J'ai eu envie de lire ce livre suite au visionnage de la [conférence TED
-de Richard Dawkins](){https:="" www.ted.com="" talks=""
-richard_dawkins_on_militant_atheism?language="fr""}. Il s'agit d'une
+de Richard Dawkins](https://www.ted.com/talks/richard_dawkins_on_militant_atheism?language=fr). Il s'agit d'une
 très bonne introduction au livre, je vous la conseille vivement :
 
-
+<p style="text-align:center">
+<iframe src="https://embed.ted.com/talks/lang/fr/richard_dawkins_on_militant_atheism" width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</p>

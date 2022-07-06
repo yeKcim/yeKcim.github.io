@@ -16,17 +16,17 @@ dans les dogmes… je suis donc une cible parfaite pour ce livre. Mais
 le grand roman des maths est loin de pouvoir être réduit uniquement à
 une simple histoire de maths, il s'agit d'une histoire des hommes,
 l'histoire d'une part de notre culture, notre histoire vu à travers le
-prisme des mathématiques. [Le grand roman des maths]{.underline} devrait
+prisme des mathématiques. *Le grand roman des maths* devrait
 être étudié en classe au même titre que la mythologie grecque,
 l'évolution de l'Union Européenne, l'histoire de l'art, Voltaire ou
 Aldous Huxley !
 
 Mickaël Launay est un passionné de mathématiques, vous pouvez le
-découvrir via ses vidéos [MicMaths](){https:="" www.youtube.com=""
-micmaths"=""}. Sur cette chaîne Youtube, vous trouverez un grand
+découvrir via ses vidéos [MicMaths](https://www.youtube.com/micmaths).
+Sur cette chaîne Youtube, vous trouverez un grand
 nombre de vidéos très intéressantes du genre de celle-ci :
 
-\
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LQFkUjYzOn8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Pour ce qui est du livre, voici quelques extraits, parmi de nombreux
 autres, qui m'ont particulièrement intéressé ou intrigué :
@@ -56,5 +56,4 @@ autres, qui m'ont particulièrement intéressé ou intrigué :
 > dieux sans attendre que ceux-ci daignent se manifester d'eux-mêmes. En
 > d'autres termes, les hommes se mirent à imaginer des moyens de créer
 > de l'aléatoire à la demande.
-
 

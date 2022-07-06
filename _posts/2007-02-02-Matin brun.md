@@ -20,12 +20,11 @@ fatidique : Réagirais-je différemment à leur place ?
 Après quelques lignes seulement, je me suis rendu compte que je
 connaissais déjà cette histoire. J’ai décidé de lire ce livre sans
 savoir que j’avais déjà vu un court métrage qui le mettait en scène :
-"[Un beau matin](){http:="" www.cotecourt.org="" html=""
-film.asp?id="1055""}\"\" de Serge Avedikian projeté avant
-[Renaissance](){http:="" www.allocine.fr="" film=""
-fichefilm_gen_cfilm="17344.html""} dans un petit cinéma de quartier
+*Un beau matin* de Serge Avedikian projeté avant le film
+[Renaissance](http://www.allocine.fr/film/fichefilm_gen_cfilm=17344.html)
+dans un petit cinéma de quartier
 (au moment où dans un multiplexe j’aurais eu droit à de nombreux
 courts-métrages sources de réflexion minimum que l’on appelle
 communément publicité)
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SP6fZrxFPMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

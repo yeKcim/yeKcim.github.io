@@ -45,38 +45,23 @@ par ce livre OVNI.
 Folio m'avait déçu avec une préface dévoilant la fin de [La guerre des
 mondes](){dc2="" index.php?post="" 2007="" 02="" 01=""
 159-la-guerre-des-mondes"=""} et avec un message abruti sur la
-couverture de [Substance Mort](){dc2="" index.php?post="" 2011="" 06=""
-29="" substance-mort"=""}. Flammarion est également adepte de la
-préface spoil pour [Peter Pan](){dc2="" index.php?post="" 2008="" 09=""
-18="" peter-pan"=""}. Cette fois c'est « J'ai lu » qui souhaite
+couverture de [Substance Mort]({% link _posts/2011-06-29-Substance Mort.md %}).
+Flammarion est également adepte de la préface spoil pour
+[Peter Pan](% link _posts/2008-09-20-PeterPan.md %). Cette fois c'est « J'ai lu » qui souhaite
 démontrer qu'il est loin d'être aussi respectueux des œuvres que la
-reine Zabo ou [Zones sensibles](){http:="" www.zones-sensibles.org=""
-"=""} dont j'ai acheté deux exemplaires de leur magnifique édition de
-[Flatland](){dc2="" index.php?post="" 2014="" 06="" 28=""
-flatland"=""}. Que peut-on reprocher à « J'ai lu » pour Cosmopolis ?
+reine Zabo ou [Zones sensibles](http://www.zones-sensibles.org/)
+dont j'ai acheté deux exemplaires de leur magnifique édition de
+[Flatland](% link _posts/2014-06-28-Flatland.md %). Que peut-on reprocher à « J'ai lu » pour Cosmopolis ?
 Un quatrième de couverture contenant des informations sur la fin du
 livre… que c'est con, mais que c'est con ! Cette fois, c'est sous la
 forme d'un extrait de critique :
 
-::: {addspoiler"=""}
-[Afficher « Cliquez si vous souhaitez lire la critique même si elle
-contient un spoil »](){onclick=""
-javascript:this.parentnode.childnodes[0].style.display="none"
-;this.parentnode.childnodes[1].style.display=""
-;this.parentnode.childnodes[2].style.display="" ;return="" false;"=""
-#"=""}[Masquer « Cliquez si vous souhaitez lire la critique même si
-elle contient un spoil »](){style="" display:none;"="" onclick=""
-this.parentnode.childnodes[0].style.display=""
-;this.parentnode.childnodes[1].style.display="none"
-;this.parentnode.childnodes[2].style.display="none" ;return=""
-false;"="" #"=""}
-
-::: {style="" display:none;"=""}
+(si vous voulez vous spoiler, regarder les commentaires dans le code source de cette page)
+<!--
 « Profondément subversif, brillant et captivant (…), Cosmopolis est un
 voyage initiatique dans New York qui s'achève par la mort annoncée et
 rédemptrice d'un homme et d'un système. » L'Express
-:::
-:::
+-->
 
 Parfois, j'ai l'impression que certains éditeurs haïssent leurs
 lecteurs… Je ne vois pas d'autre explication.
@@ -84,9 +69,8 @@ lecteurs… Je ne vois pas d'autre explication.
 Note : Ce n'est pas la première fois que je remarque cela dans un livre,
 l'auteur (ou la traductrice ?) comme beaucoup d'autres donc, pense que
 l'année-lumière est une unité de temps, c'est gênant (c'est une unité de
-distance évidemment). Ce n'est pas aussi con que [démontrer que 1+1=3 en
-développant une équation contenant une division par zéro](){dc2=""
-index.php?post="" 2006="" 03="" 28=""
-78-la-revolution-des-fourmis"=""} mais tout de même, c'est dommage…
+distance évidemment). Ce n'est pas aussi con que
+[démontrer que 1+1=3 en développant une équation contenant une division par zéro](% link _posts/2006-03-28-La révolution des fourmis.md %})
+mais tout de même, c'est dommage…
 
 

@@ -7,8 +7,7 @@ title: "Le Joueur d’échecs"
 
 ![couverture](/assets/images/couv_lecture/joueur-dechecs.webp){: width="120" } **de Stefan Zweig**
 
-Découvert via [Pitche moi un classique](){http:=""
-gift.mercialfred.com="" pitche-moi-un-classique"=""} :
+Découvert via [Pitche moi un classique](http://gift.mercialfred.com/pitche-moi-un-classique) :
 
 > C’est l’histoire d’un mec complètement accro à Candy Crush mais qui
 > a réussi à se désintoxiquer. Il y a tellement joué qu’il n’arrive

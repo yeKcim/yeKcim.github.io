@@ -7,8 +7,7 @@ title: "La fée carabine"
 
 ![couverture](/assets/images/couv_lecture/fee_carabine.webp){: width="120" } **de Daniel Pennac** : Pennac est une drogue !
 
-Après avoir lu [Au bonheur des ogres](){dc2="" index.php?post="" 2013=""
-12="" 25="" au-bonheur-des-ogres"=""}, il était assez logique de
+Après avoir lu [Au bonheur des ogres]({% link _posts/2013-12-25-Au bonheur des ogres.md %}), il était assez logique de
 continuer la saga Malaussène… J'aime vraiment le style de Daniel
 Pennac, il est certainement l'auteur dont j'apprécie le plus l'écriture,
 avec Terry Pratchett.

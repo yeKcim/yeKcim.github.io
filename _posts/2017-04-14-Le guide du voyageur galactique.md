@@ -20,9 +20,7 @@ chose que d'avoir tant attendu pour les découvrir.
 Je viens de finir Le guide du voyageur galactique, ça n'a pas raté,
 c'est très bon !
 
-[![](){dc2="" public="" pouet_adams.png"="" style=""
-display:block;="" margin:0="" auto;"="" pouet_adams.png,="" avr.=""
-2017"=""}](){https:="" framapiaf.org="" @yekcim"=""}
+[![couverture](/assets/images/pouet_adams.webp)](https://framapiaf.org/@yekcim)
 
 Un bon bouquin de SF burlesque, efficace, prenant, absurde, drôle,…
 

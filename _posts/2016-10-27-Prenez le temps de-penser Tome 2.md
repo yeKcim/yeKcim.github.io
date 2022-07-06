@@ -7,9 +7,7 @@ title: "Prenez le temps d'e-penser − Tome 2"
 
 ![couverture](/assets/images/couv_lecture/epenser2.webp){: width="120" } **de Bruce Benamran** : Remplit la tête sans la prendre (tome 2)
 
-Ce tome 2 est clairement la continuité du [premier tome](){dc2=""
-index.php?post="" 2016="" 07="" 01=""
-prenez-le-temps-d%e2%80%99e-penser-%e2%88%92-tome-1"=""}, le lire
+Ce tome 2 est clairement la continuité du [premier tome]({% link _posts/2016-07-01-Prenez le temps de-penser Tome 1.md %}), le lire
 directement est faisable si vous avez des connaissances en physique mais
 je pense qu'il est plus intéressant de considérer l'ensemble comme un
 livre unique. Les sujets abordés vont du big bang à la mécanique
@@ -34,8 +32,7 @@ trouveront dans ce livre une très bonne introduction à leurs cours de
 physique.
 
 Si vous ne connaissez pas Bruce Benamran, regardez une vidéo de sa page
-Youtube [e-penser](){https:="" www.youtube.com="" user=""
-epenser1"=""}, puis une deuxième et ainsi de suite jusqu'à ce que
+Youtube [e-penser](https://www.youtube.com/user/epenser1), puis une deuxième et ainsi de suite jusqu'à ce que
 vous soyez devenu suffisamment éclairé pour avoir envie de les regarder
 toutes sans suivre cette directive.
 

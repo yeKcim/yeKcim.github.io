@@ -39,9 +39,8 @@ statue en l'honneur de Julie et son extrême beauté (toujours aussi belle
 et volontaire, j'aime Julie…).
 
 Au début du roman, mon inculture m'a obligé à chercher des informations
-sur deux personnes : [Alexander Sutherland Neill](){https:=""
-fr.wikipedia.org="" wiki="" alexander_sutherland_neill"=""} et [Henri
-Désiré Landru](){https:="" fr.wikipedia.org="" wiki=""
-henri_d%c3%a9sir%c3%a9_landru"=""}.
+sur deux personnes :
+[Alexander Sutherland Neill](https://fr.wikipedia.org/wiki/Alexander_Sutherland_Neill)
+et [Henri Désiré Landru](https://fr.wikipedia.org/wiki/Henri_D%C3%A9sir%C3%A9_Landru).
 
 

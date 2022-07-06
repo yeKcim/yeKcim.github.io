@@ -15,7 +15,8 @@ protagonistes vont faire la rencontre d’une jolie tailleuse. Avides de
 connaissances, les trois adolescents liront des œuvres européennes
 (interdites par le régime) fraîchement dérobées…
 
-Juste après avoir lu Fahrenheit 451, il est intéressant de voir que les
+Juste après avoir lu [Fahrenheit 451]({% link _posts/2006-04-26-Fahrenheit 451.md %}),
+il est intéressant de voir que les
 autodafés de livres ne sont pas forcément de la science fiction, car
 même si "Balzac et la petite tailleuse chinoise\"\" est un roman, il
 nous plonge dans une expérience édifiante de la fin des années 60 : Le

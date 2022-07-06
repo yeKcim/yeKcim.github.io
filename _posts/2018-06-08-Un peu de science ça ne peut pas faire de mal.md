@@ -58,8 +58,8 @@ intelligemment à ne pas me laisser avoir par les discours simplistes,
 cela montre peut-être que le livre réussit fort bien à éveiller son
 lecteur.
 
-Merci Hubert Krivine ([de m'avoir donné envie de le lire](){http:=""
-www.pseudo-sciences.org="" spip.php?article2970"=""}), merci Aurélie
-et Samuel de me l'avoir offert.
+Merci Hubert Krivine
+([de m'avoir donné envie de le lire](http://www.pseudo-sciences.org/spip.php?article2970)),
+merci Aurélie et Samuel de me l'avoir offert.
 
 

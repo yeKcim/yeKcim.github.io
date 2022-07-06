@@ -20,22 +20,21 @@ reste surpris par l'attitude d'enfants censés apprendre la religion
 catholique et ses principes, qui restent seulement par appât du gain.
 
 Je suis athée. J'ai, de manière générale, une démarche de sceptique. À
-mon sens, une vidéo comme « [Comment Tester le Paranormal avec la
-Science ?](){https:="" www.youtube.com="" watch?v="pyj6ysoUBNw""} »
-d'« [Hygiène Mentale](){https:="" www.youtube.com="" channel=""
-ucmfcmhepnh4onvht2-itpzw"=""} » est une source d'inspiration.
+mon sens, une vidéo comme « [Comment Tester le Paranormal avec la Science ?](https://www.youtube.com/watch?v=pyj6ysoUBNw) »
+d'« [Hygiène Mentale](https://www.youtube.com/channel/UCMFcMhePnH4onVHt2-ItPZw) » est une source d'inspiration.
 
 Je tente d'être tolérant envers les croyances d'autrui mais j'ai souvent
 du mal a rester curieux tant les arguments me semblent parfois aberrants
 ou mal construits, quel que soit le domaine : l'astrologie, la voyance,
 les extraterrestres, le vaudou, la télépathie, les chemtrails, la
 téléportation (non quantique), les voyages dans le temps, les fantômes
-ou la religion. J'ai un réel besoin d'arguments pas d'un stupide « [La
-science n'explique pas tout](){https:="" ploum.net=""
-la-science-na-pas-reponse-a-tout="" "=""} ». Je découvre, après
+ou la religion. J'ai un réel besoin d'arguments pas d'un stupide
+« [La science n'explique pas tout](https://ploum.net/la-science-na-pas-reponse-a-tout/) ».
+Je découvre, après
 rédaction de cet article, au moment d'ajouter les liens, l'épisode
-[L'ouverture d’esprit et ses limites](){https:="" www.youtube.com=""
-watch?v="wtJwVZGuiOY""} qui résume très bien ce que je pense :
+[L'ouverture d’esprit et ses limites](https://www.youtube.com/watch?v=wtJwVZGuiOY) qui résume très bien ce que je pense :
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wtJwVZGuiOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Mais la religion est certainement plus complexe à analyser et discuter
 car il ne s'agit pas seulement de croyance, elle est liée à une façon de
@@ -88,8 +87,8 @@ très inspirant.
 > est possible de procéder à leur intégration parmi ses dieux à soi. Il
 > s'agit toutefois d'un processus qui implique de l'intérêt, de la
 > curiosité pour les autres dieux, ainsi qu'une volonté de « savoir ».
-> En pays monothéiste, au contraire − hormis l'attitude des esprits
-> ouverts et éclairés −, non seulement les autres dieux ne soulèvent ni
+> En pays monothéiste, au contraire −- hormis l'attitude des esprits
+> ouverts et éclairés -−, non seulement les autres dieux ne soulèvent ni
 > curiosité, ni désir de savoir, mais au contraire, ils suscitent
 > généralement un sentiment d'indifférence ou de supériorité, quand ils
 > ne sont pas condamnés. \[…\] ma femme, qui est chinoise, a pu
@@ -121,5 +120,3 @@ appuyée que le reste.
 
 L'édition « Les belles lettres » est très correcte. À 14 € pour un
 format poche, une édition se doit de l'être.
-
-

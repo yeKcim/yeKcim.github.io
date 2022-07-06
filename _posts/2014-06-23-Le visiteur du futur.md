@@ -2,11 +2,10 @@
 layout: post
 categories: ["Lecture"]
 date: 2014-06-23 21:49:00
-title: "Le visiteur du futur -- La meute -- 1 -- Après l'heure, c'est plus l'heure"
+title: "Le visiteur du futur − La meute − 1 − Après l'heure, c'est plus l'heure"
 ---
 
-![couverture](/assets/images/couv_lecture/visiteur_futur_1.webp){: width="120" } **de Slimane-Baptiste Berhoun** : Un titre
-plus long est considéré comme un roman.
+![couverture](/assets/images/couv_lecture/visiteur_futur_1.webp){: width="120" } **de Slimane-Baptiste Berhoun**
 
 J'aime beaucoup l'univers du visiteur du futur, tout simplement parce
 que c'est fun. Après la saison 4, si on veut en connaître plus sur le
@@ -25,9 +24,9 @@ drôle. Énormément de méta-humour très bien pensé, un régal. Si j'aime
 Pennac ou Pratchett, c'est pour leurs écritures particulières, pas
 seulement pour leurs histoires. Pour quelqu'un comme moi, cette première
 partie est donc une véritable dose de cocaïne offerte à la sortie de
-l'école. Oui, parce que la première partie est gratuite, [téléchargeable
-sur le site du visiteur](){http:="" www.levisiteurdufutur.com=""
-news-154-le-visiteur-du-futur-la-suite.html"=""}, mais pour la suite
+l'école. Oui, parce que la première partie est gratuite,
+[téléchargeable sur le site du visiteur](http://www.levisiteurdufutur.com/news-154-le-visiteur-du-futur-la-suite.html),
+mais pour la suite
 il faudra payer. Bah, maintenant que je suis accro… Pour être honnête,
 je pense qu'offrir cette première partie est une très bonne idée car
 cela permet d'apprécier la qualité d'écriture de Slimane. J'aimerais

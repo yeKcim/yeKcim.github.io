@@ -7,8 +7,8 @@ title: "Frankenstein ou le Prométhée moderne"
 
 ![couverture](/assets/images/couv_lecture/frankenstein.webp){: width="120" } **de Mary Shelley** : Connaître ses classiques…
 
-Après ma lecture du [Procès de Kafka](){dc2="" index.php?post="" 2013=""
-08="" 29="" le-proces"=""}, j’ai voulu télécharger quelques livres
+Après ma lecture du [Procès de Kafka]({% link _posts/2013-08-29-Le proces.md %}),
+j’ai voulu télécharger quelques livres
 numériques pour les emporter avec moi dans le car. Parmi la liste des
 livres libres de droit qui étaient disponibles directement dans
 FBReader, il y en a un qui m’attirait particulièrement :
@@ -31,9 +31,9 @@ ma lecture.
 Frankenstein, je connaissais évidemment l’image du savant fou dans son
 manoir qui donne vie, un soir d’orage, à un monstre peu loquasse avec
 un gros boulon dans la tête. J’avais vu également (il y a pas loin de
-20 ans, déjà !?) la [version de Kenneth Branagh avec Robert De
-Niro](){http:="" www.allocine.fr="" film=""
-fichefilm_gen_cfilm="11324.html""},… bref, je connaissais quelques
+20 ans, déjà !?) la
+[version de Kenneth Branagh avec Robert De Niro](http://www.allocine.fr/film/fichefilm_gen_cfilm=11324.html),…
+bref, je connaissais quelques
 versions du mythe. Toutefois, lors de ma lecture, je n’ai jamais eu
 l’impression d’avoir été victime préalablement d\'un spoil. J\'ai été
 même très agréablement surpris de constater que les personnages sont
