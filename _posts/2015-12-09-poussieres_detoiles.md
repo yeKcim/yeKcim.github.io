@@ -5,11 +5,7 @@ date: 2015-12-09 23:18:00
 title: "Poussières d'étoiles"
 ---
 
-![couverture](/assets/images/couv_lecture/poussieres.webp){: width="120" } **de Hubert Reeves** : Du silence éternel des espaces infinis
-à l'homme, l'histoire d'un agglomérat de poussières d'étoiles.
-
-](){http:=""
-www.hubertreeves.info"=""}**
+![couverture](/assets/images/couv_lecture/poussieres.webp){: width="120" } **de Hubert Reeves** : Du silence éternel des espaces infinis à l'homme, l'histoire d'un agglomérat de poussières d'étoiles.
 
 Après avoir passé plus de quinze ans dans la section « Livres à lire »
 de ma bibliothèque, il était vraiment temps d'ouvrir « Poussières
