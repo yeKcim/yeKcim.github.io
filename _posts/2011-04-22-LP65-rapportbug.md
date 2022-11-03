@@ -7,7 +7,7 @@ title: "Rapport de bug, demande de fonctionnalité dans Linux Pratique 65 (Mai-J
 
 Actuellement chez votre marchand de journaux, [Linux Pratique 65](http://www.linux-pratique.com/index.php/2011/04/22/linux-pratique-n%C2%B065-maijuin-2011-chez-votre-marchand-de-journaux).
 
-[![couverture](/assets/images/articles/LP65_couv.webp)](http://www.linux-pratique.com/index.php/2011/04/22/linux-pratique-n%C2%B065-maijuin-2011-chez-votre-marchand-de-journaux)
+[![couverture](/assets/images/articles/LP65-couv.webp)](http://www.linux-pratique.com/index.php/2011/04/22/linux-pratique-n%C2%B065-maijuin-2011-chez-votre-marchand-de-journaux)
 
 Ce numéro est clos par un article sur ce qu’il faut faire ou ne pas
 faire lorsque l’on souhaite rapporter un bug ou faire une demande de
