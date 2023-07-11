@@ -29,6 +29,6 @@ Et surtout, deux ou trois fois dans le roman, des scènes plus ou moins sensuell
 
 J’ai eu un peu peur au début de ma lecture car le personnage principal, un amoureux très possessif, est tombé amoureux uniquement car elle est belle, il se fout de la réciprocité des sentiments, il est parfois inutilement agressif… bref, il est pénible et jamais son comportement n’est critiqué. J’ai fini par m’y faire, en particulier car il n’est finalement pas très important pour l’intrigue. Les personnages principaux sont un couple de pseudo Roméo et Juliette entêtés et pas suffisamment caractérisés à mon goût pour qu’on s’attache vraiment à eux. Ils sont définis par leur amour mutuel et uniquement ainsi.
 
-« La nuit des temps » est un peu simpliste mais son message un peu idéaliste, anti-nationaliste et pacifiste est touchant. Certains personnages secondaires sont caricaturaux mais attachants. Le message est un peu niais mais touchant.
+« La nuit des temps » est un peu simpliste mais son message un peu idéaliste, anti-nationaliste et pacifiste est touchant. Certains personnages secondaires sont caricaturaux mais attachants. Le message est parfois un peu simplet mais touchant. Quelques bonnes idées (sur la surveillance généralisée par exemple).
 
 J’ai découvert après ma lecture que « La nuit des temps » ressemble beaucoup trop à « La Sphère d'or » de Erle Cox pour que ce soit une simple coïncidence, cela me laisse d’autant plus dubitatif.
