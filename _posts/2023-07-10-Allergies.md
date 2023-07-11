@@ -11,6 +11,8 @@ J'ai des allergies depuis mes 6 ans et elles ne me gênent plus du tout depuis s
 
 Voici le protocole que je suis personnellement et que j’ai mis quelques années à trouver à force de rencontres allergologues/pharmaciens/médecins. Cette liste ne vaut pas prescription, il s’agit de ce que j’applique pour moi, je ne suis ni médecin ni allergologue, je ne vous connais pas, je ne connais pas vos antécédents médicaux. C’est donc un ensemble qui fonctionne très bien pour moi et au moins 3 ou 4 personnes à qui je l’ai indiqué mais c’est à discuter obligatoirement avec un médecin, d’ailleurs plusieurs points ne sont disponibles que par ordonnance (et c’est tant mieux).
 
+### Les médicaments de base
+
 1. Bilastine. Au couché (car à prendre éloigné des repas (surtout pas avec du jus d'orange ou truc acide). J'ai essayé la disloratadine (aerius, xyzall) et j'ai galéré des années avec l'impression de ne rien prendre, c’est pour moi le point le plus important, le Bilaska a clairement changé ma vie (de mai à juillet).
 
 2. Avamys. C'est le spray nasal. Je le prends au levé (mais je ne sais pas si c’est important matin ou soir). Par rapport aux autres sprays celui-ci est très diffus, ça évite d'avoir envie de se moucher juste après avoir mis un spray karsher
@@ -18,6 +20,8 @@ Voici le protocole que je suis personnellement et que j’ai mis quelques année
 3. Chromadose. Au lever (pareil, peut-être que ça peut-être fait le soir, moi je préfère au lever…) ou en cas de gêne. 3 ou 4 gouttes dans chaque œil. Je le fais tous les matins pendant 1 ou 2 semaines et une fois de temps en temps sur le reste du printemps.
 
 Pour ces 3 premiers points il est important d'être rigoureux, se faire une routine, pas prendre ça quand on y pense ou parce qu'on est déjà en plein dans une crise. C'est un traitement qui nécessite un peu de temps pour agir, pas 5 minutes.
+
+### Les conseils complémentaires
 
 4. Sèche-linge. Si le linge est étendu dehors on passe toute sa journée avec des allergènes sur soi. C'est surtout très important pour les draps et taies d'oreillers. Si vous avez de la place pour étendre à l’intérieur, vous pouvez éviter le sèche-linge.
 
