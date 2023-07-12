@@ -23,7 +23,7 @@ Toutefois, certains points m’empêchent de comprendre ce qui a rendu « La n
 
 Lorsque Barjavel décrit son héroïne, il force sur le côté érotique, de façon très pataude ! Elle est toujours nue, c’est d’ailleurs précisé une bonne dizaine de fois (20 fois "sein" dans le roman, des termes particulièrement fleuris pour le sexe féminin, toujours gratuitement). Peut-être qu’à l’époque où le roman a été écrit c’était quelque chose d’original, je ne sais pas du tout, mais en tant que lecteur de 2023, ça me semblait très forcé.
 
-Et surtout, deux ou trois fois dans le roman, des scènes plus ou moins sensuelles sont incroyablement… cucul la praline ! S’en est gênant :
+Et surtout, deux ou trois fois dans le roman, des scènes plus ou moins sensuelles sont incroyablement… cucul la praline ! Ç’en est gênant :
 
 « Sa main coula le long des hanches, le long des cuisses, et toutes les pentes la ramenaient au même point, à la pointe de la courte forêt d'or, à la naissance de la vallée fermée […] Elle s'entrouvrit juste pour laisser la place à la main de se glisser, de chercher, de trouver, à la pointe de la pointe et de la vallée, au confluent de toutes les pentes, protégé, caché, couvert, ah ! … découvert ! le centre brûlant de ses joies. »
 
