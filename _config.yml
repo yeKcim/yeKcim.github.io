@@ -16,3 +16,6 @@ date_format: "%d/%m/%Y"
 
 show_excerpts: true
 excerpt_separator: <!--more-->
+
+plugins:
+  - jekyll-feed
