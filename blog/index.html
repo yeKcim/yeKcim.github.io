@@ -1,0 +1,73 @@
+---
+layout: default
+title: My Blog
+---
+
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+
+  {%- if posts.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+    <ul class="post-list">
+      {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+      {%- for post in posts -%}
+      <li class="post-list-element">
+
+        <span class="post-meta">{{ post.date | date: date_format }} - <strong>{{ post.categories }}</strong></span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        
+		<div class="post-content-truncate">
+		  {% if post.content contains "<!--more-->" %}
+			{{ post.excerpt | split:"<!--more-->" | first }}
+			<span class="readmore"><a href="{{ post.url | relative_url }}">→ Lire la suite</a></span>
+		  {% else %}
+		    <div class="post-content e-content" itemprop="articleBody">
+			    {{ post.excerpt }}
+			</div>
+			
+		  {% endif %}
+		</div>
+
+
+      </li>
+      {%- endfor -%}
+    </ul>
+
+
+  {%- endif -%}
+
+
+
+
+<hr/>
+
+<!-- Pagination links -->
+<div class="pagination" style="text-align:center; font-size:2em;">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      ←
+    </a>
+  {% else %}
+    <span class="previous">←</span>
+  {% endif %}
+  <span class="page_number ">
+    {{ paginator.page }} / {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">→</a>
+  {% else %}
+    <span class="next ">→</span>
+  {% endif %}
+</div>
+
+

@@ -8,4 +8,14 @@
 layout: home
 ---
 
-TODO: Ajouter ici mes projets actuels…
+# Mes pensées en vrac
+
+Là où j’écris des trucs trop long pour les réseaux sociaux, [mon site](/blog/), en vrac…
+
+[![blog](/assets/images/blog.webp){:width="400px"}](/blog)
+
+
+# Dors !
+Le cours métrage que je ne finirai jamais
+
+[![Dors](/assets/images/dors/0004.jpg){:width="400px"}](/graphisme/2021/05/05/Dors.html)
