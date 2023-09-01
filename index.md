@@ -6,6 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+title: yeKcim sur la toile
 ---
 
 ## Mon blabla en vrac
