@@ -8,6 +8,7 @@
 layout: home
 ---
 
+# Mon blabla en vrac
 Là où j’écris des trucs trop long pour les réseaux sociaux, [mon site](/blog/), en vrac…
 
 [![blog](/assets/images/blog.webp){:width="400px"}](/blog)
