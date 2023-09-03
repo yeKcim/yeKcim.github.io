@@ -6,6 +6,16 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+title: yeKcim sur la toile
 ---
 
-TODO: Ajouter ici mes projets actuels…
+## Mon blabla en vrac
+Là où j’écris des trucs trop long pour les réseaux sociaux, [mon site](/blog/), en vrac…
+
+[![blog](/assets/images/blog.webp){:width="400px"}](/blog)
+
+
+## Dors !
+Le cours métrage que je ne finirai jamais
+
+[![Dors](/assets/images/dors/0004.jpg){:width="400px"}](/graphisme/2021/05/05/Dors.html)
