@@ -9,6 +9,8 @@ layout: home
 title: yeKcim sur la toile
 ---
 
+&nbsp;
+
 ## Mon blabla en vrac
 Là où j’écris des trucs trop long pour les réseaux sociaux, [mon site](/blog/), en vrac…
 
@@ -30,6 +32,6 @@ Mon projet en cours : traduction française de [Harry Potter and the Methods O
 
 J’ai aimé [une traduction française](https://www.fanfiction.net/s/6910226/1/Harry-Potter-et-les-M%C3%A9thodes-de-la-Rationalit%C3%A9), constatant quelques fautes, j’ai apporté plus de 1000 corrections.
 
-[![hpmor](/assets/images/dors/hpmor.webp){:width="400px"}](https://github.com/yeKcim/hpmor)
+[![hpmor](/assets/images/hpmor.webp){:width="400px"}](https://github.com/yeKcim/hpmor)
 
 
