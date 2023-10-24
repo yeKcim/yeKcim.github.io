@@ -16,11 +16,14 @@ Là où j’écris des trucs trop long pour les réseaux sociaux, [mon site](/bl
 
 [![blog](/assets/images/blog.webp){:width="400px"}](/blog)
 
+***
 
 ## Dors !
 Le cours métrage que je ne finirai jamais
 
 [![Dors](/assets/images/dors/0004.jpg){:width="400px"}](/graphisme/2021/05/05/Dors.html)
+
+***
 
 ## Harry Potter et les méthodes de la Rationnalité
 - Maîtrise de LaTeX : bof, je tape une équation de temps en temps.
@@ -34,4 +37,10 @@ J’ai aimé [une traduction française](https://www.fanfiction.net/s/6910226/1/
 
 [![hpmor](/assets/images/hpmor.webp){:width="400px"}](https://github.com/yeKcim/hpmor)
 
+***
 
+## Compliqué comme manjaro !
+
+À une époque [mes notes post installation](http://yekubuntu.free.fr) avait inspiré un livre intitulé « Simple comme Ubuntu », comme je suis passé sous Manjaro, j’ai appelé mes notes « Compliqué comme Manjaro »
+
+[![Dors](/assets/images/complique_manjaro.webp){:width="400px"}](https://github.com/yeKcim/complique-comme-manjaro)
