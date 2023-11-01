@@ -26,7 +26,7 @@ Je mets ici mes différentes notes pour l’installation et la configuration de 
 
 ## Achat
 
-Au moment de l’achat le RPi était à un prix effroyable, j’ai voulu me rabattre sur un autre PC fanless. Mais tout ceux que je trouvais avait un ventilateur (fanless ???) ou un prix aussi élevé que le RPi… J’ai donc choisi d’acheter un RPi 4 8Go de Ram, une carte μsd de 128Go et un ZkeeShop Boitier en Aluminium. L’ensemeble me coûte 299,94€ (total provisoire : 325,20€). Je passe commande le 25 janvier vers 1h du matin, je le reçois le 26 janvier !
+Au moment de l’achat le RPi était à un prix effroyable, j’ai voulu me rabattre sur un autre PC fanless. Mais tout ceux que je trouvais avait un ventilateur (fanless ???) ou un prix aussi élevé que le RPi… J’ai donc choisi d’acheter un RPi 4 8Go de Ram, une carte μsd de 128Go et un ZkeeShop Boitier en Aluminium. L’ensemeble me coûte 299,94€ (total provisoire : 325,20€). Je passe commande le 25 janvier vers 1h du matin, je le reçois le 26 janvier ! Si j’avais pu attendre la sortie du Raspberry Pi 5, ça m’aurait coûté bien moins pour de meilleurs performances…
 
 ## Installation HAOS
 
@@ -39,7 +39,11 @@ sudo dd if='/tmp/haos_rpi4-64-9.4.img' of=/dev/sdc bs=256M status=progress && sy
 
 ```
 
-Je mets la carte μsd dans le Rpi, je le branche en ethernet et je l’alimente. Je trouve l’IP via freebox-os et depuis mon PC, dans mon navigateur web : http://192.168.0.41:8123 (les adresse homeassistant.local:8123 et homeassistant:8123 ne fonctionne pas, mon réseau est configuré de façon trop strict ?)
+Je mets la carte μsd dans le Rpi, je le branche en ethernet et je l’alimente. Je trouve l’IP via [freebox-os](http://mafreebox.freebox.fr).
+
+Depuis le navigateur web de mon PC j’accède à HAOS via [http://192.168.0.41:8123](http://192.168.0.41:8123)
+
+Les adresses [homeassistant.local:8123](homeassistant.local:8123) et [homeassistant:8123](homeassistant:8123) ne fonctionnent pas. C’est dommage car ce sont des adresses faciles à retenir, mon réseau est peut-être mal configuré, il faudra que j’investigue.
 
 ## Configuration (onboarding)
 
@@ -64,9 +68,7 @@ J’ajoute sur mon téléphone, l’application [Home Assistant via F-droid](htt
 
 ## Freebox
 
-Je défini une ip fixe pour le Rpi dans le [gestionnaire de ma freebox](http://mafreebox.freebox.fr/)
-
-Ici ce termine la première étape de configuration du Rpi
+Je défini une ip fixe pour le Rpi dans le [gestionnaire de ma freebox](http://mafreebox.freebox.fr/). Ici ce termine la première étape de configuration du Rpi
 
 
 <!--
@@ -82,9 +84,11 @@ Ici ce termine la première étape de configuration du Rpi
 
 ![LYWSD03MMC](/assets/images/domotique/LYWSD03MMC.webp){: width="300" style="display: block; margin: 0 auto"}
 
-20 janvier 2023, achat de 5 thermomètres/hydromètres bluetooth Xiaomi (LYWSD03MMC) 25,26€ (frais de port inclus). Je n’ai pas trouvé de thermomètre/Hydromètre connecté moins cher. Je souhaite les hacker en suivant les indications de [hackaday](https://hackaday.com/2020/11/17/custom-firmware-for-cheap-bluetooth-thermometers/). Il est même possible de directement passer par [une page web pour le hack](https://atc1441.github.io/TelinkFlasher.html) ! Ceci permet d’utiliser ces thermomètres/hydromètres très bon marché sans passer par l’application propriétaire (ce qui me semble important), directement dans home assistant. Par défaut le flux est chiffré. Cette technique m’évite la fabrication de capteur BLE utilisant ESP32/DHT11…
+20 janvier 2023, achat de 5 thermomètres/hydromètres bluetooth Xiaomi (LYWSD03MMC) 25,26€ (frais de port inclus). Je n’ai pas trouvé de thermomètre/Hydromètre connecté moins cher. Je souhaite les "hacker" en suivant les indications de [hackaday](https://hackaday.com/2020/11/17/custom-firmware-for-cheap-bluetooth-thermometers/). Il est même possible de directement passer par [une page web pour le hack](https://atc1441.github.io/TelinkFlasher.html) ! Ceci permet d’utiliser ces thermomètres/hydromètres très bon marché sans passer par l’application propriétaire (ce qui me semble important), directement dans home assistant. Par défaut le flux est chiffré. Cette technique m’évite la fabrication de capteur BLE utilisant ESP32/DHT11…
 
-Le 6 février 2023, je reçois les 5 thermomètres.
+6 février 2023, j’ai reçu les 5 thermomètres.
+
+## Flash du firmware
 
 J’allume le premier et suis [les instructions](https://www.youtube.com/watch?v=NXKzFG61lNs) :
 1. Depuis mon téléphone, via chrome (qui a les autorisations de recherche d’appareils contrairement à mon habituel Firefox), je vais sur la page [TelinkFlasher](https://atc1441.github.io/TelinkFlasher.html)
@@ -93,31 +97,33 @@ J’allume le premier et suis [les instructions](https://www.youtube.com/watch?v
 4. Sélection de LYWSD03MMC, Associer
 5. Attente que la connection est ok (en bas de la page)
 6. « Do activation » Récupération des informations
-7. Pour **1** (chambre parents) :
-	Mi token : 619b56772b******cc23b76
-	Mi Bind Key : 9a0afe132c692f86eb******06429
-	Après flash, devient : ATC_6C9727
-	Mac : AA:BB:CC:DD:EE:FF
-	Après flash, je reconnecte le thermomètre pour mettre "Advertising interval" à 10 minutes pour économiser la batterie
+7. Pour 1️⃣ (chambre parents) :
+	* Mi token : 619b56772b******cc23b76
+	* Mi Bind Key : 9a0afe132c692f86eb******06429
+	* Après flash, devient : ATC_6C9727
+	* Mac : AA:BB:CC:DD:EE:FF
+	* Après flash, je reconnecte le thermomètre pour mettre "Advertising interval" à 10 minutes pour économiser la batterie
 8. Start flashing (après avoir sélectionné le fichier bin)
 9. Il est directement trouvé par Home assistant. Je procède de la même façon pour les autres détecteurs. Le firmware indique de temps en temps, le niveau de batterie, ce qui est une information sympatique… Je les nomme sans les désignations originales (LYWSD03MMC) et préfère « Temp/Humidity [1] 6C9727 », etc
 
-<!-- 7 février, bon, ils sont directement vu par home assistant mais il ne sont pas reconnus comme des détecteurs directement utilisables. Certains sites ([1](https://www.youtube.com/watch?v=l5ea7lQWpMk) ou [2](https://www.youtube.com/watch?v=CWPlFVxNZmc)) indiquent des solutions avec ESPHome (que j’installe ce jour dans mon home assistant), [un autre](https://community.home-assistant.io/t/xiaomi-mi-ble-temp-sensor-not-registering-on-ha/427252) indique [BLE Monitor](https://github.com/custom-components/ble_monitor) ou [Theengs Gateway](https://gateway.theengs.io/).
+Je fais ensuite de même pour 2️⃣,3️⃣,4️⃣ et 5️⃣.
 
-J’essaye ce dernier. Pour cela, j’ajoute son dépot **https://github.com/mihsu81/addon-theengsgw** dans modules complémentaires (☰ → Dépots), il n’apparait qu’après redémarrage de HAOS.
-Clic sur Installer. TheengsGateway apparait ensuite dans "Appareils et services", onglet Appareils. Dans configuration de TheegsGateway, il va falloir trouver les bons paramètres et j’ai bien l’impression que l’extension n’est utilisable que si Mosquitto broker add-on est installé et configuré. Même après avoir installé Mosquitto, je continue à penser que je vais galérer…
+7 février, ils sont directement vu par home assistant mais il ne sont pas reconnus comme des détecteurs directement utilisables.
 
--->
+~~Certains sites ([1](https://www.youtube.com/watch?v=l5ea7lQWpMk) ou [2](https://www.youtube.com/watch?v=CWPlFVxNZmc)) indiquent des solutions avec ESPHome (que j’installe ce jour dans mon home assistant), [un autre](https://community.home-assistant.io/t/xiaomi-mi-ble-temp-sensor-not-registering-on-ha/427252) indique [BLE Monitor](https://github.com/custom-components/ble_monitor) ou [Theengs Gateway](https://gateway.theengs.io/). J’essaye ce dernier. Pour cela, j’ajoute [son dépot](https://github.com/mihsu81/addon-theengsgw) dans modules complémentaires (☰ → Dépots), il n’apparait qu’après redémarrage de HAOS. Clic sur Installer. TheengsGateway apparait ensuite dans "Appareils et services", onglet Appareils. Dans configuration de TheegsGateway, il va falloir trouver les bons paramètres et j’ai bien l’impression que l’extension n’est utilisable que si Mosquitto broker add-on est installé et configuré. Même après avoir installé Mosquitto, je continue à penser que je vais galérer…~~
 
-8 février, je vais faire une tentative via BLE en suivant la vidéo [Home Assistant Xiaomi Temperature & Humidity Sensor integration (HOW-TO)](https://www.youtube.com/watch?v=y2yW2czWJcc) ([article correspondant](https://peyanski.com/home-assistant-xiaomi-temperature-humidity-sensor/)).
+8 février, [Passive BLE Monitor integration](https://github.com/custom-components/ble_monitor) semble la meilleure solution. Je vais suivre la vidéo [Home Assistant Xiaomi Temperature & Humidity Sensor integration (HOW-TO)](https://www.youtube.com/watch?v=y2yW2czWJcc) ([article correspondant](https://peyanski.com/home-assistant-xiaomi-temperature-humidity-sensor/)). Pour installer ce composant, le plus simple est de passer par HACS. Pour installer HACS, il faut passer par Terminal & SSH, qu’il faut que j’installe… 
 
-Première étape simplifiant l’installation, passer par HACS…
+<iframe width="560" height="315" style="display: block; margin: 20px auto" src="https://www.youtube.com/embed/-kDtVGdkyfY?si=zuWPwPYCcfGVkivp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Installation de HACS
 
 Je suis [How to install & use Home Assistant Community Store (HACS) | TUTORIAL](https://peyanski.com/how-to-install-home-assistant-community-store-hacs/) et sa [version vidéo youtube](https://youtu.be/QPXxMSV3BUY)
 1. Installer le module « Terminal & SSH » (de toute façon, c’est un module qui me semble intéressant, mais quand même… ça me rappelle de plus en plus l’[intro de l’épisode « Sueurs froides » de Malcolm](https://youtu.be/-kDtVGdkyfY)…
-2. Dans l’invite ssh : $ wget -q -O - https://install.hacs.xyz | bash -
+2. Dans l’invite ssh :
+```sh
+$ wget -q -O - https://install.hacs.xyz | bash -
+```
 3. Redémarrage de HAOS
 4. c > Intégrations, « Ajouter une intégration », chercher « hacs »
 5. Configurer HACS et activer AppDeamon et NetDeamon
@@ -139,3 +145,86 @@ info <mac_adress>
 )
 
 Les thermomètres peuvent être configurés dans HAOS, pour l’instant je me contente d’ajouter les températures sur ma page d’accueil. Je pourrais également mettre la batterie et/ou l’humidité. Pour l’instant, ces informations ne me semblent pas très importantes. Je m’adapterais en fonction de ce que le module thermostat affiche et n’affiche pas.
+
+
+<!--
+██████╗  █████╗ ██████╗ ██╗ █████╗ ████████╗███████╗██╗   ██╗██████╗ ███████╗
+██╔══██╗██╔══██╗██╔══██╗██║██╔══██╗╚══██╔══╝██╔════╝██║   ██║██╔══██╗██╔════╝
+██████╔╝███████║██║  ██║██║███████║   ██║   █████╗  ██║   ██║██████╔╝███████╗
+██╔══██╗██╔══██║██║  ██║██║██╔══██║   ██║   ██╔══╝  ██║   ██║██╔══██╗╚════██║
+██║  ██║██║  ██║██████╔╝██║██║  ██║   ██║   ███████╗╚██████╔╝██║  ██║███████║
+╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝
+-->                                                                         
+
+# Relais radiateurs
+
+## Achats
+
+![shelly1](/assets/images/domotique/shelly1.webp){: width="300" style="display: block; margin: 0 auto"}
+
+Après de longues hésitations car il existe un milliers de solutions différentes, je finis par me décider pour les relais Shelly. On verra plus tard pour les [shelly 2.5](https://www.shelly.com/fr/products/shop/shelly-2-5-ce-ul-1) qui pourraient éventuellement piloter mes volets roulants ou le [Shelly Plus Smoke Alarm](https://www.shelly.com/fr/products/shop/shelly-plus-smoke) qui remplacerait avantageusement mes détecteurs de fumée à 6€.
+
+* Le 9 février 2023, je commande 7 Shelly plus 1 (111,16 € chez [Shelly France](https://www.shellyfrance.fr))
+* 10 février 2023, commande de 10 diodes 1n4007 à 1,99 € sur [amazon](https://www.amazon.fr/dp/B07CTX9ND6?psc=1&smid=A3RJ0EXVB5VB2E&ref_=chk_typ_imgToDp)
+* même date, un kit de 167 gaines thermorétractables colorées à 1€26 sur [aliexpress](https://fr.aliexpress.com/item/1005004628604855.html)
+* 23 février 2023, pour éviter de tout compresser dans les boites d’encastrement, j’achète des boitiers spécifiques avec place pour module, ce n’est pas très cher, 3,50€ chez [leroy merlin](https://www.leroymerlin.fr/produits/electricite-domotique/interrupteur-et-prise/boite-encastrement/boite-encastrement-pour-micro-module-cloison-creuse-1-poste-s-blm-82754515.html) → 24,50 € les 7
+
+## Branchement
+
+21 février 2023. J’ai reçu depuis plusieurs jours les shelly et les diodes. J’ai soudé les diodes à des fils rigides (noir-diode-bleu, le bleu étant la cathode, côté avec le trait, j’aurai préféré rouge mais j’ai fait avec de la récup). Je branche un premier shelly sur le radiateur de la salle de bain. L=phase, N=neutre, 0=cathode. L’interface wifi est accessible mais les essais que je fais ne sont pas concluant. Après discussion avec mes collègues électroniciens (22 février 2023) je comprends que mon branchement n’est pas correct. Nouveau branchement :
+
+Sur le Shelly :
+ * O (output) - fil noir diode
+ * I (input) - phase
+ * L - phase
+ * N - neutre
+
+Sur le radiateur :
+ * fil pilote - fil rouge diode
+ * marron - phase
+ * bleu - neutre
+ 
+Avec un schéma tout est plus clair :
+
+![shelly1](/assets/images/domotique/cablage_shelly.webp){: width="300" style="display: block; margin: 0 auto"}
+ 
+## Configuration
+
+Je me connecte au wifi du Shelly avec mon téléphone. J’ai une fonction « Gestion du routeur » qui est un simple raccourci vers [http://192.168.33.1/](http://192.168.33.1/), il s’agit d’une interface web, pas la peine d’installer une application tierce pour utiliser le switch 🤩
+ * switch_0 ON : Radiateur éteint
+ * switch_0 OFF : Radiateur allumé
+
+Une fois le premier test validé :
+ * Channel settings :
+   * Invert switch → Invert switch logic → ON (ne semble pas faire ce que j’espérais, donc j’annule et je réglerai cette inversion via home assistant…)
+   * Channel name → Name: "shelly1+ sdb
+   * Consumption type : Heating
+ * Networks : Je renseigne les mêmes informations wifi que Home Assistant
+
+Je vais sur [https://www.home-assistant.io/integrations/shelly](https://www.home-assistant.io/integrations/shelly) pour tenter l’intégration dans home assistant. Dans Paramètres → Appareils et services → Ajouter une intégration. Je cherche shelly et lorsque l’hôte m’est demandé je tape l’adresse ip de celui-ci.
+
+
+27 février 2023, je suis la page [https://programmation.surleweb-france.fr/home-assistant-gestion-avancee-du-chauffage/]
+
+Pour commencer, dans les modules complémentaires, j’installe « File editor »
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
