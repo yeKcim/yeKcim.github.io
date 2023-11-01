@@ -58,12 +58,14 @@ section {
 
 .post-content-truncate h2 {
 	font-size: 26.25px;
-	color: #333;
+	color: #67a83b;
+	margin-left: 1em;
 }
 
 .post-content-truncate h3 {
 	font-size: 18.75px;
-	color: #f9de73;
+	color: #6990b9;
+	margin-left: 2em;
 }
 
 .post-content-truncate img {
@@ -95,7 +97,6 @@ blockquote {
     margin-top: 0px;
   }
 }
-
 
 #social-links {
 	margin: 4px 0 0 4px;
@@ -143,3 +144,38 @@ blockquote {
     }
   }
 }
+
+h1 {
+  font-size: 28px;
+  border-bottom: 1px solid;
+  color: #ff3333;
+}
+
+h2 {
+  font-size: 24px;
+  color: #33ff33;
+  margin-left: 1em;
+}
+
+h3 {
+  font-size: 20px;
+  color: #3333ff;
+  margin-left:2em;
+}
+
+.post-link {
+  font-size: 32px;
+  color: #ffffff;
+  margin-left: -1em;
+}
+
+#title h1 {
+	border-bottom: 0px;
+}
+
+.post-title {
+	border-bottom:0px;
+	font-size: 32px;
+	color: #ffffff;
+}
+
