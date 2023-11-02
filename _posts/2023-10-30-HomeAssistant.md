@@ -273,6 +273,44 @@ Penser à lire attentivement la page [manuel switch template](https://www.home-a
 
 J’avais trouvé, pour m’aider, un site simplifiant la recherche parmi les icones de home assistant : [pictogrammers](https://pictogrammers.com/library/mdi/)
 
+
+## Un interrupteur pour les gouverner tous
+
+Ma cuisisne, ma salle et mon salon sont une grande pièce. Il y a trois radiateurs mais je souhaite ne mettre qu’un thermostat, qui pilotera donc un interrupteur unique. Je créé donc un switch virtuel qui copie l’état du switch cuisine pour le coller aux autres :
+
+
+```yaml {% raw %}
+########### Séjour = *Cuisine* + Salon + Salle ###########
+- platform: template
+  switches:
+    pilot_wire_567:
+      friendly_name: 'Fil pilote : Séjour'
+      unique_id: pilot_wires_sejour
+      value_template: "{{ is_state('switch.pilot_wire_5', 'on') }}"
+      turn_on:
+        - service: switch.turn_on
+          entity_id : switch.pilot_wire_5 # cuisine
+        - service: switch.turn_on
+          entity_id : switch.pilot_wire_6 # salon
+        - service: switch.turn_on
+          entity_id : switch.pilot_wire_7 # salle
+      turn_off:
+        - service: switch.turn_off
+          entity_id : switch.pilot_wire_5 # cuisine
+        - service: switch.turn_off
+          entity_id : switch.pilot_wire_6 # salon
+        - service: switch.turn_off
+          entity_id : switch.pilot_wire_7 # salle
+      icon_template: mdi:radiator
+{% endraw %} ```
+
+
+
+
+
+
+
+
 <!--
  █████╗  ██████╗ ██████╗███████╗███████╗    ██╗  ██╗ ██████╗ ██████╗ ███████╗    ██████╗ ███████╗███████╗███████╗ █████╗ ██╗   ██╗    ██╗      ██████╗  ██████╗ █████╗ ██╗     
 ██╔══██╗██╔════╝██╔════╝██╔════╝██╔════╝    ██║  ██║██╔═══██╗██╔══██╗██╔════╝    ██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██║   ██║    ██║     ██╔═══██╗██╔════╝██╔══██╗██║     
@@ -285,7 +323,7 @@ J’avais trouvé, pour m’aider, un site simplifiant la recherche parmi les ic
 # Accès hors réseau local : VPN   
 
 ![wireguard](/assets/images/domotique/wireguard.svg){: width="500" style="display: block; margin: 0 auto"}
-                                                                
+
 1er mars 2023, je lis [Tuto : comment activer le nouveau VPN disponible sur la Freebox ](https://www.universfreebox.com/article/542543/tuto-comment-activer-le-nouveau-vpn-disponible-sur-la-freebox).
 
 1. J’active WireGuard dans Paramètres → Serveur VPN de [mafreebox](http://mafreebox.freebox.fr).
