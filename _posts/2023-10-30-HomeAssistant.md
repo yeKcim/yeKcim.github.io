@@ -58,6 +58,19 @@ Les adresses [homeassistant.local:8123](homeassistant.local:8123) et [homeassist
 
 Ajout des différents appareils détectés
 
+## Portée du bluetooth
+
+Si j’avais choisi des thermomètres zigbee, chacun de ceux-ci amélioreraient la couverture réseau de la maison. Comme j’ai choisi des thermomètres bluetooth, je dois placer le Raspberry Pi le plus au centre possible de la maison afin d’atteindre la chambre du plus jeune.
+
+## Wifi
+
+Par défaut, j’avais configuré la connexion réseau du Raspberry Pi en éthernet. Pour passer en wifi :
+
+* Paramètres → Système → Réseau → WLAN0
+* IPv4 DCHP
+
+Une fois la config faite, ne pas oublier que l’adresse IP définie jusqu’alors dans la freebox l’était pour l’adresse mac de la carte ethernet !
+
 ## Paramètres
 
 Création d’un compte pour chaque membre de la famille
@@ -143,19 +156,6 @@ info <mac_adress>
 )
 
 Les thermomètres peuvent être configurés dans HAOS, pour l’instant je me contente d’ajouter les températures sur ma page d’accueil. Je pourrais également mettre la batterie et/ou l’humidité. Pour l’instant, ces informations ne me semblent pas très importantes. Je m’adapterais en fonction de ce que le module thermostat affiche et n’affiche pas.
-
-## Portée du bluetooth
-
-Si j’avais choisi des thermomètres zigbee, chacun de ceux-ci amélioreraient la couverture réseau de la maison. Comme j’ai choisi des thermomètres bluetooth, je dois placer le Raspberry Pi le plus au centre possible de la maison afin d’atteindre la chambre du plus jeune.
-
-## Wifi
-
-Par défaut, j’avais configuré la connexion réseau du Raspberry Pi en éthernet. Pour passer en wifi :
-
-* Paramètres → Système → Réseau → WLAN0
-* IPv4 DCHP
-
-Une fois la config faite, ne pas oublier que l’adresse IP définie jusqu’alors dans la freebox l’était pour l’adresse mac de la carte ethernet !
 
 
 
