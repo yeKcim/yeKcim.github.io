@@ -36,7 +36,6 @@ J’ai téléchargé HAOS pour Rpi via [la  la page dédiée](https://www.home-a
 unxz --keep /tmp/haos_rpi4-64-9.4.img.xz 	# décompression
 ls -l /dev/disk/by-id			# identification de la carte μsd (ici sdc)
 sudo dd if='/tmp/haos_rpi4-64-9.4.img' of=/dev/sdc bs=256M status=progress && sync
-
 ```
 
 Je mets la carte μsd dans le Rpi, je le branche en ethernet et je l’alimente. Je trouve l’IP via [freebox-os](http://mafreebox.freebox.fr).
