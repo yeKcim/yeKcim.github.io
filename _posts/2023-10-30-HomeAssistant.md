@@ -317,12 +317,6 @@ Ma cuisisne, ma salle et mon salon sont une grande pièce. Il y a trois radiateu
 {% endraw %} ```
 
 
-
-
-
-
-
-
 <!--
  █████╗  ██████╗ ██████╗███████╗███████╗    ██╗  ██╗ ██████╗ ██████╗ ███████╗    ██████╗ ███████╗███████╗███████╗ █████╗ ██╗   ██╗    ██╗      ██████╗  ██████╗ █████╗ ██╗     
 ██╔══██╗██╔════╝██╔════╝██╔════╝██╔════╝    ██║  ██║██╔═══██╗██╔══██╗██╔════╝    ██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██║   ██║    ██║     ██╔═══██╗██╔════╝██╔══██╗██║     
@@ -350,8 +344,37 @@ J’en profite pour configurer un autre tunnel dans le client wireguard, identiq
 * que j’activerai uniquement lorsque je suis sur des réseaux publics
 
 
+<!--
+ ██████╗ ██████╗ ███████╗
+██╔════╝ ██╔══██╗██╔════╝
+██║  ███╗██████╔╝███████╗
+██║   ██║██╔═══╝ ╚════██║
+╚██████╔╝██║     ███████║
+ ╚═════╝ ╚═╝     ╚══════╝
+-->
 
+# Carte du maraudeur (tracking GPS)
 
+J’ai l’intention d’afficher ma position GPS dans Home Assistant. Quand je cours à pied, je partageais ma position avec ma femme via l’option Google Map du téléphone, je préfère une carte du maraudeur personnelle. J’ai bon espoir que cette géolocalisation permettra également certaines futures automatisations.
+
+![carte du maraudeur](/assets/images/domotique/maraudeur.webp){: width="450" style="display: block; margin: 0 auto"}
+
+1er mars 2023, Modules complémentaires → j'ajoute [Traccar](https://www.home-assistant.io/integrations/traccar/) et mariadb (qui semble être une dépendance). Ouvrir l'interface (je change admin/admin pour yeKcim/TRACC@R-me-traqu3). Sur le tel, je lance traccar (et je le dégage de la zone de notification). Il est trop tard pour que je finisse la configuration.
+
+7 mars 2023, il y a bien d’autres solutions que traccar et peut-être même une solution directement dans l’application android de home assistant (Paramètres → Application compagnon → manage Sensors / Sensor Update Frequency… (on y trouve par exemple ici le niveau de batterie, mais je ne trouve pas le gps…). Je peux peut-être trouver ici aussi quand l’application strava est lancée et si elle l’est lancer le tracking…
+
+voir https://github.com/hassio-addons/addon-traccar et https://www.traccar.org/client/
+
+26 mars 2023, j’ajoute une section traccar dans ma configuration :
+
+```
+device_tracker:
+  - platform: traccar
+    host: 192.168.0.41
+    username: yeKcim
+    password: TRACC@R-me-traqu3
+```
+Finalement je crois que l’host n’est pas l’adresse de home assistant mais l’adresse d’un serveur traccar, je laisse tomber cette option
 
 
 
