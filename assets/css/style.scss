@@ -118,7 +118,7 @@ blockquote {
  * Pagination navbar
  */
 .social-media-list{
-	margin: -35px 20px auto auto;
+	margin: -50px 20px auto auto;
 	display: table;
   	list-style: none;
   li {
@@ -177,5 +177,9 @@ h3 {
 	border-bottom:0px;
 	font-size: 32px;
 	color: #ffffff;
+}
+
+#results-container {
+	margin: 10px 0 12px;
 }
 

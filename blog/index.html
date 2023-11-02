@@ -3,6 +3,8 @@ layout: default
 title: My Blog
 ---
 
+		{%- include search.html -%}
+
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}

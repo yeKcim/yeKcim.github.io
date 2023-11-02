@@ -1,0 +1,19 @@
+<!-- Html Elements for Search -->
+<div id="search-container">
+    <input type="search" name="search" id="search-input" placeholder="Rechercher">
+    <ul id="results-container"></ul>
+    </div>
+    
+    <!-- Script pointing to search-script.js -->
+    <script src="/assets/js/search-script.js" type="text/javascript"></script>
+    
+    <!-- Configuration -->
+    <script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      searchResultTemplate: '<a href="{url}" tabindex="1"><p>{title}</p></a>',
+      noResultsText: '<p>Aucun résultat trouvé !</p>',
+      json: '/search.json'
+    })
+    </script>
