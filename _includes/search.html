@@ -12,7 +12,7 @@
     SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
-      searchResultTemplate: '<a href="{url}" tabindex="1"><p>{title}</p></a>',
+      searchResultTemplate: '<a href="{url}" tabindex="1"><li>{title}</li></a>',
       noResultsText: '<p>Aucun résultat trouvé !</p>',
       json: '/search.json'
     })

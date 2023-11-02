@@ -180,6 +180,17 @@ h3 {
 }
 
 #results-container {
-	margin: 10px 0 12px;
+  margin: 0;
+  background-color: #353535;
+  width: 75%;
+  line-height: 0.5em;
+  list-style: square;
 }
 
+#results-container p {
+  padding: 10px 0 10px 0;
+}
+
+#results-container li {
+  padding: 10px 0 10px 0;
+}
