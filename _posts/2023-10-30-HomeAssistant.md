@@ -208,11 +208,31 @@ Je vais sur [https://www.home-assistant.io/integrations/shelly](https://www.home
 
 Pour commencer, dans les modules complémentaires, j’installe « File editor »
 
+<!--
+ █████╗  ██████╗ ██████╗███████╗███████╗    ██╗  ██╗ ██████╗ ██████╗ ███████╗    ██████╗ ███████╗███████╗███████╗ █████╗ ██╗   ██╗    ██╗      ██████╗  ██████╗ █████╗ ██╗     
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔════╝    ██║  ██║██╔═══██╗██╔══██╗██╔════╝    ██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██║   ██║    ██║     ██╔═══██╗██╔════╝██╔══██╗██║     
+███████║██║     ██║     █████╗  ███████╗    ███████║██║   ██║██████╔╝███████╗    ██████╔╝█████╗  ███████╗█████╗  ███████║██║   ██║    ██║     ██║   ██║██║     ███████║██║     
+██╔══██║██║     ██║     ██╔══╝  ╚════██║    ██╔══██║██║   ██║██╔══██╗╚════██║    ██╔══██╗██╔══╝  ╚════██║██╔══╝  ██╔══██║██║   ██║    ██║     ██║   ██║██║     ██╔══██║██║     
+██║  ██║╚██████╗╚██████╗███████╗███████║    ██║  ██║╚██████╔╝██║  ██║███████║    ██║  ██║███████╗███████║███████╗██║  ██║╚██████╔╝    ███████╗╚██████╔╝╚██████╗██║  ██║███████╗
+╚═╝  ╚═╝ ╚═════╝ ╚═════╝╚══════╝╚══════╝    ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝ ╚═════╝     ╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝
+-->  
 
+# Accès hors réseau local : VPN   
 
+![wireguard](/assets/images/domotique/wireguard.svg){: width="500" style="display: block; margin: 0 auto"}
+                                                                
+1er mars 2023, je lis [Tuto : comment activer le nouveau VPN disponible sur la Freebox ](https://www.universfreebox.com/article/542543/tuto-comment-activer-le-nouveau-vpn-disponible-sur-la-freebox).
 
+1. J’active WireGuard dans Paramètres → Serveur VPN de [mafreebox](http://mafreebox.freebox.fr).
+2. Une fois le serveur VPN activé, je vais dans Utilisateur (colonne de gauche) → « Ajouter un utilisateur »
+3. Je choisis un login, type de serveur « Wireguard ». Je sauvegarde et retourne dans Wireguard. Mon compte utilisateur apparait bien et je peux afficher son QR Code.
+5. Sur mon téléphone j’installe Wireguard ~~[via F-Droid](https://linuxfr.org/users/raspbeguy/liens/l-application-wireguard-retiree-des-depots-f-droid)~~ via [Google Play](https://play.google.com/store/apps/details?id=com.wireguard.android) pour configurer facilement l’application.
 
+Dans la configuration de la connexion (crayon), je clique sur « Toutes les applications » et coche l’inclusion de Home assistant uniquement (et gpslogger quand il sera configuré). Ainsi même si Wireguard est activé sur mon téléphone, ce VPN n’est utilisé que pour l’application Home Assistant. Je créé des utilisateurs pour le reste de la famille, ne restera plus qu’à configurer le VPN sur leurs téléphones…
 
+J’en profite pour configurer un autre tunnel dans le client wireguard, identique au premier mais :
+* qui sera utilisé par toutes les applications
+* que j’activerai uniquement lorsque je suis sur des réseaux publics
 
 
 
