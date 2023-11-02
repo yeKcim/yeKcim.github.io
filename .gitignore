@@ -5,3 +5,4 @@ _site
 vendor
 TODO.txt
 .gitignore
+Gemfile.lock
