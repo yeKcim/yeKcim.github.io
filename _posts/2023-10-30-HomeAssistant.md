@@ -359,23 +359,13 @@ J’ai l’intention d’afficher ma position GPS dans Home Assistant. Quand je 
 
 ![carte du maraudeur](/assets/images/domotique/maraudeur.webp){: width="450" style="display: block; margin: 0 auto"}
 
-1er mars 2023, Modules complémentaires → j'ajoute [Traccar](https://www.home-assistant.io/integrations/traccar/) et mariadb (qui semble être une dépendance). Ouvrir l'interface (je change admin/admin pour yeKcim/TRACC@R-me-traqu3). Sur le tel, je lance traccar (et je le dégage de la zone de notification). Il est trop tard pour que je finisse la configuration.
+[Gpslogger](https://gpslogger.app/) installé sur le téléphone [via f-droid](https://f-droid.org/fr/packages/com.mendhak.gpslogger/)  semble bien fonctionner.
 
-7 mars 2023, il y a bien d’autres solutions que traccar et peut-être même une solution directement dans l’application android de home assistant (Paramètres → Application compagnon → manage Sensors / Sensor Update Frequency… (on y trouve par exemple ici le niveau de batterie, mais je ne trouve pas le gps…). Je peux peut-être trouver ici aussi quand l’application strava est lancée et si elle l’est lancer le tracking…
+Pour ajouter ma trombine sur la carte, j’ajoute l’entitié gpstracker de mon téléphone dans les appareils à suivre dans Anthony, le compte utilisateur !
 
-voir https://github.com/hassio-addons/addon-traccar et https://www.traccar.org/client/
+Les options à remplir dans les paramètres de l’application, sont plutôt longs :
 
-26 mars 2023, j’ajoute une section traccar dans ma configuration :
-
-```
-device_tracker:
-  - platform: traccar
-    host: 192.168.0.41
-    username: yeKcim
-    password: TRACC@R-me-traqu3
-```
-Finalement je crois que l’host n’est pas l’adresse de home assistant mais l’adresse d’un serveur traccar, je laisse tomber cette option
-
+voir [Home Assistant Gpslogger](https://home-assistant-china.github.io/components/device_tracker.gpslogger/)
 
 
 
