@@ -313,7 +313,7 @@ Ma cuisisne, ma salle et mon salon sont une grande pièce. Il y a trois radiateu
         - service: switch.turn_off
           entity_id : switch.pilot_wire_7 # salle
       icon_template: mdi:radiator
-{% endraw %} ```
+{% endraw %}```
 
 <!--
 ████████╗██╗  ██╗███████╗██████╗ ███╗   ███╗ ██████╗ ███████╗████████╗ █████╗ ████████╗███████╗
@@ -325,30 +325,56 @@ Ma cuisisne, ma salle et mon salon sont une grande pièce. Il y a trois radiateu
 -->
 # Thermostats
 
-## Thermostat
+![generic_thermostat](/assets/images/domotique/generic_thermostat.webp){: width="300" style="display: block; margin: 0 auto"}
 
-Le 2 mars 2023, je tente l’intégration d’un thermostat en suivant un [utilisateur ayant fait les mêmes choix de capteurs et switchs](https://forum.hacf.fr/t/le-thermostat-meme-generique-ne-declenche-pas-mon-chauffage/21285).Dans aperçu, ⋮, modifier le tableau de bord, + Ajouter une carte → Thermostat. Mouais… Je comprends pas trop comment coder…
+Après un essai infructueux de **thermostat** et **Better thermostat**, je choisis d’utiliser [Generic thermostat](https://www.home-assistant.io/integrations/generic_thermostat/)
 
-Je vais faire un essai avec better thermostat pour voir…
+Le 4 mars 2023, fort de mon expérience avec les switchs virtuels inversés, je fais une tentative de création de thermostat. Je vais suivre [Home assistant, utiliser le thermostat générique](https://programmation.surleweb-france.fr/home-assistant-utiliser-le-thermostat-generique/) mais dans un premier temps je vais mettre le contenu directement dans mon fichier de config plutôt que créer un yaml à part (mon fichier de config est presque vide, autant tout laisser au même endroit pour l’instant, je compartimenterai lorsque mon fichier sera illisible…). Ce reporter également à la page [generic_thermostat du manuel](https://www.home-assistant.io/integrations/generic_thermostat/)
 
-## Essai Better thermostat
+```yaml {% raw %}
+# ╔╦╗╦ ╦╔═╗╦═╗╔╦╗╔═╗╔═╗╔╦╗╔═╗╔╦╗
+#  ║ ╠═╣║╣ ╠╦╝║║║║ ║╚═╗ ║ ╠═╣ ║ 
+#  ╩ ╩ ╩╚═╝╩╚═╩ ╩╚═╝╚═╝ ╩ ╩ ╩ ╩ 
+climate:
+  - platform: generic_thermostat
+    # Nom de notre thermostat
+    name: Thermostat chambre parents
+    unique_id: thermostat_parents
+    # entité du chauffage
+    heater: switch.pilot_wire_2
+    # entité du capteur de température
+    target_sensor: sensor.ble_temperature_a4c1386c9727
+    # la température réglable minimum du thermostat
+    min_temp: 16
+    # la température réglable maximum du thermostat
+    max_temp: 20
+    # mode de fonctionnement du système "heater"
+    ac_mode: false
+    # la température cible
+    target_temp: 19
+    # il s'agit de la tolérance de température basse pour l'activation de la chauffe
+    cold_tolerance: 0
+    # tolérance de la température avant que la chauffe ne soit activer
+    hot_tolerance: 0.3
+    # il s'agit du mode dans lequel le thermostat démarre la première fois
+    initial_hvac_mode: "heat"
+    # température en cas de mode absent
+    away_temp: 16
+    # Il s'agit de la précision pour le réglage de la température
+    precision: 0.1
+    # le temps minimum d'un cycle de fonctionnement
+    min_cycle_duration:
+      seconds: 5
+    # maintient en chauffe au moins 3 minutes si le thermostat ne reçoit pas de commande
+    keep_alive:
+      minutes: 3
+{% endraw %} ```
 
-HACS → Intégrations → + Explorer et télécharger des dépôts → Better thermostat → Télécharger. Redémarrer HAOS
+Il n’apparait pas parmi les entités malgré un redémarrage rapide. Après un redémarrage complet résoud le problème !
 
-Paramètres → Appareils et Services → Intégrations → + Ajouter une intégration → Better Thermostat
- * Nom : Thermostat chambre parents
- * Entité : 
- * Capteur de température : Température chambre parentale
- * Capteur d’humidité : ble humidity A4C1386C9727
- * Capteur extérieur :
- * Capteur de fenêtre :
- * Entitié météo : Forecast
- * Température extérieure lorsque let thermostat s’éteint : 19
- 
-**Unknown error occurred** 😑
+Il me restera à comprendre comment gérer les away_temp…
 
-
-
+Je crée également un thermostat pour chaque chambre, pas nécessaire pour la salle de bain.
 
 <!--
  █████╗  ██████╗ ██████╗███████╗███████╗    ██████╗ ██╗███████╗████████╗ █████╗ ███╗   ██╗████████╗
