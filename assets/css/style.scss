@@ -149,6 +149,7 @@ h1 {
   font-size: 28px;
   border-bottom: 1px solid;
   color: #ff3333;
+  margin-top:1em;
 }
 
 h2 {
@@ -171,6 +172,7 @@ h3 {
 
 #title h1 {
 	border-bottom: 0px;
+		margin-top:0;
 }
 
 .post-title {
@@ -181,14 +183,19 @@ h3 {
 
 #results-container {
   margin: 0;
-  background-color: #353535;
+  background-color: #e6daab;
   width: 75%;
-  line-height: 0.5em;
+  line-height: 1em;
   list-style: square;
+  box-shadow: 5px 5px 5px #0f0f0f;
 }
 
 #results-container p {
   padding: 10px 0 10px 0;
+}
+
+#results-container a, p {
+  color:#000;
 }
 
 #results-container li {

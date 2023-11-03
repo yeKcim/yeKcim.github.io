@@ -11,21 +11,21 @@ title: yeKcim sur la toile
 
 &nbsp;
 
-## Mon blabla en vrac
+## [Mon blabla en vrac](/blog)
 Là où j’écris des trucs trop long pour les réseaux sociaux, [mon site](/blog/), en vrac…
 
 [![blog](/assets/images/blog.webp){:width="400px"}](/blog)
 
 ***
 
-## Dors !
+## [Dors !](/graphisme/2021/05/05/Dors.html)
 Le cours métrage que je ne finirai jamais
 
 [![Dors](/assets/images/dors/0004.jpg){:width="400px"}](/graphisme/2021/05/05/Dors.html)
 
 ***
 
-## Harry Potter et les méthodes de la Rationnalité
+## [Harry Potter et les méthodes de la Rationnalité](https://github.com/yeKcim/hpmor)
 - Maîtrise de LaTeX : bof, je tape une équation de temps en temps.
 - Maîtrise de git : bof, quelques projets mais principalement add/commit/push
 - Maîtrise de Vim : bof, j'aimerais comprendre pourquoi des gens l'utilisent
@@ -39,7 +39,7 @@ J’ai aimé [une traduction française](https://www.fanfiction.net/s/6910226/1/
 
 ***
 
-## Compliqué comme manjaro !
+## [Compliqué comme manjaro !](https://github.com/yeKcim/complique-comme-manjaro)
 
 À une époque [mes notes post installation](http://yekubuntu.free.fr) avait inspiré un livre intitulé « Simple comme Ubuntu », comme je suis passé sous Manjaro, j’ai appelé mes notes « Compliqué comme Manjaro »
 
