@@ -372,7 +372,7 @@ climate:
 
 Il n’apparait pas parmi les entités malgré un redémarrage rapide. Après un redémarrage complet résoud le problème !
 
-Il me restera à comprendre comment gérer les away_temp…
+Il me restera à comprendre comment gérer les présences/absences pour utiliser away_temp… [Peut-être une piste ici](https://programmation.surleweb-france.fr/home-assistant-gestion-avancee-du-chauffage/)
 
 Je crée également un thermostat pour chaque chambre, pas nécessaire pour la salle de bain.
 
