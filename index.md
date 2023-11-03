@@ -7,9 +7,18 @@
 #
 layout: home
 title: yeKcim sur la toile
----
 
-&nbsp;
+carousels:
+  - images: 
+    - image: /assets/images/blog.webp
+      url: /blog/
+      txt: Mon blabla en vrac
+    - image: /assets/images/dors/0004.jpg
+      url: /graphisme/2021/05/05/Dors.html
+      txt: Dors !
+    - image: /assets/images/hpmor.webp
+    - image: /assets/images/complique_manjaro.webp
+---
 
 ## [Mon blabla en vrac](/blog)
 Là où j’écris des trucs trop long pour les réseaux sociaux, [mon site](/blog/), en vrac…
@@ -43,4 +52,4 @@ J’ai aimé [une traduction française](https://www.fanfiction.net/s/6910226/1/
 
 À une époque [mes notes post installation](http://yekubuntu.free.fr) avait inspiré un livre intitulé « Simple comme Ubuntu », comme je suis passé sous Manjaro, j’ai appelé mes notes « Compliqué comme Manjaro »
 
-[![Dors](/assets/images/complique_manjaro.webp){:width="400px"}](https://github.com/yeKcim/complique-comme-manjaro)
+[![manjaro](/assets/images/complique_manjaro.webp){:width="400px"}](https://github.com/yeKcim/complique-comme-manjaro)
