@@ -8,16 +8,6 @@
 layout: home
 title: yeKcim sur la toile
 
-carousels:
-  - images: 
-    - image: /assets/images/blog.webp
-      url: /blog/
-      txt: Mon blabla en vrac
-    - image: /assets/images/dors/0004.jpg
-      url: /graphisme/2021/05/05/Dors.html
-      txt: Dors !
-    - image: /assets/images/hpmor.webp
-    - image: /assets/images/complique_manjaro.webp
 ---
 
 ## [Mon blabla en vrac](/blog)
