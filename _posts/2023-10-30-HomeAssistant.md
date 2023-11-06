@@ -377,6 +377,52 @@ Il me restera à comprendre comment gérer les présences/absences pour utiliser
 Je crée également un thermostat pour chaque chambre, pas nécessaire pour la salle de bain.
 
 <!--
+██████╗ ██╗      █████╗ ███╗   ██╗██╗███████╗██╗ ██████╗ █████╗ ████████╗███████╗██╗   ██╗██████╗ 
+██╔══██╗██║     ██╔══██╗████╗  ██║██║██╔════╝██║██╔════╝██╔══██╗╚══██╔══╝██╔════╝██║   ██║██╔══██╗
+██████╔╝██║     ███████║██╔██╗ ██║██║█████╗  ██║██║     ███████║   ██║   █████╗  ██║   ██║██████╔╝
+██╔═══╝ ██║     ██╔══██║██║╚██╗██║██║██╔══╝  ██║██║     ██╔══██║   ██║   ██╔══╝  ██║   ██║██╔══██╗
+██║     ███████╗██║  ██║██║ ╚████║██║██║     ██║╚██████╗██║  ██║   ██║   ███████╗╚██████╔╝██║  ██║
+╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═╝
+-->
+
+# Planificateur
+
+![planificateur](/assets/images/domotique/planificateur.webp){: width="450" style="display: block; margin: 0 auto"}
+
+5 mars 2023, j’en suis à trois radiateurs configurés dans Home Assistant, avec 2 thermostats fonctionnels (pas la peine dans la salle de bain) et avant d’installer les autres, je pense qu’il est urgent de regarder comment se gère le planning.
+
+Je trouve deux options :
+ * Paramètres → Appareils et services → Entrées → Créer une entrée → [Planification](https://www.home-assistant.io/integrations/schedule/)
+ * [Scheduler component](https://github.com/nielsfaber/scheduler-component) et [Scheduler card](https://github.com/nielsfaber/scheduler-card)
+
+Dans un premier temps, j’utilise [Scheduler component](https://github.com/nielsfaber/scheduler-component), il me permet de définir les températures en fonction d’horaires.
+
+## Installation 
+
+ * Installation de Scheduler component : HACS → Intégration → Scheduler component
+ * Intégration de Scheduler component : Paramètres → Intégrations et services → + Ajouter une intégration → Scheduler
+ * Installation de Scheduler card (GUI) : HACS → Interface → Scheduler-card
+
+Je peux maintenant ajouter une carte Scheduler. Pour le premier essai, je crée un planification que j’applique la semaine et un autre pour le week-end. Reste à voir si ça fonctionne bien. Pour l’instant, 6 mars 2023, cette solution me convient.
+
+## Affaire à suivre…
+
+Ce n’est pas idéal car je ne sais pas encore trop comment l’intégrer à une gestion présence/absence et je n’utilise finalement pas la fonction away_temp du thermostat mais dans un premier temps ça répond à mon besoin initial de base… (via un simple bouton présent/absent ? mais comment ce bouton sera-t-il pris en compte ? [À voir](https://forum.hacf.fr/t/gestion-de-bout-en-bout-du-chauffage/4897/176).
+
+À lire :
+ * [Planification](https://www.home-assistant.io/integrations/schedule/)
+ * Alternative à voir : [Sheddy](https://canaletto.fr/post/home-assistant-and-schedy-encore) ? avec l’[automation](https://community.home-assistant.io/t/set-the-temperature-of-the-generic-thermostat-with-a-automation/467823) ?
+ * [Home Assistant Climate Scheduler](https://github.com/FrancisLab/hass-climate-scheduler) ?
+ * la [gestion des zones](https://github.com/nielsfaber/zoned-heating) ?
+ * [https://johanf85.github.io/home-assistant-heating-configuration/description.html](https://johanf85.github.io/home-assistant-heating-configuration/description.html)
+ * [https://ledstripsandcode.blogspot.com/2018/11/simple-thermostat-scheduler-in-home.html](https://ledstripsandcode.blogspot.com/2018/11/simple-thermostat-scheduler-in-home.html)
+ * [https://www.home-assistant.io/integrations/schedule/#services](https://www.home-assistant.io/integrations/schedule/#services)
+ * [https://smarthomescene.com/guides/how-to-create-schedules-in-home-assistant/](https://smarthomescene.com/guides/how-to-create-schedules-in-home-assistant/)
+ * [https://canaletto.fr/post/home-assistant-planification-encore](https://canaletto.fr/post/home-assistant-planification-encore)
+ * [https://canaletto.fr/post/home-assistant-and-planification-la-suite](https://canaletto.fr/post/home-assistant-and-planification-la-suite)
+ * [https://github.com/custom-components/climate.programmable_thermostat](https://github.com/custom-components/climate.programmable_thermostat)
+
+<!--
  █████╗  ██████╗ ██████╗███████╗███████╗    ██████╗ ██╗███████╗████████╗ █████╗ ███╗   ██╗████████╗
 ██╔══██╗██╔════╝██╔════╝██╔════╝██╔════╝    ██╔══██╗██║██╔════╝╚══██╔══╝██╔══██╗████╗  ██║╚══██╔══╝
 ███████║██║     ██║     █████╗  ███████╗    ██║  ██║██║███████╗   ██║   ███████║██╔██╗ ██║   ██║   
