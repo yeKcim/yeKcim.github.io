@@ -473,8 +473,40 @@ Les options à remplir dans les paramètres de l’application, sont plutôt lon
 voir [Home Assistant Gpslogger](https://home-assistant-china.github.io/components/device_tracker.gpslogger/)
 
 
+<!--
+███████╗███╗   ███╗ ██████╗ ██╗  ██╗███████╗
+██╔════╝████╗ ████║██╔═══██╗██║ ██╔╝██╔════╝
+███████╗██╔████╔██║██║   ██║█████╔╝ █████╗  
+╚════██║██║╚██╔╝██║██║   ██║██╔═██╗ ██╔══╝  
+███████║██║ ╚═╝ ██║╚██████╔╝██║  ██╗███████╗
+╚══════╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝
+-->
 
+# Shelly Smoke
 
+30 novembre 2023, j’ai reçu 2 détecteur de fumée Shelly Smoke. La [documentation](https://www.home-assistant.io/integrations/shelly), [l’aide complémentaire](https://github.com/home-assistant/core/issues/89228).
+
+![Shelly Smoke](/assets/images/domotique/smoke.webp){: width="450" style="display: block; margin: 0 auto"}
+
+* J’enlève la protection de la pile, le détecteur s’allume alors automatiquement
+* J’appuie 3 fois rapidement sur le bouton pour activer le mode configuration pendant 2 minutes
+* Sur mon téléphone je me connecte alors au wifi ShellyPlusSmoke-xxxFC (pour le séjour) et ShellyPlusSmoke-xxx18 (pour les chambres)
+* "Gérer le routeur" ou http://192.168.33.1/ pour :
+  * Configurer le wifi
+  * Settings → Outbound websocket settings :
+    * Enable Outbound Websocket
+    * Connection type : TLS no validation
+    * Serveur : ws://192.168.0.41:8123/api/shelly/ws
+
+Après "Save settings" , je valide le reboot.
+
+Une fois cette étape faite, les shelly-smoke apparaissent dans les intégrations, avec leurs entitées !
+
+Je défini des IP fixes pour ces deux entrées dans la config du DHCP de la freebox, au cas où, pour retrouver plus facilement leurs interfaces de configuration.
+
+![Shelly Smoke dans HAOS](/assets/images/domotique/smoke_carte.webp){: style="display: block; margin: 0 auto"}
+
+Reste à voir comment lancer une alerte sur mon téléphone en cas de détection de fumée ou comment lui dire de se mettre en pause si je fais un essai de fumigène dans la maison. Si j’avais des ampoules connectées, je pourrais automatiquement allumé les lumières la nuit en cas d’incendie pour faciliter une évacuation.
 
 
 
