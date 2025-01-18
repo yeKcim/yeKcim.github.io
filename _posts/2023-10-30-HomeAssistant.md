@@ -554,6 +554,8 @@ Dans les automatisations :
  * Ouvrir les volets à 8h45 les week-end et jours fériés
  * Fermer les volets au coucher du soleil (+ 20 minutes)
 
+![automatisation volets](/assets/images/domotique/volets_auto.webp){: width="550" style="display: block; margin: 0 auto"}
+
 J’ajoute aussi un bouton pour activer/désactiver les automatisations des volets et des boutons pour ouvrir/fermer tous les volets.
 
 Peut-être qu’à terme je devrai également penser à :
