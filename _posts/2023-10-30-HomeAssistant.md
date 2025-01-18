@@ -508,8 +508,45 @@ Je défini des IP fixes pour ces deux entrées dans la config du DHCP de la free
 
 Reste à voir comment lancer une alerte sur mon téléphone en cas de détection de fumée ou comment lui dire de se mettre en pause si je fais un essai de fumigène dans la maison. Si j’avais des ampoules connectées, je pourrais automatiquement allumé les lumières la nuit en cas d’incendie pour faciliter une évacuation.
 
+ 
+<!-- 
+██╗   ██╗ ██████╗ ██╗     ███████╗████████╗███████╗      ██████╗  ██████╗ ██╗   ██╗██╗      █████╗ ███╗   ██╗████████╗███████╗
+██║   ██║██╔═══██╗██║     ██╔════╝╚══██╔══╝██╔════╝      ██╔══██╗██╔═══██╗██║   ██║██║     ██╔══██╗████╗  ██║╚══██╔══╝██╔════╝
+██║   ██║██║   ██║██║     █████╗     ██║   ███████╗      ██████╔╝██║   ██║██║   ██║██║     ███████║██╔██╗ ██║   ██║   ███████╗
+╚██╗ ██╔╝██║   ██║██║     ██╔══╝     ██║   ╚════██║      ██╔══██╗██║   ██║██║   ██║██║     ██╔══██║██║╚██╗██║   ██║   ╚════██║
+ ╚████╔╝ ╚██████╔╝███████╗███████╗   ██║   ███████║      ██║  ██║╚██████╔╝╚██████╔╝███████╗██║  ██║██║ ╚████║   ██║   ███████║
+  ╚═══╝   ╚═════╝ ╚══════╝╚══════╝   ╚═╝   ╚══════╝      ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝
+-->
 
+# Volets roulants
 
+Janvier 2025, je domotise mes volets motorisés. J’achète 6 Shelly+2PM. 
 
+![shelly+2](/assets/images/domotique/shelly+2pm.webp){: width="300" style="display: block; margin: 0 auto"}
 
+![shelly2](/assets/images/domotique/cablage_shelly2.webp){: width="300" style="display: block; margin: 0 auto"}
+
+Une fois branché, je me connecte à son wifi, dans mon navigateur : http://192.168.33.1
+
+Dans la configuration :
+ * je définis le wifi (si le wifi défini et connecté, il est possible de configurer le module depuis n’importe quel pc/phone du réseau en tapant l’IP)
+ * Settings → Authentication : Password protected device ("Shelly+Pass23")
+ * Settings → Device profile cover
+ * Settings → Device Name : "Volet Salon"…
+ * Settings → Firmware update 
+ * Général settings : Calibration
+ * Enable obstacle detcetion
+Si les boutons sont inversés :
+ * Cover input settings → Enable swap inputs
+
+Paramètres → Appareils et services → Ajouter une intégration : Jour de travail (France)
+
+Dans les automatisations :
+ * Ouvrir les volets à 7h les jours de travail
+ * Ouvrir les volets à 8h45 les week-end et jours fériés
+ * Fermer les volets au coucher du soleil (+ 20 minutes)
+
+J’ajoute ensuite un bouton pour activer/désactiver les automatisations des volets et des boutons pour ouvrir/fermer tous les volets.
+
+Fermer automatiquement mais pour la porte fenêtre de la salle, si ouverte ne pas fermer, détecteur à ajouter…
 
