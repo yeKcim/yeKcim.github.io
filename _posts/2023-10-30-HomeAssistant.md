@@ -524,9 +524,13 @@ Janvier 2025, je domotise mes volets motorisés. J’achète 6 Shelly+2PM.
 
 ![shelly+2](/assets/images/domotique/shelly+2pm.webp){: width="300" style="display: block; margin: 0 auto"}
 
-![shelly2](/assets/images/domotique/cablage_shelly2.webp){: width="300" style="display: block; margin: 0 auto"}
+## Branchement 
+
+![shelly2](/assets/images/domotique/cablage_shelly2.webp){: width="550" style="display: block; margin: 0 auto"}
 
 Une fois branché, je me connecte à son wifi, dans mon navigateur : http://192.168.33.1
+
+## Configuration
 
 Dans la configuration :
  * je définis le wifi (si le wifi défini et connecté, il est possible de configurer le module depuis n’importe quel pc/phone du réseau en tapant l’IP)
@@ -539,14 +543,26 @@ Dans la configuration :
 Si les boutons sont inversés :
  * Cover input settings → Enable swap inputs
 
-Paramètres → Appareils et services → Ajouter une intégration : Jour de travail (France)
+## Automatisation
+
+Je veux que les volets s’ouvrent automatiquement le matin mais à des horaires différents en semaine et les week-ends. Pour cela j’ai besoin de [Workday](https://www.home-assistant.io/integrations/workday) :
+
+ * Paramètres → Appareils et services → Ajouter une intégration : Jour de travail (France)
 
 Dans les automatisations :
  * Ouvrir les volets à 7h les jours de travail
  * Ouvrir les volets à 8h45 les week-end et jours fériés
  * Fermer les volets au coucher du soleil (+ 20 minutes)
 
-J’ajoute ensuite un bouton pour activer/désactiver les automatisations des volets et des boutons pour ouvrir/fermer tous les volets.
+J’ajoute aussi un bouton pour activer/désactiver les automatisations des volets et des boutons pour ouvrir/fermer tous les volets.
 
+Peut-être qu’à terme je devrai également penser à :
+ * utiliser le calendrier pour activer/désactiver en fonction d’entrées "congés"…
+ * ajouter un compte à rebours avant la prochaine ouverture/fermeture automatique
+ * l’été, fermer les volets en fonction de la température et la météo ?
+
+## Détection ouverture porte fenêtre
+
+Dernier point : je sors parfois par la porte fenêtre, il me faut donc un détecteur Shelly BLU Door/Window : Si la porte fenêtre n’est pas fermée
 Fermer automatiquement mais pour la porte fenêtre de la salle, si ouverte ne pas fermer, détecteur à ajouter…
 
