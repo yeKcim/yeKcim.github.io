@@ -586,11 +586,11 @@ actions:
     data: {}
     target:
       entity_id:
-        - cover.chambre1
+        - cover.chambre3
         - cover.cuisine
         - cover.salon
-        - cover.chambre_2
-        - cover.chambre_3
+        - cover.chambre1
+        - cover.chambre2
   - if:
       - condition: state
         entity_id: binary_sensor.bthome_sensor_2fad_window
@@ -601,6 +601,22 @@ actions:
         data: {}
         target:
           entity_id: cover.salle
+    else:
+      - wait_for_trigger:
+          - trigger: state
+            entity_id:
+              - binary_sensor.bthome_sensor_2fad_window
+            from: "on"
+            to: "off"
+            for:
+              hours: 1
+              minutes: 0
+              seconds: 0
+      - action: cover.close_cover
+        metadata: {}
+        data: {}
+        target:
+          entity_id: cover.volet_salle_cover_0
 mode: single
 ```
 
