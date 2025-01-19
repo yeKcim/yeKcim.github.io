@@ -568,3 +568,41 @@ Peut-être qu’à terme je devrai également penser à :
 Dernier point : je sors parfois par la porte fenêtre, il me faut donc un détecteur Shelly BLU Door/Window : Si la porte fenêtre n’est pas fermée
 Fermer automatiquement mais pour la porte fenêtre de la salle, si ouverte ne pas fermer, détecteur à ajouter…
 
+Le Shelly BLU Door/Window est directement détecté par Home Assistant (une fois la pile insérée) via le protocole BTHome. Il faut placer l’aimant de façon à ce qu’il soit pile à la position entre ouvert/fermé afin qu’un tout petit décalage valide l’ouverture. Je choisis de mettre l’aimant sur le montant, au dessus de la porte fenêtre et le détecteur en haut, proche du milieu (une ouverture même minime implique ici un plus gros écart) 
+
+Dans l’automatisation j’ajoute une condition sur l’état du détecteur pour fermer le volet de la salle :
+
+```yaml {% raw %}
+alias: "Volets : fermer au coucher du soleil"
+description: ""
+triggers:
+  - trigger: sun
+    event: sunset
+    offset: "00:20:00"
+conditions: []
+actions:
+  - action: cover.close_cover
+    metadata: {}
+    data: {}
+    target:
+      entity_id:
+        - cover.chambre1
+        - cover.cuisine
+        - cover.salon
+        - cover.chambre_2
+        - cover.chambre_3
+  - if:
+      - condition: state
+        entity_id: binary_sensor.bthome_sensor_2fad_window
+        state: "off"
+    then:
+      - action: cover.close_cover
+        metadata: {}
+        data: {}
+        target:
+          entity_id: cover.salle
+mode: single
+```
+
+
+
