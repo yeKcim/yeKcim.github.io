@@ -618,7 +618,7 @@ actions:
         target:
           entity_id: cover.volet_salle_cover_0
 mode: single
-```
+{% endraw %} ```
 
 
 
