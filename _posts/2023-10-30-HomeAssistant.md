@@ -539,7 +539,8 @@ Dans la configuration :
  * Settings → Device Name : "Volet Salon"…
  * Settings → Firmware update 
  * Général settings : Calibration
- * Enable obstacle detcetion
+ * Enable obstacle detection
+
 Si les boutons sont inversés :
  * Cover input settings → Enable swap inputs
 
