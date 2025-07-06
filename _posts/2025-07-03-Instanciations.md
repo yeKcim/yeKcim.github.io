@@ -5,7 +5,7 @@ date: 2025-07-03 00:00:01
 title: "Instanciations"
 ---
 
-![couverture](/assets/images/couv_lecture/Instanciations.webp){: width="120" } **de Greg Egan**
+![couverture](/assets/images/couv_lecture/instanciations.webp){: width="120" } **de Greg Egan**
 
 Un étrange mélange entre Matrix et un cours de mathématiques sur les nombres p-adiques.
 
