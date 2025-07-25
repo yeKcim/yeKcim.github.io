@@ -42,9 +42,8 @@ surtout qui me laissait complètement scotché. Pour Cosmopolis, la
 sensation est légèrement différente mais je reste tout de même intrigué
 par ce livre OVNI.
 
-Folio m'avait déçu avec une préface dévoilant la fin de [La guerre des
-mondes](){dc2="" index.php?post="" 2007="" 02="" 01=""
-159-la-guerre-des-mondes"=""} et avec un message abruti sur la
+Folio m'avait déçu avec une préface dévoilant la fin de
+[La guerre des mondes]({% link _posts/2007-02-01-La guerre des mondes.md %}) et avec un message abruti sur la
 couverture de [Substance Mort]({% link _posts/2011-06-29-Substance Mort.md %}).
 Flammarion est également adepte de la préface spoil pour
 [Peter Pan](% link _posts/2008-09-20-PeterPan.md %). Cette fois c'est « J'ai lu » qui souhaite
