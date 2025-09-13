@@ -622,4 +622,10 @@ mode: single
 {% endraw %} ```
 
 
+# Mises à jour, BLE et HACS
 
+Été 2025, suite à différentes mises à jour, la température n’est plus relevable dans mon instance. Pour récupérer l’information, je dois mettre à jour Passive BLE et pour cela, la mise à jour de HACS doit être forcée en version 2. J’applique [les conseils trouvé sur la toile](https://www.hacf.fr/hacs_installation_utilisation/), en particulier :
+```sh
+wget -O - https://get.hacs.xyz | bash -
+```
+Une fois HACS à jour, la mise à jour de BLE (et plusieurs autre plugins) est possible et la température est à nouveau disponible !
