@@ -630,6 +630,16 @@ wget -O - https://get.hacs.xyz | bash -
 ```
 Une fois HACS à jour, la mise à jour de BLE (et plusieurs autre plugins) est possible et la température est à nouveau disponible !
 
+
+<!--                      ███
+ ██████╗ █████╗ ███████╗███████╗    ████████╗ █████╗ ██████╗  ██████╗ 
+██╔════╝██╔══██╗██╔════╝██╔════╝    ╚══██╔══╝██╔══██╗██╔══██╗██╔═══██╗
+██║     ███████║█████╗  █████╗         ██║   ███████║██████╔╝██║   ██║
+██║     ██╔══██║██╔══╝  ██╔══╝         ██║   ██╔══██║██╔═══╝ ██║   ██║
+╚██████╗██║  ██║██║     ███████╗       ██║   ██║  ██║██║     ╚██████╔╝
+ ╚═════╝╚═╝  ╚═╝╚═╝     ╚══════╝       ╚═╝   ╚═╝  ╚═╝╚═╝      ╚═════╝ 
+-->    
+     
 # Prise connectée Tapo
 
 J’ai acheté dans la précipitation, une prise connectée Tapo P110. L’intégration passe par HACS, nécessite des ajustemzents, il est nécessaire d’installer l’app du fabricant sur le téléphone, donc évidemment, si je pouvais je changerais pour une autre marque. Mais maintenant que je l’ai…
@@ -643,7 +653,7 @@ Une cafetière est branchée dessus. Je veux un moyen de programmer la cafetièr
 
 ![automatisation café](/assets/images/domotique/cafe.webp){: width="550" style="display: block; margin: 0 auto"}
 
-```yaml
+```yaml {% raw %}
 ########### configuration.yaml ########### 
 input_datetime:
   cafe_pret:
@@ -681,9 +691,9 @@ input_number:
     initial: 15
     unit_of_measurement: min
     icon: mdi:coffee-outline
-```
+{% endraw %} ```
 
-```yaml
+```yaml {% raw %}
 ########### automations.yaml ########### 
 - alias: "Cafetière - Calcul heures activation et extinction"
   trigger:
@@ -750,10 +760,9 @@ input_number:
       target:
         entity_id: input_boolean.cafe_demain
   mode: single
+{% endraw %} ```
 
-```
-
-```yaml
+```yaml {% raw %}
 ########### Carte 1 — Markdown (inchangée) ########### 
 type: markdown
 content: >
@@ -790,5 +799,5 @@ entities:
   - entity: input_boolean.cafe_demain
     name: Je veux un café
     icon: mdi:coffee
-```
+{% endraw %} ```
 
