@@ -629,3 +629,166 @@ mode: single
 wget -O - https://get.hacs.xyz | bash -
 ```
 Une fois HACS à jour, la mise à jour de BLE (et plusieurs autre plugins) est possible et la température est à nouveau disponible !
+
+# Prise connectée Tapo
+
+J’ai acheté dans la précipitation, une prise connectée Tapo P110. L’intégration passe par HACS, nécessite des ajustemzents, il est nécessaire d’installer l’app du fabricant sur le téléphone, donc évidemment, si je pouvais je changerais pour une autre marque. Mais maintenant que je l’ai…
+
+* Installation de l’application Tapo via Playstore
+* Configuration de la prise P110 sur le wifi
+* Dans l’app : Moi → Services tiers → Compatibilité tierce : Activé (Sans cette étape l’authentification ne sera pas possible)
+* HACS : Paramètres → Appareils et services → + Ajouter une intégration → TP Link Tapo
+
+Une cafetière est branchée dessus. Je veux un moyen de programmer la cafetière une fois, pour qu’il soit prêt à être bu à l’heure que j’indique. Ce bouton se désactive, il faudra que je reclique sur le bouton pour relancer. J’ai besoin d’un texte qui m’indique l’état de la cafetière. Pour gérer cela, j’ai utilisé différentes IA. Après plusieurs essais, modifications, principalement dans Claude (les autres IA ont de bonnes idées mais Claude était le seul à garder le code réellement fonctionnel.
+
+![automatisation café](/assets/images/domotique/cafe.webp){: width="550" style="display: block; margin: 0 auto"}
+
+```yaml
+########### configuration.yaml ########### 
+input_datetime:
+  cafe_pret:
+    name: "Café prêt à"
+    has_time: true
+    has_date: false
+  cafe_activation:
+    name: "Activation cafetière"
+    has_time: true
+    has_date: true
+  cafe_extinction:
+    name: "Extinction cafetière"
+    has_time: true
+    has_date: true
+
+input_boolean:
+  cafe_demain:
+    name: "Je veux un café"
+    icon: mdi:coffee
+
+input_number:
+  cafe_duree_chauffe:
+    name: "Durée de chauffe"
+    min: 5
+    max: 60
+    step: 5
+    initial: 10
+    unit_of_measurement: min
+    icon: mdi:fire
+  cafe_duree_repos:
+    name: "Durée de repos"
+    min: 0
+    max: 60
+    step: 5
+    initial: 15
+    unit_of_measurement: min
+    icon: mdi:coffee-outline
+```
+
+```yaml
+########### automations.yaml ########### 
+- alias: "Cafetière - Calcul heures activation et extinction"
+  trigger:
+    - platform: state
+      entity_id: input_boolean.cafe_demain
+      to: "on"
+  action:
+    - service: input_datetime.set_datetime
+      target:
+        entity_id: input_datetime.cafe_activation
+      data:
+        datetime: >
+          {% set pret = states('input_datetime.cafe_pret')[0:5] %}
+          {% set chauffe = states('input_number.cafe_duree_chauffe') | int %}
+          {% set repos = states('input_number.cafe_duree_repos') | int %}
+          {% set activation = today_at(pret) - timedelta(minutes=chauffe + repos) %}
+          {% if activation < now() %}
+            {{ (activation + timedelta(days=1)).strftime('%Y-%m-%d %H:%M:%S') }}
+          {% else %}
+            {{ activation.strftime('%Y-%m-%d %H:%M:%S') }}
+          {% endif %}
+    - service: input_datetime.set_datetime
+      target:
+        entity_id: input_datetime.cafe_extinction
+      data:
+        datetime: >
+          {% set pret = states('input_datetime.cafe_pret')[0:5] %}
+          {% set repos = states('input_number.cafe_duree_repos') | int %}
+          {% set extinction = today_at(pret) - timedelta(minutes=repos) %}
+          {% if extinction < now() %}
+            {{ (extinction + timedelta(days=1)).strftime('%Y-%m-%d %H:%M:%S') }}
+          {% else %}
+            {{ extinction.strftime('%Y-%m-%d %H:%M:%S') }}
+          {% endif %}
+  mode: single
+
+- alias: "Cafetière - Allumage"
+  trigger:
+    - platform: time
+      at: input_datetime.cafe_activation
+  condition:
+    - condition: state
+      entity_id: input_boolean.cafe_demain
+      state: "on"
+  action:
+    - service: switch.turn_on
+      target:
+        entity_id: switch.prise_connectee_tapo
+  mode: single
+
+- alias: "Cafetière - Extinction"
+  trigger:
+    - platform: time
+      at: input_datetime.cafe_extinction
+  condition:
+    - condition: state
+      entity_id: input_boolean.cafe_demain
+      state: "on"
+  action:
+    - service: switch.turn_off
+      target:
+        entity_id: switch.prise_connectee_tapo
+    - service: input_boolean.turn_off
+      target:
+        entity_id: input_boolean.cafe_demain
+  mode: single
+
+```
+
+```yaml
+########### Carte 1 — Markdown (inchangée) ########### 
+type: markdown
+content: >
+  {% set pret = states('input_datetime.cafe_pret')[0:5] %}
+  {% set chauffe = states('input_number.cafe_duree_chauffe') | int %}
+  {% set repos = states('input_number.cafe_duree_repos') | int %}
+  {% set activation = state_attr('input_datetime.cafe_activation', 'timestamp') | as_datetime | as_local %}
+
+  {% if is_state('switch.prise_connectee_tapo', 'on') and is_state('input_boolean.cafe_demain', 'on') %}
+  🔥 **Cafetière en chauffe !** Prête à {{ pret }}.
+
+  {% elif is_state('input_boolean.cafe_demain', 'on') %}
+  {% set delta = (activation - now()).total_seconds() %}
+  {% set h = (delta // 3600) | int %}
+  {% set m = ((delta % 3600) // 60) | int %}
+  ☕ **Café prêt à :** {{ pret }}
+  🔌 **Activation dans :** {% if delta < 60 %}la minute{% elif h > 0 %}{{ h }}h {{ m }} min{% else %}{{ m }} min{% endif %} (à {{ activation.strftime('%H:%M') }})
+  ⏱ **Chauffe :** {{ chauffe }} min — **Repos :** {{ repos }} min
+
+  {% else %}
+  ☕ *Aucune activation programmée*
+  {% endif %}
+
+########### Carte 2 — Contrôles (inchangée) ########### 
+type: entities
+title: Programmation du café
+entities:
+  - entity: input_datetime.cafe_pret
+    name: Café prêt à
+  - entity: input_number.cafe_duree_chauffe
+    name: Durée de chauffe
+  - entity: input_number.cafe_duree_repos
+    name: Durée de repos
+  - entity: input_boolean.cafe_demain
+    name: Je veux un café
+    icon: mdi:coffee
+```
+
