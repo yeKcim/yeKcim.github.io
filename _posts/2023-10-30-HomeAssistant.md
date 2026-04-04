@@ -228,41 +228,131 @@ J’ajoute ces entrées dans mon fichier **/config/configuration.yaml** via File
 # ╚═╗║║║║ ║ ║  ╠═╣╚═╗  ║║║║╚╗╔╝║╣ ╠╦╝╚═╗║╣ ╚═╗
 # ╚═╝╚╩╝╩ ╩ ╚═╝╩ ╩╚═╝  ╩╝╚╝ ╚╝ ╚═╝╩╚═╚═╝╚═╝╚═╝
 
-#fake switches is on when real switch reports off, and vice versa
-switch:
+template:
+  - switch:
 ################################## Salle de bain ##################################
-- platform: template # switch.shelly1_sdb
-  switches:
-    pilot_wire_1:
-      friendly_name: 'Fil pilote : Salle de Bain'
-      unique_id: pilot_wire_sdb
-      value_template: "{{ is_state('switch.shelly1_sdb', 'off') }}"
-      turn_on:
-        service: switch.turn_off
-        data:
-          entity_id: switch.shelly1_sdb
-      turn_off:
-        service: switch.turn_on
-        data:
-          entity_id: switch.shelly1_sdb
-      icon_template: mdi:radiator
-################################## Chambre parents ##################################
-- platform: template # switch.shellyplus1_a8032abc70d8_switch_0
-  switches:
-    pilot_wire_2:
-      friendly_name: 'Fil pilote : Chambre parents'
-      unique_id: pilot_wire_chambreparents
-      value_template: "{{ is_state('switch.shellyplus1_a8032abc70d8_switch_0', 'off') }}"
-      turn_on:
-        service: switch.turn_off
-        data:
-          entity_id: switch.shellyplus1_a8032abc70d8_switch_0
-      turn_off:
-        service: switch.turn_on
-        data:
-          entity_id: switch.shellyplus1_a8032abc70d8_switch_0
-      icon_template: mdi:radiator
-# … pour les autres switchs
+      - name: 'Fil pilote : Salle de Bain'
+        unique_id: pilot_wire_sdb
+        icon: mdi:radiator
+        state: "{{ is_state('switch.shelly1_sdb', 'off') }}"
+        turn_on:
+          action: switch.turn_off
+          target:
+            entity_id: switch.shelly1_sdb
+        turn_off:
+          action: switch.turn_on
+          target:
+            entity_id: switch.shelly1_sdb
+
+################################## Chambre Anthony ##################################
+      - name: 'Fil pilote : Chambre Anthony'
+        unique_id: pilot_wire_chambreanthony
+        icon: mdi:radiator
+        state: "{{ is_state('switch.shellyplus1_a8032abc70d8_switch_0', 'off') }}"
+        turn_on:
+          action: switch.turn_off
+          target:
+            entity_id: switch.shellyplus1_a8032abc70d8_switch_0
+        turn_off:
+          action: switch.turn_on
+          target:
+            entity_id: switch.shellyplus1_a8032abc70d8_switch_0
+
+################################## Chambre Owen ##################################
+      - name: 'Fil pilote : Chambre Owen'
+        unique_id: pilot_wire_chambreowen
+        icon: mdi:radiator
+        state: "{{ is_state('switch.shelly1_chambre_owen', 'off') }}"
+        turn_on:
+          action: switch.turn_off
+          target:
+            entity_id: switch.shelly1_chambre_owen
+        turn_off:
+          action: switch.turn_on
+          target:
+            entity_id: switch.shelly1_chambre_owen
+
+################################## Chambre Yaël ##################################
+      - name: 'Fil pilote : Chambre Yaël'
+        unique_id: pilot_wire_chambreyael
+        icon: mdi:radiator
+        state: "{{ is_state('switch.shelly1_chambre_yael_switch_0', 'off') }}"
+        turn_on:
+          action: switch.turn_off
+          target:
+            entity_id: switch.shelly1_chambre_yael_switch_0
+        turn_off:
+          action: switch.turn_on
+          target:
+            entity_id: switch.shelly1_chambre_yael_switch_0
+
+################################## Cuisine ##################################
+      - name: 'Fil pilote : Cuisine'
+        unique_id: pilot_wire_cuisine
+        icon: mdi:radiator
+        state: "{{ is_state('switch.shellyplus1_a8032abc7fc8_switch_0', 'off') }}"
+        turn_on:
+          action: switch.turn_off
+          target:
+            entity_id: switch.shellyplus1_a8032abc7fc8_switch_0
+        turn_off:
+          action: switch.turn_on
+          target:
+            entity_id: switch.shellyplus1_a8032abc7fc8_switch_0
+
+################################## Salon ##################################
+      - name: 'Fil pilote : Salon'
+        unique_id: pilot_wire_salon
+        icon: mdi:radiator
+        state: "{{ is_state('switch.shellyplus1_a8032abe7cb4_switch_0', 'off') }}"
+        turn_on:
+          action: switch.turn_off
+          target:
+            entity_id: switch.shellyplus1_a8032abe7cb4_switch_0
+        turn_off:
+          action: switch.turn_on
+          target:
+            entity_id: switch.shellyplus1_a8032abe7cb4_switch_0
+
+################################## Salle ##################################
+      - name: 'Fil pilote : Salle'
+        unique_id: pilot_wire_salle
+        icon: mdi:radiator
+        state: "{{ is_state('switch.shellyplus1_a8032abc5f84_switch_0', 'off') }}"
+        turn_on:
+          action: switch.turn_off
+          target:
+            entity_id: switch.shellyplus1_a8032abc5f84_switch_0
+        turn_off:
+          action: switch.turn_on
+          target:
+            entity_id: switch.shellyplus1_a8032abc5f84_switch_0
+
+################################## Séjour = *Cuisine* + Salon + Salle ##################################
+      - name: 'Fil pilote : Séjour'
+        unique_id: pilot_wires_sejour
+        icon: mdi:radiator
+        state: "{{ is_state('switch.pilot_wire_5', 'on') }}"
+        turn_on:
+          - action: switch.turn_on
+            target:
+              entity_id: switch.pilot_wire_5 # cuisine
+          - action: switch.turn_on
+            target:
+              entity_id: switch.pilot_wire_6 # salon
+          - action: switch.turn_on
+            target:
+              entity_id: switch.pilot_wire_7 # salle
+        turn_off:
+          - action: switch.turn_off
+            target:
+              entity_id: switch.pilot_wire_5 # cuisine
+          - action: switch.turn_off
+            target:
+              entity_id: switch.pilot_wire_6 # salon
+          - action: switch.turn_off
+            target:
+              entity_id: switch.pilot_wire_7 # salle
 {% endraw %} ```
 
 Après redémarrage de Home Assistant, je peux ajouter des interrupteurs pilot_*
@@ -800,4 +890,10 @@ entities:
     name: Je veux un café
     icon: mdi:coffee
 {% endraw %} ```
+
+
+
+
+
+
 
