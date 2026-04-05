@@ -854,21 +854,41 @@ cards:
     content: >
       ## ☕ Cafetière
 
-      {% set pret = states('input_datetime.cafe_pret')[0:5] %} {% set chauffe =
-      states('input_number.cafe_duree_chauffe') | int %} {% set repos =
-      states('input_number.cafe_duree_repos') | int %} {% set activation =
-      state_attr('input_datetime.cafe_activation', 'timestamp') | as_datetime |
-      as_local %}
+      {% set pret = states('input_datetime.cafe_pret')[0:5] %}
+
+      {% set chauffe = states('input_number.cafe_duree_chauffe') | int %}
+
+      {% set repos = states('input_number.cafe_duree_repos') | int %}
+
+      {% set activation = state_attr('input_datetime.cafe_activation',
+      'timestamp') | as_datetime | as_local %}
 
       {% if is_state('switch.prise_connectee_tapo', 'on') and
-      is_state('input_boolean.cafe_demain', 'on') %} 🔥 **En chauffe !** Prête à
-      {{ pret }} {% elif is_state('input_boolean.cafe_demain', 'on') %} {% set
-      delta = (activation - now()).total_seconds() %} {% set h = (delta // 3600)
-      | int %} {% set m = ((delta % 3600) // 60) | int %} 🟢 **Café prêt à :**
-      {{ pret }} 🔌 **Activation dans :** {% if delta < 60 %}moins d'une
-      minute{% elif h > 0 %}{{ h }}h {{ m }} min{% else %}{{ m }} min{% endif %}
-      (à {{ activation.strftime('%H:%M') }}) ⏱ Chauffe {{ chauffe }} min · Repos
-      {{ repos }} min {% else %} ⚪ *Aucune activation programmée* {% endif %}
+      is_state('input_boolean.cafe_demain', 'on') %}
+
+      🔥 En chauffe — prête à {{ pret }}
+
+      {% elif is_state('input_boolean.cafe_demain', 'on') %}
+
+      {% set delta = (activation - now()).total_seconds() %}
+
+      {% set h = (delta // 3600) | int %}
+
+      {% set m = ((delta % 3600) // 60) | int %}
+
+      🟢 Café prêt à {{ pret }}
+
+      🔌 Activation dans {% if delta < 60 %}moins d'une minute{% elif h > 0 %}{{
+      h }}h {{ m }} min{% else %}{{ m }} min{% endif %} (à {{
+      activation.strftime('%H:%M') }})
+
+      ⏱ Chauffe {{ chauffe }} min · Repos {{ repos }} min
+
+      {% else %}
+
+      ⚪ Aucune activation programmée
+
+      {% endif %}
   - type: entities
     entities:
       - entity: input_datetime.cafe_pret
@@ -881,6 +901,7 @@ cards:
         name: Je veux un café
         icon: mdi:coffee
 
+
 {% endraw %} ```
 
 <!--  
@@ -892,7 +913,9 @@ cards:
 ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═╝
 -->
 
-J’ai un aspirateur iRobot, pour l’instant j’ai peu d’automatisation. Mais je peux améliorer la carte de base :
+# Aspirateur
+
+J’ai un aspirateur iRobot, pour l’instant j’ai peu d’automatisation. Je prévois à terme d’automatiser l’aspiration lorsque personne n’est à la maison (détection via les téléphones), mettre en pause en cas d’appel téléphonique,…). Mais je peux dans un premier temps au moins améliorer la carte de base :
 
 ![carte aspirateur](/assets/images/domotique/aspi.webp){: width="550" style="display: block; margin: 0 auto"}
 
@@ -901,24 +924,32 @@ J’ai un aspirateur iRobot, pour l’instant j’ai peu d’automatisation. Mai
 type: vertical-stack
 cards:
   - type: markdown
-    content: >
+    content: |
       ## 🤖 Wall-E
-
-      {% set state = states('vacuum.wall_e') %} {% if state == 'cleaning' %} 🟢
-      **Aspiration en cours** {% elif state == 'docked' %} 🔵 En charge ·
-      Batterie {{ states('sensor.wall_e_battery_level') }}% {% elif state ==
-      'returning' %} 🔄 Retour à la base… {% elif state == 'paused' %} ⏸️ En
-      pause {% elif state == 'error' %} 🔴 **Erreur :** {{
-      state_attr('vacuum.wall_e', 'error') }} {% else %} ⚪ En attente {% endif
-      %}
-
-      {% if is_state('binary_sensor.wall_e_bin_full', 'on') %} ⚠️ **Bac plein —
-      pensez à le vider** {% endif %}
-
-      missions · {{ states('sensor.wall_e_total_missions') }} · batterie · {{
-      states('sensor.wall_e_battery_level') }}%
+      {% set state = states('vacuum.wall_e') %}
+      {% if state == 'cleaning' %}
+      🟢 Aspiration en cours
+      {% elif state == 'docked' %}
+      🔵 En charge · Batterie {{ states('sensor.wall_e_battery_level') }}%
+      {% elif state == 'returning' %}
+      🔄 Retour à la base…
+      {% elif state == 'paused' %}
+      ⏸️ En pause
+      {% elif state == 'error' %}
+      🔴 Erreur : {{ state_attr('vacuum.wall_e', 'error') }}
+      {% else %}
+      ⚪ En attente
+      {% endif %}
+      {% if is_state('input_boolean.walle_programme', 'on') %}
+      ⏰ Programmé pour {{ states('input_datetime.irobot_schedule')[0:5] }}
+      {% endif %}
+      {% if is_state('binary_sensor.wall_e_bin_full', 'on') %}
+      ⚠️ Bac plein — pensez à le vider
+      {% endif %}
   - type: entities
     entities:
+      - entity: vacuum.wall_e
+        name: Wall-E
       - type: button
         name: Aspire maintenant
         icon: mdi:play-circle
@@ -929,14 +960,9 @@ cards:
             entity_id: vacuum.wall_e
       - entity: input_datetime.irobot_schedule
         name: Aspire à
-      - type: button
-        name: Aspire à l'heure programmée
-        icon: mdi:calendar-clock
-        tap_action:
-          action: call-service
-          service: automation.trigger
-          data:
-            entity_id: automation.walle_aspiration_programmee
+      - entity: input_boolean.walle_programme
+        name: Activer la programmation
+        icon: mdi:clock-check
       - type: button
         name: Pause — retour à la base
         icon: mdi:stop-circle
@@ -955,11 +981,17 @@ Pour pouvoir l’utiliser, je dois ajouter un bout de code à la fin de automati
   triggers:
   - trigger: time
     at: input_datetime.irobot_schedule
-  conditions: []
+  conditions:
+  - condition: state
+    entity_id: input_boolean.walle_programme
+    state: "on"
   actions:
   - action: vacuum.start
     target:
       entity_id: vacuum.wall_e
+  - action: input_boolean.turn_off
+    target:
+      entity_id: input_boolean.walle_programme
   mode: single
 {% endraw %} ```
 
@@ -971,17 +1003,16 @@ input_boolean:
   cafe_demain:
     name: "Je veux un café"
     icon: mdi:coffee
-  irobot_auto:
-    name: "Wall-E automatisation"
-    icon: mdi:robot-vacuum
+  walle_programme:
+    name: "Wall-E programmé"
+    icon: mdi:clock-outline
 {% endraw %} ```
 
 
 
+# À voir…
 
-
-
-J’installe aussi strava via HACS… mais nécessite une url publique
+* J’essaye Strava via HACS… mais nécessite une url publique, j’aurais aiméé ajouté beacon automatiquement sur la carte
 
 
 
