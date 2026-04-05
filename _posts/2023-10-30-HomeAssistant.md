@@ -554,13 +554,7 @@ J’ai l’intention d’afficher ma position GPS dans Home Assistant. Quand je 
 
 ![carte du maraudeur](/assets/images/domotique/maraudeur.webp){: width="450" style="display: block; margin: 0 auto"}
 
-[Gpslogger](https://gpslogger.app/) installé sur le téléphone [via f-droid](https://f-droid.org/fr/packages/com.mendhak.gpslogger/)  semble bien fonctionner.
-
-Pour ajouter ma trombine sur la carte, j’ajoute l’entitié gpstracker de mon téléphone dans les appareils à suivre dans Anthony, le compte utilisateur !
-
-Les options à remplir dans les paramètres de l’application, sont plutôt longs :
-
-voir [Home Assistant Gpslogger](https://home-assistant-china.github.io/components/device_tracker.gpslogger/)
+J’ai quelques temps utilisé [Gpslogger](https://gpslogger.app/) mais en 2026, il y a directement la localisation disponible dans Home assistant companion, à tester…
 
 
 <!--
@@ -853,47 +847,45 @@ input_number:
 {% endraw %} ```
 
 ```yaml {% raw %}
-########### Carte 1 — Markdown (inchangée) ########### 
-type: markdown
-content: >
-  {% set pret = states('input_datetime.cafe_pret')[0:5] %}
-  {% set chauffe = states('input_number.cafe_duree_chauffe') | int %}
-  {% set repos = states('input_number.cafe_duree_repos') | int %}
-  {% set activation = state_attr('input_datetime.cafe_activation', 'timestamp') | as_datetime | as_local %}
+########### Carte Lovelace ########### 
+type: vertical-stack
+cards:
+  - type: markdown
+    content: >
+      ## ☕ Cafetière
 
-  {% if is_state('switch.prise_connectee_tapo', 'on') and is_state('input_boolean.cafe_demain', 'on') %}
-  🔥 **Cafetière en chauffe !** Prête à {{ pret }}.
+      {% set pret = states('input_datetime.cafe_pret')[0:5] %} {% set chauffe =
+      states('input_number.cafe_duree_chauffe') | int %} {% set repos =
+      states('input_number.cafe_duree_repos') | int %} {% set activation =
+      state_attr('input_datetime.cafe_activation', 'timestamp') | as_datetime |
+      as_local %}
 
-  {% elif is_state('input_boolean.cafe_demain', 'on') %}
-  {% set delta = (activation - now()).total_seconds() %}
-  {% set h = (delta // 3600) | int %}
-  {% set m = ((delta % 3600) // 60) | int %}
-  ☕ **Café prêt à :** {{ pret }}
-  🔌 **Activation dans :** {% if delta < 60 %}la minute{% elif h > 0 %}{{ h }}h {{ m }} min{% else %}{{ m }} min{% endif %} (à {{ activation.strftime('%H:%M') }})
-  ⏱ **Chauffe :** {{ chauffe }} min — **Repos :** {{ repos }} min
+      {% if is_state('switch.prise_connectee_tapo', 'on') and
+      is_state('input_boolean.cafe_demain', 'on') %} 🔥 **En chauffe !** Prête à
+      {{ pret }} {% elif is_state('input_boolean.cafe_demain', 'on') %} {% set
+      delta = (activation - now()).total_seconds() %} {% set h = (delta // 3600)
+      | int %} {% set m = ((delta % 3600) // 60) | int %} 🟢 **Café prêt à :**
+      {{ pret }} 🔌 **Activation dans :** {% if delta < 60 %}moins d'une
+      minute{% elif h > 0 %}{{ h }}h {{ m }} min{% else %}{{ m }} min{% endif %}
+      (à {{ activation.strftime('%H:%M') }}) ⏱ Chauffe {{ chauffe }} min · Repos
+      {{ repos }} min {% else %} ⚪ *Aucune activation programmée* {% endif %}
+  - type: entities
+    entities:
+      - entity: input_datetime.cafe_pret
+        name: Café prêt à
+      - entity: input_number.cafe_duree_chauffe
+        name: Durée de chauffe
+      - entity: input_number.cafe_duree_repos
+        name: Durée de repos
+      - entity: input_boolean.cafe_demain
+        name: Je veux un café
+        icon: mdi:coffee
 
-  {% else %}
-  ☕ *Aucune activation programmée*
-  {% endif %}
-
-########### Carte 2 — Contrôles (inchangée) ########### 
-type: entities
-title: Programmation du café
-entities:
-  - entity: input_datetime.cafe_pret
-    name: Café prêt à
-  - entity: input_number.cafe_duree_chauffe
-    name: Durée de chauffe
-  - entity: input_number.cafe_duree_repos
-    name: Durée de repos
-  - entity: input_boolean.cafe_demain
-    name: Je veux un café
-    icon: mdi:coffee
 {% endraw %} ```
 
 
 
-
+J’installe aussi strava via HACS… mais nécessite une url publique
 
 
 
