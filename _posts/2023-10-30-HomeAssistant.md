@@ -883,6 +883,102 @@ cards:
 
 {% endraw %} ```
 
+<!--  
+ █████╗ ███████╗██████╗ ██╗██████╗  █████╗ ████████╗███████╗██╗   ██╗██████╗
+██╔══██╗██╔════╝██╔══██╗██║██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██║   ██║██╔══██╗
+███████║███████╗██████╔╝██║██████╔╝███████║   ██║   █████╗  ██║   ██║██████╔╝
+██╔══██║╚════██║██╔═══╝ ██║██╔══██╗██╔══██║   ██║   ██╔══╝  ██║   ██║██╔══██╗
+██║  ██║███████║██║     ██║██║  ██║██║  ██║   ██║   ███████╗╚██████╔╝██║  ██║
+╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═╝
+-->
+
+J’ai un aspirateur iRobot, pour l’instant j’ai peu d’automatisation. Mais je peux améliorer la carte de base :
+
+![carte aspirateur](/assets/images/domotique/aspi.webp){: width="550" style="display: block; margin: 0 auto"}
+
+```yaml {% raw %}
+########### Carte Lovelace ########### 
+type: vertical-stack
+cards:
+  - type: markdown
+    content: >
+      ## 🤖 Wall-E
+
+      {% set state = states('vacuum.wall_e') %} {% if state == 'cleaning' %} 🟢
+      **Aspiration en cours** {% elif state == 'docked' %} 🔵 En charge ·
+      Batterie {{ states('sensor.wall_e_battery_level') }}% {% elif state ==
+      'returning' %} 🔄 Retour à la base… {% elif state == 'paused' %} ⏸️ En
+      pause {% elif state == 'error' %} 🔴 **Erreur :** {{
+      state_attr('vacuum.wall_e', 'error') }} {% else %} ⚪ En attente {% endif
+      %}
+
+      {% if is_state('binary_sensor.wall_e_bin_full', 'on') %} ⚠️ **Bac plein —
+      pensez à le vider** {% endif %}
+
+      missions · {{ states('sensor.wall_e_total_missions') }} · batterie · {{
+      states('sensor.wall_e_battery_level') }}%
+  - type: entities
+    entities:
+      - type: button
+        name: Aspire maintenant
+        icon: mdi:play-circle
+        tap_action:
+          action: call-service
+          service: vacuum.start
+          target:
+            entity_id: vacuum.wall_e
+      - entity: input_datetime.irobot_schedule
+        name: Aspire à
+      - type: button
+        name: Aspire à l'heure programmée
+        icon: mdi:calendar-clock
+        tap_action:
+          action: call-service
+          service: automation.trigger
+          data:
+            entity_id: automation.walle_aspiration_programmee
+      - type: button
+        name: Pause — retour à la base
+        icon: mdi:stop-circle
+        tap_action:
+          action: call-service
+          service: vacuum.return_to_base
+          target:
+            entity_id: vacuum.wall_e
+{% endraw %} ```
+
+Pour pouvoir l’utiliser, je dois ajouter un bout de code à la fin de automations.yaml :
+
+```yaml {% raw %}
+- id: 'walle_aspiration_programmee'
+  alias: "Wall-E - Aspiration programmée"
+  triggers:
+  - trigger: time
+    at: input_datetime.irobot_schedule
+  conditions: []
+  actions:
+  - action: vacuum.start
+    target:
+      entity_id: vacuum.wall_e
+  mode: single
+{% endraw %} ```
+
+
+et insérer irobot_auto… dans input_boolean de configuration.yaml :
+
+```yaml {% raw %}
+input_boolean:
+  cafe_demain:
+    name: "Je veux un café"
+    icon: mdi:coffee
+  irobot_auto:
+    name: "Wall-E automatisation"
+    icon: mdi:robot-vacuum
+{% endraw %} ```
+
+
+
+
 
 
 J’installe aussi strava via HACS… mais nécessite une url publique
