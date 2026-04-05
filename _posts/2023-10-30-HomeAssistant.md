@@ -1013,6 +1013,13 @@ input_boolean:
 # À voir…
 
 * J’essaye Strava via HACS… mais nécessite une url publique, j’aurais aiméé ajouté beacon automatiquement sur la carte
+* Je peux accéder à Home Assistant via l’interface web. Dedans, je peux "Ouvrir l’interface utilisateur web" de "Terminal & SSH" pour avoir accès en ssh mais quand je tente un ssh directement depuis un terminal de mon ordinateur ça ne fonctionne pas
+* Ma carte du maraudeur ne fonctionne pas pour l’instant (surtout que je n’ai plus wireguard depuis que je suis parti de chez free
+* Les automatisations de l’aspirateur serait vraiment génial
+* Je rêve que mon radio-réveil lampe s’intègre bien mieux dans home assistant
+* Il va falloir acheter des prises connectées pour gérer les décorations de noël, si possible du shelly pas du tapo…
+* Si j’avais des détecteurs d’ouverture de porte sur chaque porte-fenêtre, je pourrais mettre le chauffage en pause ou me faire un petit système d’alarme
+* …
 
 
 
